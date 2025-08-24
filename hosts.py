@@ -1,4 +1,4 @@
-import os, requests, shutil, re, glob, ipaddress
+import os, requests, shutil, re, glob, ipaddress, functools
 
 from concurrent.futures import ThreadPoolExecutor, ProcessPoolExecutor
 
@@ -132,7 +132,7 @@ def _process_chunk(lines: list, black: set) -> tuple[list, list]:
     """
     纯函数：给进程池执行，返回 (acc_hosts, easylist)
     """
-    acc, easy = [], []
+    acc, easy, adblock = [], [], []
     for line in lines:
         line = line.strip()
         if not line or line.startswith(('#', '!', '[', '<')):
@@ -163,35 +163,37 @@ def _process_chunk(lines: list, black: set) -> tuple[list, list]:
         if line.endswith('^') and (line.startswith('||') or line.startswith('@@||')):
             easy.append(line)
         else:
-            continue
-    return acc, easy
+             adblock.append(line)
+    return acc, easy, adblock
 
 
-def parallel_classify(all_lines: list, black: set) -> tuple[list, list]:
-    """
-    把 all_lines 切成若干 chunk，用进程池并行处理，再合并结果
-    """
+def parallel_classify(all_lines: list, black: set) -> tuple[list, list, list]:
     chunk_size = max(1, len(all_lines) // MAX_PROC_WORKERS)
     chunks = [all_lines[i:i + chunk_size] for i in range(0, len(all_lines), chunk_size)]
 
     with ProcessPoolExecutor(max_workers=MAX_PROC_WORKERS) as pool:
-        results = pool.map(_process_chunk, chunks, [black] * len(chunks))
+        results = pool.map(
+            functools.partial(_process_chunk, black=black),
+            chunks
+        )
 
-    acc_total, easy_total = [], []
-    for acc, easy in results:
+    acc_total, easy_total, ad_total = [], [], []
+    for acc, easy, ad in results:
         acc_total.extend(acc)
         easy_total.extend(easy)
-    return acc_total, easy_total
+        ad_total.extend(ad)
+    return acc_total, easy_total, ad_total
 
-# ---------- 3. 主流程 ----------
 def build():
     hosts, dead = load()
-    acc, easy = parallel_classify(hosts, dead)
+    acc_hosts, easylist, adblock = parallel_classify(hosts, dead)
 
     with open("accelerate.txt", "w", encoding='utf-8') as f:
-        f.write("\n".join(acc))
+        f.write("\n".join(acc_hosts))
     with open("easylist.txt", "w", encoding='utf-8') as f:
-        f.write("\n".join(easy))
+        f.write("\n".join(easylist))
+    with open("adblock.txt", "w", encoding='utf-8') as f:
+        f.write("\n".join(adblock))
 
 if __name__ == "__main__":
     run_fetch()
