@@ -160,10 +160,9 @@ def _process_chunk(lines: list, black: set) -> tuple[list, list]:
                 pass
 
         # 其余情况
-        if line.startswith('||') or line.startswith('@@||') and line.endswith('^'):
+        if line.endswith('^') and (line.startswith('||') or line.startswith('@@||')):
             easy.append(line)
         else:
-            #easy.append(f'||{parts[-1]}^')
             continue
     return acc, easy
 
