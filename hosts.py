@@ -135,9 +135,9 @@ def is_ip(addr: str) -> bool:
         return False
 
 # ---------- 2. 纯 CPU 的处理放进进程池 ----------
-def _process_chunk(lines: list, black: set) -> tuple[list, list]:
+def _process_chunk(lines: list, black: set) -> tuple[list, list, list]:
     """
-    纯函数：给进程池执行，返回 (acc_hosts, easylist)
+    纯函数：给进程池执行，返回 (acc_hosts, easylist, adblock)
     """
     acc, easy, adblock = [], [], []
     for line in lines:
@@ -145,10 +145,6 @@ def _process_chunk(lines: list, black: set) -> tuple[list, list]:
         if not line or line.startswith(('#', '!', '[', '<')):
             continue
         line = re.sub(r'^(0\.0\.0\.0|::)\s+', '127.0.0.1 ', line)
-
-        # 黑名单快速过滤：先粗后细
-        if any(d in line for d in black):
-            continue
 
         parts = line.split()
         if len(parts) >= 2:
@@ -159,18 +155,22 @@ def _process_chunk(lines: list, black: set) -> tuple[list, list]:
                     domain = parts[1]
                     if domain not in black:
                         easy.append(f'||{domain}^')
-                # 其它 IP（如 0.0.0.0）想保留就放到 acc，不想保留可删除
+                # 其它 IP（如 0.0.0.0）想保留就放到 acc
                 else:
                     acc.append(line)
                 continue
             except ValueError:
                 pass
 
-        # 其余情况
+        # 其余情况：Adblock/EasyList 规则
         if line.endswith('^') and (line.startswith('||') or line.startswith('@@||')):
-            easy.append(line)
+            # 提取域名：去掉打头标记和末尾 ^
+            domain = line[2:-1].split('/', 1)[0]   # 兼容 ||domain/path^
+            if domain not in black:
+                easy.append(line)
         else:
-             adblock.append(line)
+            adblock.append(line)
+
     return acc, easy, adblock
 
 
