@@ -15,16 +15,12 @@
 ## 📦 规则文件
 
 
+| 文件               | 作用说明                       | 原始直链                                                                                        | 加速镜像                                                                                                    |                                                                                           |                                                                                                       |
+| ---------------- | -------------------------- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| `accelerate.txt` | 精简 hosts（仅保留必要 IP）         | [GitHub](https://raw.githubusercontent.com/zy-xyz/hosts-new/refs/heads/main/accelerate.txt) | [ghfast.top](https://ghfast.top/https://raw.githubusercontent.com/zy-xyz/hosts-new/main/accelerate.txt) |                                                                                           |                                                                                                       |
+| `easylist.txt`   | AdGuard / uBlock 可直接订阅的 \` |                                                                                             | domain^\` 规则                                                                                            | [GitHub](https://raw.githubusercontent.com/zy-xyz/hosts-new/refs/heads/main/easylist.txt) | [ghfast.top](https://ghfast.top/https://raw.githubusercontent.com/zy-xyz/hosts-new/main/easylist.txt) |
+| `adblock.txt`    | 其它未归类的补充规则                 | [GitHub](https://raw.githubusercontent.com/zy-xyz/hosts-new/refs/heads/main/adblock.txt)    | [ghfast.top](https://ghfast.top/https://raw.githubusercontent.com/zy-xyz/hosts-new/main/adblock.txt)    |                                                                                           |                                                                                                       |
 
-| 文件       | 作用说明                                       | 原始直链 | 加速镜像 |
-
-|------------|------------------------------------------------|----------|----------|
-
-| `accelerate.txt` | GitHub加速链接 | \[GitHub](https://raw.githubusercontent.com/zy-xyz/hosts-new/refs/heads/main/accelerate.txt) | \[ghfast.top](https://ghfast.top/https://raw.githubusercontent.com/zy-xyz/hosts-new/main/accelerate.txt) |
-
-| `easylist.txt`   | AdGuard Home 可直接订阅的规则 | \[GitHub](https://raw.githubusercontent.com/zy-xyz/hosts-new/refs/heads/main/easylist.txt) | \[ghfast.top](https://ghfast.top/https://raw.githubusercontent.com/zy-xyz/hosts-new/main/easylist.txt) |
-
-| `adblock.txt`    | adblock规则 | \[GitHub](https://raw.githubusercontent.com/zy-xyz/hosts-new/refs/heads/main/adblock.txt) | \[ghfast.top](https://ghfast.top/https://raw.githubusercontent.com/zy-xyz/hosts-new/main/adblock.txt) |
 
 
 
