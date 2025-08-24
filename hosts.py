@@ -105,13 +105,14 @@ def load() -> tuple[list, set]:
 def clean_lines(hosts: list, black: set) -> list:
     cleaned = []
     for line in hosts:
-        line = re.sub(r'\s+', ' ', line.strip())
-        if not line or line.startswith(('#', '!', '[', '<')) or '.' not in line:
+        stripped = line.strip()
+        if not stripped or stripped.startswith(('#', '!', '[', '<')):
             continue
         line = re.sub(r'^(0\.0\.0\.0|::)\s+', '127.0.0.1 ', line)
-        domain = line.split()[-1]
-        if domain not in black:
-            cleaned.append(line)
+        # 检查是否包含黑名单中的域名
+        if any(domain in stripped for domain in black):
+            continue
+        cleaned.append(line)
     return list(dict.fromkeys(cleaned))
 
 def build():
