@@ -1,6 +1,6 @@
 import os, requests, shutil, re, glob, ipaddress
 
-from concurrent.futures import ThreadPoolExecutor
+from concurrent.futures import ThreadPoolExecutor, ProcessPoolExecutor
 
 links = [
         "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt",
@@ -75,6 +75,7 @@ dead_hosts = [
 CACHE = "cache"
 OUTPUT = "hosts"
 MAX_WORKERS = 8
+MAX_PROC_WORKERS = os.cpu_count()
 
 def clear_cache():
     if os.path.exists(CACHE):
@@ -126,40 +127,72 @@ def is_ip(addr: str) -> bool:
     except ValueError:
         return False
 
-def classify(origin: list) -> tuple[list, list]:
+# ---------- 2. 纯 CPU 的处理放进进程池 ----------
+def _process_chunk(lines: list, black: set) -> tuple[list, list]:
+    """
+    纯函数：给进程池执行，返回 (acc_hosts, easylist)
+    """
     acc, easy = [], []
-    for line in origin:
+    for line in lines:
         line = line.strip()
-        if not line:
+        if not line or line.startswith(('#', '!', '[', '<')):
+            continue
+        line = re.sub(r'^(0\.0\.0\.0|::)\s+', '127.0.0.1 ', line)
+
+        # 黑名单快速过滤：先粗后细
+        if any(d in line for d in black):
             continue
 
-        # 1) 先按 hosts 行处理：IP + 域名
         parts = line.split()
-        if len(parts) >= 2 and is_ip(parts[0]):
-            acc.append(line)
-            continue
+        if len(parts) >= 2:
+            try:
+                ipaddress.ip_address(parts[0])
+                # 只要是以 127.0.0.1 打头的 hosts 行，都转成 ||domain^
+                if parts[0] == '127.0.0.1':
+                    domain = parts[1]
+                    if domain not in black:
+                        easy.append(f'||{domain}^')
+                # 其它 IP（如 0.0.0.0）想保留就放到 acc，不想保留可删除
+                else:
+                    acc.append(line)
+                continue
+            except ValueError:
+                pass
 
-        # 2) 形如 ||example.org^ 的规则
+        # 其余情况
         if line.startswith('||') or line.startswith('@@||') and line.endswith('^'):
             easy.append(line)
+        else:
+            #easy.append(f'||{parts[-1]}^')
             continue
-
-        # 3) 其余情况，当成裸域名
-        domain = parts[-1]
-        easy.append(f'||{domain}^')
-
     return acc, easy
 
+
+def parallel_classify(all_lines: list, black: set) -> tuple[list, list]:
+    """
+    把 all_lines 切成若干 chunk，用进程池并行处理，再合并结果
+    """
+    chunk_size = max(1, len(all_lines) // MAX_PROC_WORKERS)
+    chunks = [all_lines[i:i + chunk_size] for i in range(0, len(all_lines), chunk_size)]
+
+    with ProcessPoolExecutor(max_workers=MAX_PROC_WORKERS) as pool:
+        results = pool.map(_process_chunk, chunks, [black] * len(chunks))
+
+    acc_total, easy_total = [], []
+    for acc, easy in results:
+        acc_total.extend(acc)
+        easy_total.extend(easy)
+    return acc_total, easy_total
+
+# ---------- 3. 主流程 ----------
 def build():
     hosts, dead = load()
-    origin = clean_lines(hosts, dead)
-    acc_hosts, easylist = classify(origin)
+    acc, easy = parallel_classify(hosts, dead)
 
-
-    with open(os.path.join("accelerate.txt"), "w", encoding='utf-8') as f:
-        f.write("\n".join(acc_hosts))
-    with open(os.path.join("easylist.txt"), "w", encoding='utf-8') as f:
-        f.write("\n".join(easylist))
+    with open("accelerate.txt", "w", encoding='utf-8') as f:
+        f.write("\n".join(acc))
+    with open("easylist.txt", "w", encoding='utf-8') as f:
+        f.write("\n".join(easy))
 
 if __name__ == "__main__":
     run_fetch()
