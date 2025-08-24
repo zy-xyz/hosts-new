@@ -1,4 +1,5 @@
-import os, requests, shutil, re, glob
+import os, requests, shutil, re, glob, ipaddress
+
 from concurrent.futures import ThreadPoolExecutor
 
 links = [
@@ -115,10 +116,50 @@ def clean_lines(hosts: list, black: set) -> list:
         cleaned.append(line)
     return list(dict.fromkeys(cleaned))
 
+IPV4_RE = re.compile(r'^\d{1,3}(?:\.\d{1,3}){3}$')
+IPV6_RE = re.compile(r'^(?:[0-9a-fA-F]{0,4}:){2,7}[0-9a-fA-F]{0,4}$')
+
+def is_ip(addr: str) -> bool:
+    try:
+        ipaddress.ip_address(addr)
+        return True
+    except ValueError:
+        return False
+
+def classify(origin: list) -> tuple[list, list]:
+    acc, easy = [], []
+    for line in origin:
+        line = line.strip()
+        if not line:
+            continue
+
+        # 1) 先按 hosts 行处理：IP + 域名
+        parts = line.split()
+        if len(parts) >= 2 and is_ip(parts[0]):
+            acc.append(line)
+            continue
+
+        # 2) 形如 ||example.org^ 的规则
+        if line.startswith('||') or line.startswith('@@||') and line.endswith('^'):
+            easy.append(line)
+            continue
+
+        # 3) 其余情况，当成裸域名
+        domain = parts[-1]
+        easy.append(f'||{domain}^')
+
+    return acc, easy
+
 def build():
     hosts, dead = load()
-    with open(OUTPUT, "w", encoding='utf-8') as f:
-        f.write("\n".join(clean_lines(hosts, dead)))
+    origin = clean_lines(hosts, dead)
+    acc_hosts, easylist = classify(origin)
+
+
+    with open(os.path.join("accelerate.txt"), "w", encoding='utf-8') as f:
+        f.write("\n".join(acc_hosts))
+    with open(os.path.join("easylist.txt"), "w", encoding='utf-8') as f:
+        f.write("\n".join(easylist))
 
 if __name__ == "__main__":
     run_fetch()
