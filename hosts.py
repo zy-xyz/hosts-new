@@ -4,7 +4,7 @@ from concurrent.futures import ThreadPoolExecutor, ProcessPoolExecutor
 
 from requests import Session
 from requests.adapters import HTTPAdapter
-from urllib3.util.retry import Retry
+from urllib3.util.retry import重试
 
 
 links = [
@@ -28,7 +28,7 @@ links = [
     "https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts",
     "https://github.com/Potterli20/file/releases/download/github-hosts/Accelerate-Hosts.txt",
     "https://github.com/Potterli20/file/releases/download/github-hosts/gfw-hosts.txt",
-    "https://github.com/Potterli20/file/releases/download/github-hosts/bilibili-hosts.txt",
+    #"https://github.com/Potterli20/file/releases/download/github-hosts/bilibili-hosts.txt",
     "https://anti-ad.net/easylist.txt",
     "https://raw.githubusercontent.com/jianboy/github-host/master/hosts",
     "https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt",
@@ -58,7 +58,7 @@ def clear_cache():
 
 def fetch(url, path):
     s = Session()
-    s.mount('https://', HTTPAdapter(max_retries=Retry(total=3, backoff_factor=1)))
+    s.mount('https://', HTTPAdapter(max_retries=重试(total=3, backoff_factor=1)))
     try:
         open(path, 'wb').write(s.get(url, timeout=10).content)
     except Exception:
