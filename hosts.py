@@ -15,11 +15,11 @@ links = [
     "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/refs/heads/master/ChineseFilter/sections/general_elemhide.txt",
     "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/refs/heads/master/ChineseFilter/sections/general_url.txt",
     "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/refs/heads/master/ChineseFilter/sections/general_elemhide.txt",
-    #"https://easylist-downloads.adblockplus.org/easylist.txt",
+
     "https://easylist-downloads.adblockplus.org/easylistchina.txt",
-    #"https://easylist-downloads.adblockplus.org/easyprivacy.txt",
+
     "https://perflyst.github.io/PiHoleBlocklist/SmartTV-AGH.txt",
-    #"https://raw.githubusercontent.com/sjhgvr/oisd/refs/heads/main/oisd_big.txt",
+
     "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt",
     "https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/rule.txt",
     "https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/mv.txt",
@@ -28,7 +28,7 @@ links = [
     "https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts",
     "https://github.com/Potterli20/file/releases/download/github-hosts/Accelerate-Hosts.txt",
     "https://github.com/Potterli20/file/releases/download/github-hosts/gfw-hosts.txt",
-    #"https://github.com/Potterli20/file/releases/download/github-hosts/bilibili-hosts.txt",
+
     "https://anti-ad.net/easylist.txt",
     "https://raw.githubusercontent.com/jianboy/github-host/master/hosts",
     "https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt",
