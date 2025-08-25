@@ -4,10 +4,7 @@
 name: update-full
 
 on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+
   workflow_dispatch:  
   schedule:
   # 定时任务，在每天的18点推送签到信息到邮箱

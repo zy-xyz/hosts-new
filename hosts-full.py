@@ -17,7 +17,8 @@ links = [
     "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/refs/heads/master/BaseFilter/sections/general_elemhide.txt",
     "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/refs/heads/master/BaseFilter/sections/general_url.txt",
     "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/refs/heads/master/BaseFilter/sections/general_elemhide.txt",
-
+    "https://github.com/Potterli20/file/releases/download/github-hosts/Accelerate-Hosts.txt",
+    "https://github.com/Potterli20/file/releases/download/github-hosts/gfw-hosts.txt",
         "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_224_Chinese/filter.txt",
     "https://raw.githubusercontent.com/sjhgvr/oisd/refs/heads/main/oisd_big.txt",
     "https://easylist-downloads.adblockplus.org/easylist.txt",
