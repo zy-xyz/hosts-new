@@ -137,6 +137,9 @@
 ||kkzv9rhek.com^
 ||bjk08251ip.com^
 ||upvx.cn^
+||nkraholb.com^
+||nyokruzoir.com^
+||liuxuedang.org^
 ||okszf0rvcg.com^
 ||j8tzoy3xwn.com^
 ||bjk08240ip.com^
@@ -6233,6 +6236,9 @@
 ||kkzv9rhek.com^
 ||bjk08251ip.com^
 ||upvx.cn^
+||nkraholb.com^
+||nyokruzoir.com^
+||liuxuedang.org^
 ||okszf0rvcg.com^
 ||j8tzoy3xwn.com^
 ||bjk08240ip.com^
@@ -116131,6 +116137,11 @@
 ||ads-img-qc.xhscdn.com^
 ||ads-video-al.xhscdn.com^
 ||ads-video-qc.xhscdn.com^
+||ads-i1.xhscdn.com^
+||ads-i2.xhscdn.com^
+||ads-i3.xhscdn.com^
+||ads-i4.xhscdn.com^
+||ads-static.xhscdn.com^
 ||xhskoszdinatr.space^
 ||cluster.xhspot.com^
 ||xhstfdnhkcgec.online^
@@ -124414,6 +124425,7 @@
 ||mobads-logs.baidu.com^
 ||als.baidu.com^
 ||hmma.baidu.com^
+||hwithyouryrety.org^
 ||bid-algorix.com^
 ||loopmeedge.net^
 ||kayzen.io^
