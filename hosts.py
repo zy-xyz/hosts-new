@@ -8,18 +8,14 @@ from urllib3.util.retry import Retry
 
 
 links = [
-
     "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/refs/heads/master/ChineseFilter/sections/adservers.txt",
     "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/refs/heads/master/ChineseFilter/sections/allowlist.txt",
     "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/refs/heads/master/ChineseFilter/sections/antiadblock.txt",
     "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/refs/heads/master/ChineseFilter/sections/general_elemhide.txt",
     "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/refs/heads/master/ChineseFilter/sections/general_url.txt",
     "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/refs/heads/master/ChineseFilter/sections/general_elemhide.txt",
-
     "https://easylist-downloads.adblockplus.org/easylistchina.txt",
-
     "https://perflyst.github.io/PiHoleBlocklist/SmartTV-AGH.txt",
-
     "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt",
     "https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/rule.txt",
     "https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/mv.txt",
@@ -28,7 +24,6 @@ links = [
     "https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts",
     "https://github.com/Potterli20/file/releases/download/github-hosts/Accelerate-Hosts.txt",
     "https://github.com/Potterli20/file/releases/download/github-hosts/gfw-hosts.txt",
-
     "https://anti-ad.net/easylist.txt",
     "https://raw.githubusercontent.com/jianboy/github-host/master/hosts",
     "https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt",
@@ -58,7 +53,7 @@ def clear_cache():
 
 def fetch(url, path):
     s = Session()
-    s.mount('https://', HTTPAdapter(max_retries=重试(total=3, backoff_factor=1)))
+    s.mount('https://', HTTPAdapter(max_retries=Retry(total=3, backoff_factor=1)))
     try:
         open(path, 'wb').write(s.get(url, timeout=10).content)
     except Exception:
