@@ -11,7 +11,7 @@ on:
   workflow_dispatch:  
   schedule:
   # 定时任务，在每天的18点推送签到信息到邮箱
-    - cron:  0 16 * * * 
+    - cron:  0 20 * * * 
 
 permissions:                # Job-level permissions configuration starts here
   contents: write           # 'write' access to repository contents
