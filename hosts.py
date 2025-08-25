@@ -4,7 +4,7 @@ from concurrent.futures import ThreadPoolExecutor, ProcessPoolExecutor
 
 from requests import Session
 from requests.adapters import HTTPAdapter
-from urllib3.util.retry impor Retry
+from urllib3.util.retry import Retry
 
 
 links = [
