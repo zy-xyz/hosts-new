@@ -1042,6 +1042,7 @@ poplinks.sbs#%#//scriptlet('abort-on-property-write', 'checkAdsStatus')
 poplinks.sbs#%#//scriptlet('prevent-element-src-loading', 'script', 'cloudfront.net')
 poplinks.sbs#%#//scriptlet('abort-current-inline-script', 'document.createElement', 'AdBlock')
 shorttrick.in#%#//scriptlet('prevent-xhr', 'pagead2.googlesyndication.com')
+kio.ac#%#//scriptlet('prevent-setTimeout', '/[A-Za-z]+\(\)\.then\(\(\) *=> *[a-z]+\( *[a-z]+ *\, *\!0\)\)/', '500')
 kio.ac#%#//scriptlet('prevent-setTimeout', '/\.com\/[a-zA-Z\d]{1,20}\/\d+$|=performance\.now\(\);await fetch\(|globalThis\.atob.*await fetch\(/')
 kio.ac#%#//scriptlet('prevent-fetch', '/\.com\/[a-zA-Z\d]{1,20}\/\d+$|pagead2\.googlesyndication\.com/')
 kio.ac#%#//scriptlet('prevent-element-src-loading', 'script', '/\.com\/[a-zA-Z\d]{1,20}\/\d+$|pagead2\.googlesyndication\.com/')
@@ -6903,6 +6904,7 @@ bigbrothercanada.ca#%#//scriptlet('set-constant', 'video_player_config.players.0
 /assets/jquery/jquery-1.4.3.min.js?v=2&type=adult
 /assets/jquery/jquery-2.4.3.min.js?v=2&type=adult
 /assets/jquery/jquery-3.2.min.js?v=2&type=adult
+/click.php?key=*&creative_id=$document
 /click.php?key=*&click_id=$document
 /click.php?key=*&zone_id=$document
 /?z=*&syncedCookie=true&rhd=false$all
@@ -8007,8 +8009,6 @@ newduba.cn###jq_youxi
 ||31fq.com^$third-party
 ||zooj.cn^$third-party
 ||xkp.cc^$third-party
-||quyuancn.com^$third-party
-||wbqqo.com^$third-party
 ~upupoo.com##a[href^="http://www.upupoo.com"]
 ||1133.cc^$third-party
 ||1188.com^$third-party
@@ -8047,7 +8047,6 @@ newduba.cn###jq_youxi
 ||juandou.com^$third-party
 ||jusha.com^$third-party
 ||keydot.net^$third-party
-||keyrun.cn^$third-party
 ||kiwihk.net^$third-party
 ||linkvans.com^$third-party
 ||mytanwan.com^$third-party
@@ -21539,6 +21538,9 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > .r
 ||im.1vkx.cn/uploads/images/*.gif$third-party
 /^(?!.*(mega.co.nz|mega.nz|libs.baidu.com|ilfcdn.li|bytecdntp.com|doodcdn.io|intensedebate.com|vixcloud.co|cdn.plyr.io|rsc.cdn77.org|linkvertise.com|fastly.net|statically.io|sharecast.ws|b-cdn.net|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|(\/\/|\.)vk\.com|yandex.|yastatic.net|ytimg.com|zencdn.net|player|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|fastcomments.com|plyr.io|imgsmail.ru|cloudflare.net|rabbitstream.net|51.la|cloudflareinsights.com|tongjiniao.com|vp1shop.shop|(\/\/|\.)x\.com)).*$/$third-party,script,_____,domain=manshuxs.com|yemancomic.com|qimiaoxiaoshuo.com|gaofuwu.org|nxpaaq.com|dengbi2.com|92hm.top|634.tv|myhaitang.cc|ckplayer.vip|qushucheng.com|av6k.com|18j.tv
 *$script,third-party,denyallow=mega.co.nz|mega.nz|libs.baidu.com|ilfcdn.li|bytecdntp.com|doodcdn.io|intensedebate.com|vixcloud.co|cdn.plyr.io|rsc.cdn77.org|linkvertise.com|fastly.net|statically.io|sharecast.ws|b-cdn.net|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yastatic.net|ytimg.com|zencdn.net|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|fastcomments.com|plyr.io|imgsmail.ru|cloudflare.net|rabbitstream.net|x.com|51.la|cloudflareinsights.com|tongjiniao.com|vp1shop.shop,_____,domain=wap.dmwenku.com|m.wfxs.tw|wap.ishuquge.la|m.91zww.com|592mh.top|dubuxiaoshuo.com|clm410.buzz|bookbl.com|shuku99.com|qiyoudy2.com|1yydstxt178.com|rouman5.com|feijisu20.com|iqb5.org|wap.xkushu.com|spoilertop.com|booktxts.com|bixia33.com|rouwenwu19.com|91porny.com|yznnw.com|vodtw.la|ckplayer.vip|uuread.tw|fengchedmp.com|aeahsck.cc|xiaoshubao.net|wap.yushuwu.cloud|twbook.cc|vodtw.xyz|xbqg6.com|qq3009qq.link|18jtv.cc|m.haxuku.com|xm200.com|av6k.com|18j.tv|haiwaishubao.com
+||vip.video.qq.com/rpc/trpc.vip_ad_promotion
+ali213.net##.box-shadow-right:has(> div[id^="ali-ad-"])
+ali213.net##.weixincode
 douyin.com##.playerContainer #video-info-wrap > .video-info-detail:has(a[href="https://gad.netease.com/gad/access"])
 douyin.com#%#//scriptlet('adjust-setTimeout', '.current=setTimeout', '5000', '0.001')
 douyin.com##xg-controls + div[class]:has(> div[style] > a[href^="https://gad.netease.com/gad/"])
@@ -24325,8 +24327,6 @@ newduba.cn###jq_youxi
 ||31fq.com^$third-party
 ||zooj.cn^$third-party
 ||xkp.cc^$third-party
-||quyuancn.com^$third-party
-||wbqqo.com^$third-party
 ~upupoo.com##a[href^="http://www.upupoo.com"]
 ||1133.cc^$third-party
 ||1188.com^$third-party
@@ -24365,7 +24365,6 @@ newduba.cn###jq_youxi
 ||juandou.com^$third-party
 ||jusha.com^$third-party
 ||keydot.net^$third-party
-||keyrun.cn^$third-party
 ||kiwihk.net^$third-party
 ||linkvans.com^$third-party
 ||mytanwan.com^$third-party
@@ -37084,6 +37083,12 @@ _click*(com?
 /source/plugin/drk_ledadv/*
 .com/stat-qq.html?*&click_url_final=$all
 icu##.banner-layout-box
+198.23.198.110$network
+185.216.143.121$network
+||flaegrudad.com^$all
+||cloudshielders.com^$all
+||tdcegypt.com^$all
+||cractivator.com^$all
 ||update-macosx.com^$all
 ||nexx360.io^$third-party
 ||carbonads.com^$third-party
@@ -37654,8 +37659,8 @@ $popup,third-party,domain=fembed-hd.com,badfilter
 $popup,third-party,domain=sbplay2.com,badfilter
 $popup,third-party,domain=dood.ws,badfilter
 @@||download.ros.org/*.xsd$document
-||alicdn.com^$badfilter
-||aliexpress-media.com^$badfilter
+polybuzz.ai#@#.sidebar-ad-wrapper
+polybuzz.ai#@#.sidebar-ad:not(.adsbygoogle)
 |http*://*?$popup,third-party,domain=forums.socialmediagirls.com|pornhub.com|redtube.com|tube8.com|youporn.com|youporngay.com,badfilter
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,domain=tunegenie.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=tunegenie.com
@@ -40653,6 +40658,7 @@ implbits.com#@#.banner_container
 @@/^https:\/\/127\.0\.0\.1:10039\/\?callback=jQuery[0-9]{20,}_[0-9]{13}&HW&[A-z0-9]{22}==&&0&0&/$stealth=referrer
 @@||wetransfer.net/api/v*/$stealth=3p-auth
 @@||crunchyrollsvc.com^$stealth=3p-auth
+@@.m4s$domain=crunchyroll.com,stealth=referrer
 @@.mp4$domain=crunchyroll.com,stealth=referrer
 @@||substrate.office.com/NotesFabric/api/*/me/notes$domain=outlook.live.com,stealth=3p-auth
 @@||upload*.jianshu.io^$stealth=referrer
