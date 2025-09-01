@@ -795,6 +795,13 @@ pornhub.com,pornhub.org,pornhub.net#%#//scriptlet('prevent-setTimeout', '\x41\x6
 youporn.com#%#//scriptlet('remove-node-text', 'script', '/window\.[\s\S]*?_zone_[\s\S]*?{"zone_id":/')
 youporn.com$$script:contains(/window\.[\s\S]*?_zone_[\s\S]*?{"zone_id":/)
 @@||static.trafficjunky.com/ab/ads_test.js$domain=bztube.com|hotovs.com|insuredhome.org|nudegista.com|pornluck.com|vidd.se|redtube.*|youpornru.com|tube8.com|tube8.es|tube8.fr|tube8.net|pornhub.com|pornhub.org|pornhub.net
+bdstream.site#%#//scriptlet('prevent-setTimeout', '.offsetWidth||"none"===')
+bdstream.site#%#//scriptlet('prevent-element-src-loading', 'img', 'pagead2.googlesyndication.com')
+bdstream.site#%#//scriptlet('prevent-element-src-loading', 'script', 'pagead2.googlesyndication.com')
+@@||pagead2.googlesyndication.com/pagead/imgad?$image,domain=bdstream.site
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=bdstream.site
+lonefun.com#@#.ad_banner
+lonefun.com#%#//scriptlet('prevent-setTimeout', 'checkAdBlocker')
 livehindustan.com#$#body { overflow: auto !important; }
 livehindustan.com#$#section[class^="BlockerPopUpAd_"] { display: none !important; }
 sms-ol.com#$?##fuck_ad_blocker { remove: true; }
@@ -869,6 +876,7 @@ bigbuttshub2.top,bigbuttshubvideos.com#%#//scriptlet('prevent-fetch', 'widgets.o
 @@||widgets.outbrain.com/outbrain.js$xmlhttprequest,domain=bigbuttshub2.top|bigbuttshubvideos.com
 appnee.com#%#//scriptlet('abort-current-inline-script', 'document.createElement', 'overlay')
 appnee.com##div[id^="overlay_"]
+appnee.com##body > div[id$="_overlay"]
 games.greatergood.com#%#//scriptlet('trusted-replace-node-text', 'script', '__INITIAL_STATE__', '/"isAdBlockerEnabled":true/', '"isAdBlockerEnabled":false')
 strmup.to#%#//scriptlet('remove-node-text', 'script', 'AdBlock')
 @@||ssl.p.jwpcdn.com/player/*/googima.js$domain=strmup.to
@@ -886,6 +894,9 @@ mmsbee42.com,mmsmasala.com#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndica
 rjnovels.blogspot.com#%#//scriptlet('abort-on-property-read', 'detectBlockers')
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=rjnovels.blogspot.com
 rlxoff.com#%#//scriptlet('prevent-addEventListener', 'load', 'detectAdBlock')
+procinehub.com#$#body { overflow: auto !important; }
+procinehub.com#$##AdbModel { display: none !important; }
+procinehub.com#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
 procinehub.com#%#//scriptlet('prevent-setTimeout', 'fakeAd')
 examsnews.com,mhfragristack.in#$##myNextInst { display: block !important; }
 examsnews.com,mhfragristack.in#$?##VerifyBtn { display: block !important; }
@@ -3379,6 +3390,7 @@ fastssh.com#%#//scriptlet('prevent-fetch', '/pagead2\.googlesyndication\.com|www
 @@||fastssh.com/dfp.min.js
 fastssh.com#@#.ad-box:not(#ad-banner):not(:empty)
 fastssh.com#@#.ad-wrapper
+teamkong.tk#%#//scriptlet('prevent-element-src-loading', 'script', 'pagead2.googlesyndication.com')
 teamkong.tk#%#//scriptlet('abort-current-inline-script', 'jQuery', '#zdn-adblock-overlay')
 ||ad-delivery.net/px.gif?$image,redirect=1x1-transparent.gif,domain=explorecams.com,important
 @@||ad-delivery.net/px.gif?$domain=explorecams.com
@@ -4137,8 +4149,6 @@ mmacore.tv#$#.pub_300x250.pub_300x250m.pub_728x90.text-ad.textAd.text_ad.text_ad
 @@||mmacore.tv^$generichide
 ||coubassistant.com/js/adbd.js
 streamta.*#@#.google-ad
-embed.wcostream.com###announcement
-embed.wcostream.com##.announcement-backdrop
 embed.wcostream.com#%#(()=>{if(!location.href.includes("://embed.wcostream.com/inc/embed/index.php?file="))return;const e=`/inc/embed/video-js.php${location.search}`;location.href=e})();
 ||embed.wcostream.com^$replace=/if \(closeBtn\.disabled\) return;//,subdocument,document
 ||embed.wcostream.com^$replace=/hideAll\(\);/hideAll();try{if(typeof doClose==="function"){doClose();}}catch(e){};/,subdocument,document
@@ -4160,6 +4170,8 @@ wcoforever.tv,wcostream.org,watchanimesub.net,wco.tv,wcostream.net,wcostream.com
 @@/inc/embed/suv4.js$domain=wcostream.org|watchanimesub.net|wco.tv|wcostream.net|wcostream.com|wcoforever.tv
 @@||embed.watchanimesub.net/inc/embed/kampyle.js
 @@||embed.watchanimesub.net/inc/embed/ads.js
+embed.wcostream.com#$##announcement { display: none !important; }
+embed.wcostream.com#$#.announcement-backdrop { display: none !important; }
 @@||wco.tv^$generichide
 @@||platform.pubadx.one/pubadx-ad.js$domain=embed.wcostream.com
 @@||static.stands4.com/app_common/js/prebid-ads.js
@@ -4807,6 +4819,7 @@ pipeflare.io#@#div[id^="amzn-assoc-ad"]
 1bit.space#%#//scriptlet("set-constant", "adblock", "false")
 livemint.com#%#//scriptlet('prevent-element-src-loading', 'script', 'pagead2.googlesyndication.com')
 livemint.com##div[class^="adBlockerPopup_"]
+livemint.com#%#(()=>{void 0===window.TrustedScriptURL&&(window.TrustedScriptURL=()=>{});})();
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,domain=mr9soft.com,important
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=mr9soft.com
 pluspremieres.*#%#//scriptlet("abort-current-inline-script", "$", "var selector")
@@ -8019,6 +8032,7 @@ newduba.cn###jq_youxi
 ||67.21.92.*.gif
 .z.dkt-ib.com
 ||cupfox.app^$third-party
+||zhangyuyidong.cn^$third-party
 ||5tmobi.cn^$third-party
 ||imjtv.cc^$third-party
 ||31fq.com^$third-party
@@ -24351,6 +24365,7 @@ newduba.cn###jq_youxi
 ||67.21.92.*.gif
 .z.dkt-ib.com
 ||cupfox.app^$third-party
+||zhangyuyidong.cn^$third-party
 ||5tmobi.cn^$third-party
 ||imjtv.cc^$third-party
 ||31fq.com^$third-party
@@ -36196,6 +36211,8 @@ xyz:9002/*?x=$third-party
 ||omlube.com/O/1000970O3001405O1O.js
 ||5dm.tv/html/5dmm.jpg
 ||domp4.cc/js/wcount.js
+/gg/gg.js
+/astyle/wap.js$~third-party
 ||www.*yydstxt*/js/cdn.js
 ://*mp4*/js/wcount.js$~third-party
 ||bimiacg4.net/template/JOELEO/asset/js/jquery.common.js
@@ -37698,6 +37715,7 @@ $popup,third-party,domain=fembed-hd.com,badfilter
 $popup,third-party,domain=sbplay2.com,badfilter
 $popup,third-party,domain=dood.ws,badfilter
 @@||download.ros.org/*.xsd$document
+@@||c.amazon-adsystem.com/aax2/apstag.js$domain=independentespanol.com
 polybuzz.ai#@#.sidebar-ad-wrapper
 polybuzz.ai#@#.sidebar-ad:not(.adsbygoogle)
 |http*://*?$popup,third-party,domain=forums.socialmediagirls.com|pornhub.com|redtube.com|tube8.com|youporn.com|youporngay.com,badfilter
@@ -37713,7 +37731,6 @@ bbc.com#%#//scriptlet('set-constant', 'dvtag.getTargeting', 'trueFunc')
 @@||adguardpartner.com^$generichide,genericblock
 @@||connatix.com^$domain=accuweather.com
 @@||vague.style/wp-content/uploads/*.jpg$image,domain=vague.style
-@@||m.sktuniverse.co.kr/html/template/*.html$xmlhttprequest,elemhide,jsinject,extension
 @@||sts.wavewalt.me/scripts/v*/embedv*.min.js$domain=cricstreams.re
 @@||c.amazon-adsystem.com/aax2/apstag.js$domain=thedailybeast.com
 $script,redirect-rule=noopjs,domain=appwrite.io
@@ -40090,6 +40107,10 @@ implbits.com#@#.banner_container
 @@||beinconnect.com.tr^$stealth
 @@||account.adobe.com^$document,domain=services.adobe.com,stealth=useragent
 @@||adguard.com^$stealth
+@@||v.ddys.*.mp4$stealth=referrer
+@@/?url=$subdocument,stealth=referrer,domain=agedm.vip
+@@.gif$xmlhttprequest,stealth=referrer,domain=megaup.site
+@@.m3u8$xmlhttprequest,stealth=referrer,domain=megaup.site
 @@||lecteurvideo.com/embed.php?id=$stealth=referrer
 @@||myspacecat.pictures^$stealth=referrer
 @@||embed.wcostream.com^$subdocument,stealth=referrer
