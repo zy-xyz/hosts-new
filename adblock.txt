@@ -4157,7 +4157,6 @@ mmacore.tv#$#.pub_300x250.pub_300x250m.pub_728x90.text-ad.textAd.text_ad.text_ad
 @@||mmacore.tv^$generichide
 ||coubassistant.com/js/adbd.js
 streamta.*#@#.google-ad
-embed.wcostream.com#%#(()=>{if(!location.href.includes("://embed.wcostream.com/inc/embed/index.php?file=")||navigator.userAgent.toLowerCase().includes("firefox"))return;const e=`/inc/embed/video-js.php${location.search}`;location.href=e})();
 embed.wcostream.com#%#//scriptlet('prevent-fetch', 'pubadx-ad.js')
 wcoforever.tv,wcostream.org,watchanimesub.net,wco.tv,wcostream.net,wcostream.com#$#.ad-unit.ad-banner.adsbox { display: block !important; }
 wcoforever.tv,wcostream.org,watchanimesub.net,wco.tv,wcostream.net,wcostream.com#$##wrapfabtest { height: 1px !important; }
@@ -4174,6 +4173,9 @@ wcoforever.tv,wcostream.org,watchanimesub.net,wco.tv,wcostream.net,wcostream.com
 @@||embed.watchanimesub.net/inc/embed/kampyle.js
 @@||embed.watchanimesub.net/inc/embed/ads.js
 @@||embed.wcostream.com^$generichide
+||embed.wcostream.com/inc/embed/*.php$cookie=PHPSESSID
+embed.wcostream.com#%#(()=>{if(!location.href.includes("://embed.wcostream.com/inc/embed/index.php?file="))return;const e=`/inc/embed/video-js.php${location.search}`;location.href=e})();
+embed.wcostream.com#%#//scriptlet('trusted-create-element', 'head', 'script', '', '(()=>{if(!location.href.includes("://embed.wcostream.com/inc/embed/index.php?file="))return;const e=`/inc/embed/video-js.php${location.search}`;location.href=e})();')
 embed.wcostream.com#$##announcement { display: block !important; }
 embed.wcostream.com#$#.announcement-backdrop { display: block !important; }
 @@||wco.tv^$generichide
@@ -8073,7 +8075,6 @@ newduba.cn###jq_youxi
 ||balmoralmkt.com^$third-party
 ||bianxianmao.com^$third-party
 ||birdmedia.com^$third-party
-||chinesean.com^$third-party
 ||dian500.com^$third-party
 ||dianxin.com^$third-party
 ||duomai.com^$third-party
@@ -8085,7 +8086,6 @@ newduba.cn###jq_youxi
 ||jsinfo.net^$third-party
 ||juandou.com^$third-party
 ||jusha.com^$third-party
-||keydot.net^$third-party
 ||kiwihk.net^$third-party
 ||linkvans.com^$third-party
 ||mytanwan.com^$third-party
@@ -8093,19 +8093,18 @@ newduba.cn###jq_youxi
 ||onetad.com^$third-party
 ||piclick.cn^$third-party
 ||qidou.com^$third-party
-||rmhfrtnd.com^$third-party
 ||s8.pw^$third-party
 ||sexy-more.com^$third-party
-||shuihulu.com^$third-party
 ||snmi.cn^$third-party
 ||snxyf.com^$third-party
 ||superfish.com^$third-party
 ||tanwanyx.com^$third-party
 ||u7u9.com^$third-party
-||ulink.cc^$third-party
 ||vlion.cn^$third-party
 ||ze5.com^$third-party
 ||zlongad.com^$third-party
+||chinesean.com^$third-party
+||rmhfrtnd.com^$third-party
 ||sales-frontier.com^$third-party
 ||twrank.com^$third-party
 ||114la.com^$third-party,domain=~ylmf.com
@@ -19332,7 +19331,7 @@ theporn.cc##.gg-config
 theporn.cc##.toolbar-gg
 69xx.one,69xx487.xyz,8mav.cc,av411.xyz,cable2055.cc,theav.xyz,thep178.com,theporn.cc,weav.xyz#?#[class]:-abp-has(>a>.q-responsive)
 ||jsdelivr.net/gh/dashange123/
-$script,third-party,domain=torkitty.net|torkitty.com|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.one|torrentkitty.se|torrentkitty.tv|torrkitty.com
+$script,third-party,domain=torkitty.net|torkitty.com|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.one|torrentkitty.tv|torrkitty.com
 .tor*/js/jquery.bpopup.
 /nordvpn/autoptimize_
 torkitty.com,torrentkitty.app,torrentkitty.io,torrentkitty.lol,torrentkitty.net,torrentkitty.se,torrentkitty.tv##a[href*="/aff_"]
@@ -24421,7 +24420,6 @@ newduba.cn###jq_youxi
 ||balmoralmkt.com^$third-party
 ||bianxianmao.com^$third-party
 ||birdmedia.com^$third-party
-||chinesean.com^$third-party
 ||dian500.com^$third-party
 ||dianxin.com^$third-party
 ||duomai.com^$third-party
@@ -24433,7 +24431,6 @@ newduba.cn###jq_youxi
 ||jsinfo.net^$third-party
 ||juandou.com^$third-party
 ||jusha.com^$third-party
-||keydot.net^$third-party
 ||kiwihk.net^$third-party
 ||linkvans.com^$third-party
 ||mytanwan.com^$third-party
@@ -24441,19 +24438,18 @@ newduba.cn###jq_youxi
 ||onetad.com^$third-party
 ||piclick.cn^$third-party
 ||qidou.com^$third-party
-||rmhfrtnd.com^$third-party
 ||s8.pw^$third-party
 ||sexy-more.com^$third-party
-||shuihulu.com^$third-party
 ||snmi.cn^$third-party
 ||snxyf.com^$third-party
 ||superfish.com^$third-party
 ||tanwanyx.com^$third-party
 ||u7u9.com^$third-party
-||ulink.cc^$third-party
 ||vlion.cn^$third-party
 ||ze5.com^$third-party
 ||zlongad.com^$third-party
+||chinesean.com^$third-party
+||rmhfrtnd.com^$third-party
 ||sales-frontier.com^$third-party
 ||twrank.com^$third-party
 ||114la.com^$third-party,domain=~ylmf.com
@@ -35673,7 +35669,7 @@ theporn.cc##.gg-config
 theporn.cc##.toolbar-gg
 69xx.one,69xx487.xyz,8mav.cc,av411.xyz,cable2055.cc,theav.xyz,thep178.com,theporn.cc,weav.xyz#?#[class]:-abp-has(>a>.q-responsive)
 ||jsdelivr.net/gh/dashange123/
-$script,third-party,domain=torkitty.net|torkitty.com|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.one|torrentkitty.se|torrentkitty.tv|torrkitty.com
+$script,third-party,domain=torkitty.net|torkitty.com|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.one|torrentkitty.tv|torrkitty.com
 .tor*/js/jquery.bpopup.
 /nordvpn/autoptimize_
 torkitty.com,torrentkitty.app,torrentkitty.io,torrentkitty.lol,torrentkitty.net,torrentkitty.se,torrentkitty.tv##a[href*="/aff_"]
@@ -37747,6 +37743,11 @@ $popup,third-party,domain=fembed-hd.com,badfilter
 $popup,third-party,domain=sbplay2.com,badfilter
 $popup,third-party,domain=dood.ws,badfilter
 @@||download.ros.org/*.xsd$document
+euronews.com#@##connatix-container
+euronews.com#@#.connatix-container
+euronews.com#@#[data-ad-name]
+euronews.com#@#.cnx-player-wrapper
+@@||connatix.com^$domain=euronews.com
 @@||c.amazon-adsystem.com/aax2/apstag.js$domain=independentespanol.com
 polybuzz.ai#@#.sidebar-ad-wrapper
 polybuzz.ai#@#.sidebar-ad:not(.adsbygoogle)
