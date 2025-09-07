@@ -582,7 +582,7 @@ sumirekeiba.com###container + div[id][class*=" "]
 gengen17.com###jetpack-lazy-images-js + div[id][class*=" "]
 helicomicro.com##.backtoptop + div[id][class*=" "]
 karwan.tv##.gdpr-cm-wrap + script + div[id][class*=" "]
-windbreaker.me,fazy.online,wikijankari.com,greett.xyz,cricket12.com,stimotion.pl,thelastgamestandingexp.com,chart.services,moneysave.info,pornmz.com,yakisurume.com,tehnar.net.ua,rocdacier.com,audiotrip.org,flowsnet.com,brulosophy.com,reprezentacija.rs##body > div#page ~ div[id][class*=" "]
+kodibeginner.com,windbreaker.me,fazy.online,wikijankari.com,greett.xyz,cricket12.com,stimotion.pl,thelastgamestandingexp.com,chart.services,moneysave.info,pornmz.com,yakisurume.com,tehnar.net.ua,rocdacier.com,audiotrip.org,flowsnet.com,brulosophy.com,reprezentacija.rs##body > div#page ~ div[id][class*=" "]
 www2.tmyinsight.net###page-top ~ div[id][class*=" "]
 ourcoincash.xyz###miniFooterWrapper ~ script + style + div[id][class*=" "]
 analysis-chess.io.vn###exampleModal + div[id][class*=" "]
@@ -36227,6 +36227,7 @@ xyz:9002/*?x=$third-party
 ||novret.com/?clickid=
 .cn/bid?url=*$third-party
 ||wcanj.com/2345/
+/hm/ytymer?x=
 /xtub_*_rony.js$third-party
 /app/get*?t=*http$third-party
 .xyz/*?16$third-party
@@ -36431,12 +36432,13 @@ manwa.me#@#.ad-area
 greasyfork.org#@#body .ad
 myqqjd.com##.adsbygoogl
 www.jianshu.com#@#div[class$="_0"]
-m.baidu.com#@##results > div[class]:not(.result):not(.result-op):not(.sp-rslt-bar):not(.s-group-result):not(.hint-unsafe)
+baidu.com#@##results > div[class]:not(.result):not(.result-op):not(.sp-rslt-bar):not(.s-group-result):not(.hint-unsafe)
 baidu.com#@#div[class*="ads"]
 baidu.com#@##header > div:last-child
 baidu.com#@##page-pre
 hentaicomic.ru#@#.pcd_ad
 hentaicomic.ru#@#.Flagrow-Ads-under-header
+baidu.com##.cos-rich-video-player-video
 baidu.com##[data-tpl='adv_wenku_fc']
 baidu.com##DIV.c-container.ec-container
 baidu.com##div[class$="-ecom-ads"]
