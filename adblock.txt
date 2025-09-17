@@ -801,6 +801,7 @@ pornhub.com,pornhub.org,pornhub.net#%#//scriptlet('prevent-setTimeout', '\x41\x6
 youporn.com#%#//scriptlet('remove-node-text', 'script', '/window\.[\s\S]*?_zone_[\s\S]*?{"zone_id":/')
 youporn.com$$script:contains(/window\.[\s\S]*?_zone_[\s\S]*?{"zone_id":/)
 @@||static.trafficjunky.com/ab/ads_test.js$domain=bztube.com|hotovs.com|insuredhome.org|nudegista.com|pornluck.com|vidd.se|redtube.*|youpornru.com|tube8.com|tube8.es|tube8.fr|tube8.net|pornhub.com|pornhub.org|pornhub.net
+||pzfans.com/static/js/adblock-detector.js
 jpopsingles.eu$$script:contains(eval(function(p,a,c,k,e,d))
 jpopsingles.eu#%#//scriptlet('remove-node-text', 'script', 'eval(function(p,a,c,k,e,d)')
 @@||jpopsingles.eu^$generichide
@@ -3847,7 +3848,7 @@ btcbunch.com#%#//scriptlet("abort-on-property-write", "TestAd")
 ricettafitness.com#$##colunas { display: block !important; }
 ricettafitness.com#$##saudacao { display: none !important; }
 ricettafitness.com#$?#body > p > span:contains(adblock) { display: none !important; }
-dailymotion.com#@#.ad_box
+dailymotion.com#@#.ad_box:not(.text-ad)
 dailymotion.com#$#body .ad_box { display: block !important; }
 dailymotion.com#%#//scriptlet('prevent-setTimeout', 'adBlockerDetection')
 dailymotion.com#%#//scriptlet('set-constant', 'DMP_ENABLE_ADS', 'false')
@@ -12388,6 +12389,8 @@ meijutt.*/js/pcjs/
 ||5dm.link/htm1/$image
 ||cdxyspa.com/js/e
 zhihu.com##.Pc-word-new
+iqiyi.com###bottom_banner_ad_bk
+iqiyi.com#?#div[class^="list_list_"]>div:-abp-has(div[class^="videolist_closeAd"])
 msn.cn##[ad]
 423down.com#?#li:-abp-has(>.info>.cat>a[rel="category tag"]:-abp-contains(推广))
 423down.com#?#li:-abp-has(>.item-thumb>.item-category:-abp-contains(推广))
@@ -28744,6 +28747,8 @@ meijutt.*/js/pcjs/
 ||5dm.link/htm1/$image
 ||cdxyspa.com/js/e
 zhihu.com##.Pc-word-new
+iqiyi.com###bottom_banner_ad_bk
+iqiyi.com#?#div[class^="list_list_"]>div:-abp-has(div[class^="videolist_closeAd"])
 msn.cn##[ad]
 423down.com#?#li:-abp-has(>.info>.cat>a[rel="category tag"]:-abp-contains(推广))
 423down.com#?#li:-abp-has(>.item-thumb>.item-category:-abp-contains(推广))
@@ -37750,6 +37755,11 @@ $popup,third-party,domain=fembed-hd.com,badfilter
 $popup,third-party,domain=sbplay2.com,badfilter
 $popup,third-party,domain=dood.ws,badfilter
 @@||download.ros.org/*.xsd$document
+dmax.de#%#//scriptlet('remove-class', 'block-user', '.block-user')
+@@||googletagmanager.com/gtm.js$domain=dmax.de
+@@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=dmax.de
+@@||cdn.cookielaw.org/consent/*.json$domain=dmax.de
+dmax.de#@##onetrust-consent-sdk
 wavewalt.me#@#.Ad-Container:not(.adsbygoogle)
 lastampa.it#%#//scriptlet('prevent-element-src-loading', 'script', '/securepubads\.g\.doubleclick\.net|chartbeat\.com|googletagmanager\.com/')
 lastampa.it#%#(()=>{void 0===window.TrustedScriptURL&&(window.TrustedScriptURL=()=>{});})();
@@ -40273,7 +40283,7 @@ implbits.com#@#.banner_container
 @@||insurance.wertgarantie.com/api/$stealth=3p-auth
 @@||*.yt2api.com/api/$domain=api.ytapi.cc,stealth=referrer
 @@||luna.amazon.*/game$stealth=webrtc
-@@||web-cloud-new.foreks.com^$stealth=referrer,domain=prime.tebyatirim.com.tr|isbank.com.tr|akbank.com|trade.isbank.com.tr
+@@||web-cloud-new.foreks.com^$stealth=referrer,domain=prime.tebyatirim.com.tr|isbank.com.tr|akbank.com|trade.isbank.com.tr|ziraatyatirim.com.tr
 @@||apim.canadiantire.ca^$stealth=referrer
 @@||bigwon-*.aliyuncs.com/product-pic/$image,stealth=referrer
 @@/file2/*==/*$xmlhttprequest,stealth=referrer,domain=megacloud.*
@@ -41621,6 +41631,8 @@ implbits.com#@#.banner_container
 @@||login.wmtransfer.com^$stealth=3p-cookie
 @@||login.uid.me^$domain=ucoz.ru,stealth=3p-cookie
 @@||vodakpsdhdsdrm-vh.akamaihd.net/z/clips/$stealth=3p-cookie
+@@||kargoist.com^$stealth=dpi
+@@||petrolofisi.com.tr^$stealth=dpi
 @@||eticaret.adawall.com.tr^$stealth=dpi
 @@||belapb.by^$stealth=dpi
 @@||gedizperakende.com.tr^$stealth=dpi
