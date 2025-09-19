@@ -4,7 +4,7 @@ from concurrent.futures import ThreadPoolExecutor, ProcessPoolExecutor
 
 from requests import Session
 from requests.adapters import HTTPAdapter
-from urllib3.util.retry import Retry
+from urllib3.util.retry import重试
 
 links = [
         "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt",
@@ -21,6 +21,7 @@ links = [
     "https://github.com/Potterli20/file/releases/download/github-hosts/gfw-hosts.txt",
         "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_224_Chinese/filter.txt",
     "https://raw.githubusercontent.com/sjhgvr/oisd/refs/heads/main/oisd_big.txt",
+	    "https://raw.githubusercontent.com/geoisam/FuckScripts/main/adsfuck.txt",
     "https://easylist-downloads.adblockplus.org/easylist.txt",
     "https://easylist-downloads.adblockplus.org/easylistchina.txt",
     "https://secure.fanboy.co.nz/fanboy-cookiemonster.txt",
