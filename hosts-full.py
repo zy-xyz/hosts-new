@@ -4,7 +4,7 @@ from concurrent.futures import ThreadPoolExecutor, ProcessPoolExecutor
 
 from requests import Session
 from requests.adapters import HTTPAdapter
-from urllib3.util.retry import重试
+from urllib3.util.retry import Retry
 
 links = [
         "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt",
