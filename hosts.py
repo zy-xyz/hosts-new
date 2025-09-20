@@ -63,7 +63,7 @@ def clear_cache():
 
 def fetch(url, path):
     s = Session()
-    s.mount('https://', HTTPAdapter(max_retries=重试(total=3, backoff_factor=1)))
+    s.mount('https://', HTTPAdapter(max_retries=Retry(total=3, backoff_factor=1)))
     try:
         open(path, 'wb').write(s.get(url, timeout=10).content)
     except Exception:
