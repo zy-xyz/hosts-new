@@ -809,7 +809,10 @@ on4t.com#$#body { overflow: auto !important; }
 on4t.com#$##adblockModal { display: none !important; }
 on4t.com#%#//scriptlet('prevent-setTimeout', '.offsetHeight === 0')
 /adblock-saas/*
+idlixku.com#%#//scriptlet('trusted-set-constant', 'dtGonza.playeradstime', '"-1"')
+idlixku.com#%#//scriptlet('abort-on-stack-trace', 'navigator', 'detect')
 idlixku.com#%#//scriptlet('abort-current-inline-script', 'String.prototype.toLowerCase', '/adblock/i')
+idlixku.com#$##dooplay_player_overlay { display: none !important; }
 idlixku.com#$##adblock-modal-wrapper { display: none !important; }
 idlixku.com#$##dt_contenedor { filter: none !important; pointer-events: auto !important; }
 idlixku.com#$##adblock-modal { display: none !important; }
@@ -1006,6 +1009,9 @@ seelen.io#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com/pagead/j
 seelen.io#%#//scriptlet('prevent-element-src-loading', 'script', 'pagead2.googlesyndication.com/pagead/js/adsbygoogle.js')
 seelen.io#$#.ant-modal-root { display: none !important; }
 seelen.io#$#body { overflow: auto !important; }
+seelen.io#?#body > #seelen-ad ~ div[style*="position: fixed;"][style*="z-index:"]:has(> div > div > div > span:contains(Ad Block Detected))
+seelen.io#%#(()=>{const t={apply:(t,n,o)=>{try{const t=n,e=o[0];if("{}"===t&&"google"===e)return!0}catch(t){}return Reflect.apply(t,n,o)}};window.String.prototype.includes=new Proxy(window.String.prototype.includes,t)})();
+seelen.io#%#//scriptlet('trusted-create-element', 'head', 'script', '', '(()=>{const t={apply:(t,n,o)=>{try{const t=n,e=o[0];if("{}"===t&&"google"===e)return!0}catch(t){}return Reflect.apply(t,n,o)}};window.String.prototype.includes=new Proxy(window.String.prototype.includes,t)})();')
 @@||zeperfs.com^$generichide
 zeperfs.com#$#body .showAd { display: block !important; }
 zeperfs.com$$script:contains($(".adsbygoogle").length)
@@ -2535,7 +2541,7 @@ thestar.com,thespec.com,therecord.com,thepeterboroughexaminer.com,stcatharinesst
 thestar.com,thespec.com,therecord.com,thepeterboroughexaminer.com,stcatharinesstandard.ca,niagarafallsreview.ca,wellandtribune.ca,bramptonguardian.com,caledonenterprise.com,cambridgetimes.ca,durhamregion.com,flamboroughreview.com,guelphmercury.com,hamiltonnews.com,insidehalton.com,insideottawavalley.com,mississauga.com,muskokaregion.com,mykawartha.com,newhamburgindependent.ca,niagarathisweek.com,northbaynipissing.com,northumberlandnews.com,orangeville.com,ourwindsor.ca,parrysound.com,sachem.ca,simcoe.com,theifp.ca,toronto.com,waterloochronicle.ca,yorkregion.com,legacy.com,edition.pagesuite-professional.co.uk,hub.metroland.com#@#.adBlock
 thestar.com,thespec.com,therecord.com,thepeterboroughexaminer.com,stcatharinesstandard.ca,niagarafallsreview.ca,wellandtribune.ca,bramptonguardian.com,caledonenterprise.com,cambridgetimes.ca,durhamregion.com,flamboroughreview.com,guelphmercury.com,hamiltonnews.com,insidehalton.com,insideottawavalley.com,mississauga.com,muskokaregion.com,mykawartha.com,newhamburgindependent.ca,niagarathisweek.com,northbaynipissing.com,northumberlandnews.com,orangeville.com,ourwindsor.ca,parrysound.com,sachem.ca,simcoe.com,theifp.ca,toronto.com,waterloochronicle.ca,yorkregion.com,legacy.com,edition.pagesuite-professional.co.uk,hub.metroland.com#@#.adContent
 thestar.com,thespec.com,therecord.com,thepeterboroughexaminer.com,stcatharinesstandard.ca,niagarafallsreview.ca,wellandtribune.ca,bramptonguardian.com,caledonenterprise.com,cambridgetimes.ca,durhamregion.com,flamboroughreview.com,guelphmercury.com,hamiltonnews.com,insidehalton.com,insideottawavalley.com,mississauga.com,muskokaregion.com,mykawartha.com,newhamburgindependent.ca,niagarathisweek.com,northbaynipissing.com,northumberlandnews.com,orangeville.com,ourwindsor.ca,parrysound.com,sachem.ca,simcoe.com,theifp.ca,toronto.com,waterloochronicle.ca,yorkregion.com,legacy.com,edition.pagesuite-professional.co.uk,hub.metroland.com#@#.adBanner
-rajssoid.online,importantclass.com,thevouz.in,smartfityoga.com,mangareleasedate.com###AdbModel
+reportmarathi.in,newsguides.in,gujaratcareerhub.in,rajssoid.online,importantclass.com,thevouz.in,smartfityoga.com,mangareleasedate.com###AdbModel
 chatgptdemo.info,chatgptdemo.net###ADS-block-detect
 chatgptdemo.info,chatgptdemo.net#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#$##adblock-test { display: block !important; }
@@ -6906,6 +6912,8 @@ bigbrothercanada.ca#%#//scriptlet('set-constant', 'video_player_config.players.0
 &bemobdata=c%$all
 ?bemobdata=c%$all
 /?usid=*&utid=$document
+/assets/js/eaCtrl.js
+/video-js/nuevo.min.js
 /prize-*/assets/main.js$~third-party
 /prize-*/assets/modules.js$~third-party
 /partytown/partytown-sw.js
@@ -12501,6 +12509,11 @@ meijutt.*/js/pcjs/
 ||5dm.link/htm1/$image
 ||cdxyspa.com/js/e
 zhihu.com##.Pc-word-new
+ydwgame.net###float_mask
+ydwgame.net###diy3
+ydwgame.net##.pictextad
+ydwgame.net##a[href="http://www.discuz.net"]
+ydwgame.net##.cl.wp[style="width:1200px;"]
 ternity.net###playerdavLayer
 ternity.net##.da
 csdn.net###kp_box_www_swiper
@@ -28876,6 +28889,11 @@ meijutt.*/js/pcjs/
 ||5dm.link/htm1/$image
 ||cdxyspa.com/js/e
 zhihu.com##.Pc-word-new
+ydwgame.net###float_mask
+ydwgame.net###diy3
+ydwgame.net##.pictextad
+ydwgame.net##a[href="http://www.discuz.net"]
+ydwgame.net##.cl.wp[style="width:1200px;"]
 ternity.net###playerdavLayer
 ternity.net##.da
 csdn.net###kp_box_www_swiper
@@ -40304,6 +40322,8 @@ implbits.com#@#.banner_container
 @@||beinconnect.com.tr^$stealth
 @@||account.adobe.com^$document,domain=services.adobe.com,stealth=useragent
 @@||adguard.com^$stealth
+@@*$app=com.kakao.talk,stealth=dpi
+@@||core-api.upvotyfeedback.com^$stealth=3p-auth
 @@||wallpaper*.site/*.jpg$xmlhttprequest,stealth=referrer
 @@||load.dizifilmevreni.xyz/embed/$stealth=referrer
 @@||iqos.com^$stealth=ip
@@ -41781,6 +41801,7 @@ implbits.com#@#.banner_container
 @@||login.wmtransfer.com^$stealth=3p-cookie
 @@||login.uid.me^$domain=ucoz.ru,stealth=3p-cookie
 @@||vodakpsdhdsdrm-vh.akamaihd.net/z/clips/$stealth=3p-cookie
+@@||maol.meb.gov.tr^$stealth=dpi
 @@||nid.naver.com^$stealth=dpi
 @@||cafe24.com^$stealth=dpi
 @@||kargoist.com^$stealth=dpi
