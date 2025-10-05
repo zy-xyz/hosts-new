@@ -19426,6 +19426,7 @@ wss://*.*.top/$third-party
 ||tunshixingkong2.com/config/v7.js
 ||wanmeisxs.cc/js/m.
 ||biqugie.com/js/wap.
+||qingqingxs.*/static/xbiquge/js/wap.
 ||qingqingxs.*/static/xbiquge/wap.js
 ||fushuba123.top/statics/js/wap.js
 /pa.dajiahao*.top/
@@ -35806,6 +35807,7 @@ wss://*.*.top/$third-party
 ||tunshixingkong2.com/config/v7.js
 ||wanmeisxs.cc/js/m.
 ||biqugie.com/js/wap.
+||qingqingxs.*/static/xbiquge/js/wap.
 ||qingqingxs.*/static/xbiquge/wap.js
 ||fushuba123.top/statics/js/wap.js
 /pa.dajiahao*.top/
@@ -36528,6 +36530,7 @@ mobi*.*.xyz/*_$third-party
 mobi*.*.top/*_$third-party
 /*_*_aubi.js$third-party
 :800*/d/*n=$third-party
+mumu*.com/js/cdn.js$~third-party
 /public/tingshu/foor.js$~third-party
 dingbu.*.*.com/dingbu.$third-party
 .xyz/jque*.js?$third-party
