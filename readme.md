@@ -50,7 +50,16 @@ python3 main.py          # 生成最新规则
 
 ```
 
-
-
-
+## 最后插播一条广告
+欢迎大家使用我的自建 DNS ，在去广告的基础上同时含义加速 steam 、Google 、github ，以及分流等功能，欢迎使用
+DoH：
+https://dns.acezy.top/dns-query //edgeone 加速家宽服务器
+https://ali.acezy.top:444/dns-query //阿里云服务器成都节点
+DOT: 
+tls://ali.acezy.top
+DOQ:
+quic://ali.acezy.top 
+同时服务器维护不易，还请各位多多支持
+![微信](https://raw.githubusercontent.com/zy-xyz/hosts-new/refs/heads/main/mm_facetoface_collect_qrcode_1759930989054.png)
+![支付宝]([https://github.com/zy-xyz/hosts-new/blob/main/](https://raw.githubusercontent.com/zy-xyz/hosts-new/refs/heads/main/)1759930373305.jpg)
 
