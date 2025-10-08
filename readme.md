@@ -61,5 +61,5 @@ DOQ:
 quic://ali.acezy.top 
 同时服务器维护不易，还请各位多多支持
 ![微信](https://raw.githubusercontent.com/zy-xyz/hosts-new/refs/heads/main/mm_facetoface_collect_qrcode_1759930989054.png)
-![支付宝]([https://github.com/zy-xyz/hosts-new/blob/main/](https://raw.githubusercontent.com/zy-xyz/hosts-new/refs/heads/main/)1759930373305.jpg)
+![支付宝](https://raw.githubusercontent.com/zy-xyz/hosts-new/refs/heads/main/1759930373305.jpg)
 
