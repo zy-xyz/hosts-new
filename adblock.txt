@@ -382,8 +382,8 @@ competentedigitale.ro#@#img[width="728"][height="90"]
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=streetdir.com|roaddir.com
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=streetdir.com|roaddir.com
 @@||tycoon.adspirit.net/adview.php^$domain=streetdir.com|roaddir.com
-gadgetversus.com,guideoftheworld.com,wpteq.org,forocoches.com,0115765.com,graphicget.com,nichepcgamer.com,aquafora.nl,bestreamsports.org,free-play-mahjong.com,toramemoblog.com,plejada.pl,wiki3.jp,3dgifmaker.com,betaprofiles.com,tvonline123.com,sshkit.com,meneame.net,fakt.pl,eggnsemulator.com,nintendoswitchroms.net,tvn.pl,halkarz.com,businessinsider.com.pl,learn-japanese-adventure.com,thetvdb.com,aranzulla.it,drikpanchang.com,ettoday.net,smstome.com,tvp.info,medevel.com,abczdrowie.pl,tvn24.pl,nikkei225jp.com,apuntesdeingles.com,cnbeta.com.tw,lidovky.cz,gazeta.pl,animefillerlist.com,i.pl,interia.pl,japan.techinsight.jp,f1-gate.com,dailymail.co.uk#$#body { overflow: visible !important; }
-gadgetversus.com,guideoftheworld.com,wpteq.org,forocoches.com,0115765.com,graphicget.com,nichepcgamer.com,aquafora.nl,bestreamsports.org,free-play-mahjong.com,toramemoblog.com,plejada.pl,wiki3.jp,3dgifmaker.com,betaprofiles.com,tvonline123.com,sshkit.com,meneame.net,fakt.pl,eggnsemulator.com,nintendoswitchroms.net,tvn.pl,halkarz.com,businessinsider.com.pl,learn-japanese-adventure.com,thetvdb.com,aranzulla.it,drikpanchang.com,ettoday.net,smstome.com,tvp.info,medevel.com,abczdrowie.pl,tvn24.pl,nikkei225jp.com,apuntesdeingles.com,cnbeta.com.tw,lidovky.cz,gazeta.pl,animefillerlist.com,i.pl,interia.pl,japan.techinsight.jp,f1-gate.com,dailymail.co.uk#$#body div.fc-ab-root:not(#style_important) { display: none !important; }
+phys.org,gadgetversus.com,guideoftheworld.com,wpteq.org,forocoches.com,0115765.com,graphicget.com,nichepcgamer.com,aquafora.nl,bestreamsports.org,free-play-mahjong.com,toramemoblog.com,plejada.pl,wiki3.jp,3dgifmaker.com,betaprofiles.com,tvonline123.com,sshkit.com,meneame.net,fakt.pl,eggnsemulator.com,nintendoswitchroms.net,tvn.pl,halkarz.com,businessinsider.com.pl,learn-japanese-adventure.com,thetvdb.com,aranzulla.it,drikpanchang.com,ettoday.net,smstome.com,tvp.info,medevel.com,abczdrowie.pl,tvn24.pl,nikkei225jp.com,apuntesdeingles.com,cnbeta.com.tw,lidovky.cz,gazeta.pl,animefillerlist.com,i.pl,interia.pl,japan.techinsight.jp,f1-gate.com,dailymail.co.uk#$#body { overflow: visible !important; }
+phys.org,gadgetversus.com,guideoftheworld.com,wpteq.org,forocoches.com,0115765.com,graphicget.com,nichepcgamer.com,aquafora.nl,bestreamsports.org,free-play-mahjong.com,toramemoblog.com,plejada.pl,wiki3.jp,3dgifmaker.com,betaprofiles.com,tvonline123.com,sshkit.com,meneame.net,fakt.pl,eggnsemulator.com,nintendoswitchroms.net,tvn.pl,halkarz.com,businessinsider.com.pl,learn-japanese-adventure.com,thetvdb.com,aranzulla.it,drikpanchang.com,ettoday.net,smstome.com,tvp.info,medevel.com,abczdrowie.pl,tvn24.pl,nikkei225jp.com,apuntesdeingles.com,cnbeta.com.tw,lidovky.cz,gazeta.pl,animefillerlist.com,i.pl,interia.pl,japan.techinsight.jp,f1-gate.com,dailymail.co.uk#$#body div.fc-ab-root:not(#style_important) { display: none !important; }
 korben.info,alternativeto.net#%#//scriptlet('abort-current-inline-script', 'atob', '/googlefc|\.parentNode\.removeChild\(f\)/')
 sozcu.com.tr,heraldo.es,20minutos.es,tucson.com,gendai.media,hamakei.com,telva.com,gazettetimes.com,missoulian.com,kenoshanews.com,cumberlink.com,stltoday.com,auburnpub.com,trib.com,dailyprogress.com,journalstar.com,siouxcityjournal.com,pantagraph.com#%#//scriptlet("abort-on-property-read", "__tnt.adBlockEnabled")
 ||fundingchoicesmessages.google.com^$domain=video.repubblica.it|br0wsers.com|mathsspot.com|now.gg|aranzulla.it|3bmeteo.com
@@ -805,6 +805,8 @@ pornhub.com,pornhub.org,pornhub.net#%#//scriptlet('prevent-setTimeout', '\x41\x6
 youporn.com#%#//scriptlet('remove-node-text', 'script', '/window\.[\s\S]*?_zone_[\s\S]*?{"zone_id":/')
 youporn.com$$script:contains(/window\.[\s\S]*?_zone_[\s\S]*?{"zone_id":/)
 @@||static.trafficjunky.com/ab/ads_test.js$domain=bztube.com|hotovs.com|insuredhome.org|nudegista.com|pornluck.com|vidd.se|redtube.*|youpornru.com|tube8.com|tube8.es|tube8.fr|tube8.net|pornhub.com|pornhub.org|pornhub.net
+vuinsider.com###adblock-message
+vuinsider.com#%#//scriptlet('abort-current-inline-script', 'document.createElement', 'pagead2.googlesyndication.com')
 hmanga.world#%#//scriptlet('prevent-fetch', 'method:HEAD')
 @@||hdbkell.com/xv8ip.js$domain=hmanga.world
 @@||ads.poshtata.online/adsbygoogle.js$domain=seirsanduk.net
@@ -23279,6 +23281,7 @@ duba.com##.news_ctm_wrap > .ctm_ad
 yx.kimg.cn##ul#feedList > li.feed-list-ad
 ||duba.com/static/v*/js/tiyan*/ad/ad.*.js
 ||act.cmcmcdn.com/*/liondance/dist/js/bundle.js$domain=duba.com
+nb.zol.com.cn#%#//scriptlet('set-cookie', 'getIsToJd', '1')
 nb.zol.com.cn##.article-cont > div.zol-eshop
 hk.on.cc##div[id^="google_div_"]
 ||doupocangqiong1.com/js/ptwap.js
@@ -40349,6 +40352,8 @@ implbits.com#@#.banner_container
 @@||beinconnect.com.tr^$stealth
 @@||account.adobe.com^$document,domain=services.adobe.com,stealth=useragent
 @@||adguard.com^$stealth
+@@||zol-img.com.cn^$stealth=referrer,domain=zol.com.cn
+@@||cdn.tiny.cloud/*/tinymce/*.js$stealth=referrer
 @@||wettercom-c1.livespotting.com/memfs/$image,xmlhttprequest,stealth=referrer
 @@||5dm.link^$subdocument,stealth=referrer
 @@.com:*/vip/?url=$subdocument,stealth=referrer,domain=agedm.io
@@ -41833,7 +41838,7 @@ implbits.com#@#.banner_container
 @@||login.uid.me^$domain=ucoz.ru,stealth=3p-cookie
 @@||vodakpsdhdsdrm-vh.akamaihd.net/z/clips/$stealth=3p-cookie
 @@||faq.subaru.jp^$stealth=dpi
-@@||maol.meb.gov.tr^$stealth=dpi
+@@||meb.gov.tr^$stealth=dpi
 @@||nid.naver.com^$stealth=dpi
 @@||cafe24.com^$stealth=dpi
 @@||kargoist.com^$stealth=dpi
