@@ -1309,10 +1309,11 @@ ghbrisk.com###adbd
 ghbrisk.com#%#//scriptlet('prevent-element-src-loading', 'script', 'imasdk.googleapis.com/js/sdkloader/ima3.js')
 crazygames.com#$#.adsbox.advertisement.pub_300x250.pub_300x250m.pub_728x90.text-ad.textAd.text_ad.text_ads.text-ads.text-ad-links { display: block !important; }
 @@||crazygames.com^$generichide
-||pvpoke-re.com/*.js?v=$replace=/([};])location(?:\[.+?\]){2}\(.+?\)===-(?:\(.+?\)|_?0x[0-9a-f]+)&&.*?location(?:\[.+?\]){2}\(.+?\)+[\,>]-(?:\(.+?\)+|_?0x[0-9a-f]+)\?/\$1 0 ?/
-||pvpoke-re.com/*.js?v=$replace=/if\(location(?:\[.+?\]){2}\(.+?\).*?&&.*?location(?:\[.+?\]){2}\(.+?\)+[\,>]-(?:\(.+?\)+|_?0x[0-9a-f]+\))/if(0)/
-||pvpoke-re.com/*.js?v=$replace=/([};])_0x[0-9a-f]+\[(?:_0x[0-9a-f]+\([-0-9a-fx\,]+?\)|'[A-Za-z]+')\]\(location(?:\[(?:_0x[0-9a-f]+\(.+?\)|'[A-Za-z]+')\]){2}\(.+?\)\,-\(.+?\)\)&&.*?location(?:\[.+?\]){2}\(.+?\)+[\,>]-\(.+?\)\?/\$1 0 ?/
-||pvpoke-re.com/*.js?v=$replace=/if\(_0x[0-9a-f]+\[(?:_0x[0-9a-f]+\([-0-9a-fx\,]+?\)|'[A-Za-z]+')\]\(location(?:\[(?:_0x[0-9a-f]+\(.+?\)|'[A-Za-z]+')\]){2}\(.+?\)\,-\(.+?\)\)&&.*?location(?:\[.+?\]){2}\(.+?\)+[\,>]-(?:\(.+?\)+|_?0x[0-9a-f]+\))/if(0)/
+||pvpoke-re.com/*.js?v=$replace=/([};])location(?:\[.+?\]|[.Oa-z]+){2}\(.+?\)===-(?:\(.+?\)|_?0x[0-9a-f]+|1)&&.*?location(?:\[.+?\]|[.Oa-z]+){2}\(.+?\)+[\,>]-(?:\(.+?\)+|_?0x[0-9a-f]+|1)\?/\$1 0 ?/
+||pvpoke-re.com/*.js?v=$replace=/if\(location(?:\[.+?\]|[.Oa-z]+){2}\(.+?\).*?&&.*?location(?:\[.+?\]|[.Oa-z]+){2}\(.+?\)+[\,>]-(?:\(.+?\)+|_?0x[0-9a-f]+\)|1)/if(0)/
+||pvpoke-re.com/*.js?v=$replace=/([};])_0x[0-9a-f]+\[(?:_0x[0-9a-f]+\([-0-9a-fx\,]+?\)|'[A-Za-z]+'|[.Oa-z]+)\]\(location(?:\[(?:_0x[0-9a-f]+\(.+?\)|'[A-Za-z]+'|[.Oa-z]+)\]){2}\(.+?\)\,-\(.+?\)\)&&.*?location(?:\[.+?\]|[.Oa-z]+){2}\(.+?\)+[\,>]-(?:\(.+?\)|1)\?/\$1 0 ?/
+||pvpoke-re.com/*.js?v=$replace=/if\(_0x[0-9a-f]+\[(?:_0x[0-9a-f]+\([-0-9a-fx\,]+?\)|'[A-Za-z]+'|[.Oa-z]+)\]\(location(?:\[(?:_0x[0-9a-f]+\(.+?\)|'[A-Za-z]+'|[.Oa-z]+)\]){2}\(.+?\)\,-\(.+?\)\)&&.*?location(?:\[.+?\]|[.Oa-z]+){2}\(.+?\)+[\,>]-(?:\(.+?\)+|_?0x[0-9a-f]+\)|1)/if(0)/
+||pvpoke-re.com/*.js?v=$replace=/([};])-(?:\(.+?\)|_?0x[0-9a-f]+|1)===location[.Oa-z]+\(.+?\)&&.*?location[.Oa-z]+\(.+?\)[\,>]-(?:\(.+?\)|_?0x[0-9a-f]+|1)\?/\$1 0 ?/
 @@||pvpoke-re.com^$generichide
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,domain=pvpoke-re.com
 ||g.doubleclick.net/pagead/ads?client=ca-pub-3497863494706299$subdocument,redirect=noopframe,domain=pvpoke-re.com
@@ -8228,7 +8229,6 @@ newduba.cn###jq_youxi
 ||1188.com^$third-party
 ||2529.com^$third-party
 ||258zw.com^$third-party
-||3324.cn^$third-party
 ||3798.com^$third-party
 ||4567.org^$third-party
 ||50bang.org^$third-party
@@ -8261,7 +8261,6 @@ newduba.cn###jq_youxi
 ||jusha.com^$third-party
 ||kiwihk.net^$third-party
 ||linkvans.com^$third-party
-||mytanwan.com^$third-party
 ||niwota.com^$third-party
 ||onetad.com^$third-party
 ||piclick.cn^$third-party
@@ -8271,7 +8270,6 @@ newduba.cn###jq_youxi
 ||snmi.cn^$third-party
 ||snxyf.com^$third-party
 ||superfish.com^$third-party
-||tanwanyx.com^$third-party
 ||u7u9.com^$third-party
 ||vlion.cn^$third-party
 ||ze5.com^$third-party
@@ -17255,7 +17253,6 @@ boke112.com,ruanyifeng.com##a[href^="http://t.cn/"]
 mtrend.cn##a[href^="http://tao.mtrend.cn/"]
 9tour.cn##a[href^="http://union.zhuna.cn/"]
 qq.com##a[href^="http://www.10100000.com/"]
-v.baidu.com##a[href^="http://www.602.com/"]
 wapwenku.baidu.com,wk.baidu.com##a[href^="http://www.baidu.com/cpro.php?"]
 beephone.com.tw##a[href^="http://www.beephone.com.tw/adlink.php?id="]
 loldk.com##a[href^="http://www.esportsclub.cn/home/"]
@@ -19289,14 +19286,12 @@ smjb.net##div[style*="height: 50%"]
 $image,third-party,domain=258zw.com
 &xhtml?$script,third-party
 .*gcdcjr000.fun/$script,third-party
-.*ryt111.fun/$script,third-party
 .*roytj33.fun/$script,third-party
 .asp?wg&df=$script,third-party
 .asp?wsg&df=$script,third-party
 .baigh8eosmgie*.site^$script,third-party
 .com/code.php?a=index&z=$script,third-party,xmlhttprequest
 .fun/*_*_rony.js
-.hongi7ie8owiie*.site^$script,third-party
 .html?android=hx*&_$csp=script-src
 .icu/*_*_rony.js
 .js?ssid=_$script,third-party
@@ -24627,7 +24622,6 @@ newduba.cn###jq_youxi
 ||1188.com^$third-party
 ||2529.com^$third-party
 ||258zw.com^$third-party
-||3324.cn^$third-party
 ||3798.com^$third-party
 ||4567.org^$third-party
 ||50bang.org^$third-party
@@ -24660,7 +24654,6 @@ newduba.cn###jq_youxi
 ||jusha.com^$third-party
 ||kiwihk.net^$third-party
 ||linkvans.com^$third-party
-||mytanwan.com^$third-party
 ||niwota.com^$third-party
 ||onetad.com^$third-party
 ||piclick.cn^$third-party
@@ -24670,7 +24663,6 @@ newduba.cn###jq_youxi
 ||snmi.cn^$third-party
 ||snxyf.com^$third-party
 ||superfish.com^$third-party
-||tanwanyx.com^$third-party
 ||u7u9.com^$third-party
 ||vlion.cn^$third-party
 ||ze5.com^$third-party
@@ -33652,7 +33644,6 @@ boke112.com,ruanyifeng.com##a[href^="http://t.cn/"]
 mtrend.cn##a[href^="http://tao.mtrend.cn/"]
 9tour.cn##a[href^="http://union.zhuna.cn/"]
 qq.com##a[href^="http://www.10100000.com/"]
-v.baidu.com##a[href^="http://www.602.com/"]
 wapwenku.baidu.com,wk.baidu.com##a[href^="http://www.baidu.com/cpro.php?"]
 beephone.com.tw##a[href^="http://www.beephone.com.tw/adlink.php?id="]
 loldk.com##a[href^="http://www.esportsclub.cn/home/"]
@@ -35681,14 +35672,12 @@ smjb.net##div[style*="height: 50%"]
 $image,third-party,domain=258zw.com
 &xhtml?$script,third-party
 .*gcdcjr000.fun/$script,third-party
-.*ryt111.fun/$script,third-party
 .*roytj33.fun/$script,third-party
 .asp?wg&df=$script,third-party
 .asp?wsg&df=$script,third-party
 .baigh8eosmgie*.site^$script,third-party
 .com/code.php?a=index&z=$script,third-party,xmlhttprequest
 .fun/*_*_rony.js
-.hongi7ie8owiie*.site^$script,third-party
 .html?android=hx*&_$csp=script-src
 .icu/*_*_rony.js
 .js?ssid=_$script,third-party
