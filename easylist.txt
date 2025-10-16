@@ -129,6 +129,15 @@
 ||hash.trafficmanager.net^
 ||51tongji.trafficmanager.net^
 ||cnzz.trafficmanager.net^
+||zsy10161yok.com^
+||hhr3ybjsoy.com^
+||yizj5fcwaj.com^
+||snickers44.com^
+||ndja.cn^
+||dqnajb.icu^
+||githuhey.com^
+||58rfnch2yq.com^
+||lwlkw7.com^
 ||jkwybt9hc.com^
 ||ok3o5s3xi.com^
 ||lhvlkgbkjmrnc.com^
@@ -5851,6 +5860,13 @@
 ||hash.trafficmanager.net^
 ||51tongji.trafficmanager.net^
 ||cnzz.trafficmanager.net^
+||zsy10161yok.com^
+||hhr3ybjsoy.com^
+||yizj5fcwaj.com^
+||snickers44.com^
+||ndja.cn^
+||dqnajb.icu^
+||githuhey.com^
 ||jkwybt9hc.com^
 ||ok3o5s3xi.com^
 ||lhvlkgbkjmrnc.com^
@@ -33646,7 +33662,6 @@
 ||gexo.com^
 ||hongyi.com^
 ||rumahsabiq.com^
-||teenporn.com^
 @@||ad.azure.com^
 @@||ad.ext.azure.com^
 @@||ads.taboola.com^
