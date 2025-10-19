@@ -129,6 +129,15 @@
 ||hash.trafficmanager.net^
 ||51tongji.trafficmanager.net^
 ||cnzz.trafficmanager.net^
+||alcoholic56.top^
+||lf2cgxz0b.com^
+||84dwl4bbq.com^
+||zsy10190yok.com^
+||xmbfrn.icu^
+||tikz.cn^
+||4z50jczq2.com^
+||x3pfkiohz.com^
+||zsy10191yok.com^
 ||tfyam4np2y.com^
 ||7imz0d5nay.com^
 ||compose99.com^
@@ -5885,6 +5894,15 @@
 ||hash.trafficmanager.net^
 ||51tongji.trafficmanager.net^
 ||cnzz.trafficmanager.net^
+||alcoholic56.top^
+||lf2cgxz0b.com^
+||84dwl4bbq.com^
+||zsy10190yok.com^
+||xmbfrn.icu^
+||tikz.cn^
+||4z50jczq2.com^
+||x3pfkiohz.com^
+||zsy10191yok.com^
 ||tfyam4np2y.com^
 ||7imz0d5nay.com^
 ||compose99.com^
@@ -33710,7 +33728,6 @@
 ||hzs9.cnzz.com^
 ||hzvs1.cnzz.com^
 ||pcookie.cnzz.com^
-||dongfanghong.com^
 ||gexo.com^
 ||hongyi.com^
 ||rumahsabiq.com^
@@ -33796,9 +33813,7 @@
 @@||ads.cdn.tvb.com^
 @@||ads.console.aliyun.com^
 @@||login-sh.aki-game.com^
-@@||rocket.chat^
 @@||usageapi.*.oraclecloud.com^
-@@||download.falco.org^
 @@||ad-block.dns.adguard.com^
 @@||app.powerbi.com^
 @@||tube.e.kuaishou.com^
@@ -103878,7 +103893,6 @@
 ||scaredstomach.com^
 ||scarefowl.com^
 ||scareshortnovel.com^
-||scarf.sh^
 ||scarfsethenic.click^
 ||scarfsmash.com^
 ||scarftruman.world^
@@ -130019,6 +130033,7 @@
 ||pingma.qq.com^
 ||sugar.zhihu.com^
 ||stat.meitudata.com^
+@@||x2.ifengimg.com^
 @@||manwa.me^
 @@||cdn-msp*.18comic*.*^
 @@||cdn-msp*.18comic.*^
