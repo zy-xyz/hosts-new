@@ -813,12 +813,14 @@ spedostream2.shop,play.watch20.space#%#//scriptlet('set-constant', 'adblock_dete
 @@||omuzaani.me^$generichide
 omuzaani.me#$#body:not(#style_important) > div[id].jwplayer { display: block !important; }
 omuzaani.me#$#body > #ad_banner { display: block !important; }
+omuzaani.me#%#//scriptlet('prevent-fetch', 'summerday.christmas')
+omuzaani.me#%#//scriptlet('prevent-setTimeout', 'window.location.replace')
 omuzaani.me#%#//scriptlet('abort-current-inline-script', 'Number', 'probeScript')
 omuzaani.me#%#//scriptlet('prevent-element-src-loading', 'img', 'summerday.christmas')
 omuzaani.me#%#//scriptlet('trusted-replace-node-text', 'script', 'forceKillplayer', '/forceKillplayer\(/g', '//forceKillplayer(')
 omuzaani.me#%#//scriptlet('trusted-replace-node-text', 'script', 'window.location.replace', '/window.location.replace/g', '//window.location.replace')
-||omuzaani.me^$replace=/forceKillplayer\(/\/\/forceKillplayer(/,document
-||omuzaani.me^$replace=/window.location.replace/\/\/window.location.replace/,document
+||omuzaani.me^$replace=/forceKillplayer\(/\/\/forceKillplayer(/,document,subdocument
+||omuzaani.me^$replace=/window.location.replace/\/\/window.location.replace/,document,subdocument
 convert.guru#%#//scriptlet('prevent-element-src-loading', 'script', 'pagead2.googlesyndication.com')
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,domain=convert.guru
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=convert.guru
@@ -3492,6 +3494,7 @@ codevn.net#%#//scriptlet("prevent-setInterval", "['offsetHeight']")
 codevn.net##.swal2-container
 link.codevn.net#%#//scriptlet('abort-on-property-write', 'checkDomain')
 @@/|$xmlhttprequest,domain=link.codevn.net
+h-game18.xyz#%#//scriptlet('prevent-addEventListener', 'load', 'pagead2.googlesyndication.com')
 h-game18.xyz#%#//scriptlet('prevent-element-src-loading', 'script', 'pagead2.googlesyndication.com')
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,xmlhttprequest,redirect=googlesyndication-adsbygoogle,domain=h-game18.xyz
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=h-game18.xyz
@@ -40407,6 +40410,9 @@ implbits.com#@#.banner_container
 @@||beinconnect.com.tr^$stealth
 @@||account.adobe.com^$document,domain=services.adobe.com,stealth=useragent
 @@||adguard.com^$stealth
+@@.ts$stealth=referrer,domain=omuzaani.me
+@@/master.m3u8$stealth=referrer,domain=omuzaani.me
+@@||boanki.net/*/*$stealth=referrer,domain=omuzaani.me
 @@||zoigvids.zoigg.com^$stealth=referrer,domain=zoig.com
 @@||erocdn.net/data/*.jpg$stealth=referrer
 @@||static.foxnews.com/static/orion/html/video/iframe$stealth=referrer
