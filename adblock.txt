@@ -814,13 +814,13 @@ spedostream2.shop,play.watch20.space#%#//scriptlet('set-constant', 'adblock_dete
 omuzaani.me#$#body:not(#style_important) > div[id].jwplayer { display: block !important; }
 omuzaani.me#$#body > #ad_banner { display: block !important; }
 omuzaani.me#%#//scriptlet('prevent-fetch', 'summerday.christmas')
-omuzaani.me#%#//scriptlet('prevent-setTimeout', 'window.location.replace')
+omuzaani.me#%#//scriptlet('prevent-setTimeout', '/window\.location\.(replace|href)/')
 omuzaani.me#%#//scriptlet('abort-current-inline-script', 'Number', 'probeScript')
 omuzaani.me#%#//scriptlet('prevent-element-src-loading', 'img', 'summerday.christmas')
 omuzaani.me#%#//scriptlet('trusted-replace-node-text', 'script', 'forceKillplayer', '/forceKillplayer\(/g', '//forceKillplayer(')
-omuzaani.me#%#//scriptlet('trusted-replace-node-text', 'script', 'window.location.replace', '/window.location.replace/g', '//window.location.replace')
+omuzaani.me#%#//scriptlet('trusted-replace-node-text', 'script', 'window.location', '/(window\.location\.(replace|href))/g', '//$1')
 ||omuzaani.me^$replace=/forceKillplayer\(/\/\/forceKillplayer(/,document,subdocument
-||omuzaani.me^$replace=/window.location.replace/\/\/window.location.replace/,document,subdocument
+||omuzaani.me^$replace=/(window\.location\.(replace|href))/\/\/\$1/,document,subdocument
 convert.guru#%#//scriptlet('prevent-element-src-loading', 'script', 'pagead2.googlesyndication.com')
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,domain=convert.guru
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=convert.guru
@@ -1203,18 +1203,6 @@ poplinks.sbs#%#//scriptlet('abort-on-property-write', 'checkAdsStatus')
 poplinks.sbs#%#//scriptlet('prevent-element-src-loading', 'script', 'cloudfront.net')
 poplinks.sbs#%#//scriptlet('abort-current-inline-script', 'document.createElement', 'AdBlock')
 shorttrick.in#%#//scriptlet('prevent-xhr', 'pagead2.googlesyndication.com')
-kio.ac#%#//scriptlet('prevent-element-src-loading', 'script', 'pagead2.googlesyndication.com/pagead/js/adsbygoogle.js')
-kio.ac#%#(()=>{const t=window.Set.prototype.has,e={apply:(e,o,p)=>{try{if(0===o?.size&&4===p[0])return window.Set.prototype.has=t,!0}catch(t){}return Reflect.apply(e,o,p)}};window.Set.prototype.has=new Proxy(window.Set.prototype.has,e)})();
-kio.ac#%#(()=>{const t={apply:(t,e,o)=>{try{0===e?.size&&"function"==typeof o[0]&&(o[0]?.toString().includes("'DISAB'+")||o[0]?.toString().includes(";break;case"))&&e.add(4)}catch(t){}return Reflect.apply(t,e,o)}};window.Set.prototype.forEach=new Proxy(window.Set.prototype.forEach,t)})();
-kio.ac#%#(()=>{const t={apply:(t,e,r)=>{try{3===e.length&&e.every((t=>"function"==typeof t&&t.toString().includes("element:")))&&(r[0]=()=>!1)}catch(t){}return Reflect.apply(t,e,r)}};window.Array.prototype.map=new Proxy(window.Array.prototype.map,t)})();
-kio.ac#%#(()=>{const e={apply:(e,o,t)=>{try{const e=o;e.length>0&&e.length<5&&"object"==typeof e[0]&&null!==e[0]&&Object.hasOwn(e[0],"blocked")&&(e.forEach((e=>{e&&"object"==typeof e&&Object.hasOwn(e,"blocked")&&(e.blocked=!1)})),o=e)}catch(e){}return Reflect.apply(e,o,t)}};window.Array.prototype.some=new Proxy(window.Array.prototype.some,e)})();
-kio.ac#%#(()=>{const n={construct:(n,o,t)=>{const c=o[0];return"function"==typeof c&&c.toString().includes("(){Date.now()>=")&&(o[0]=()=>{}),Reflect.construct(n,o,t)}};window.Promise=new Proxy(window.Promise,n)})();
-kio.ac#@#ins.adsbygoogle[data-ad-slot]
-kio.ac#@#ins.adsbygoogle[data-ad-client]
-kio.ac#@#.adsbygoogle-noablate
-kio.ac#@#.ad-slot
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=kio.ac
-@@||pagead2.googlesyndication.com/pagead/managed/js/adsense/*/show_ads_impl_fy2021.js$domain=kio.ac
 minorpatch.com#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=minorpatch.com
 classace.io#%#//scriptlet('prevent-fetch', 'doubleclick.net')
@@ -3091,13 +3079,15 @@ pracezdopravy.cz#%#//scriptlet('set-constant', 'adBlockEnabled', 'false')
 rackusreads.com#%#//scriptlet('remove-attr', 'style', 'html')
 programmingeeksclub.com#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=programmingeeksclub.com
-app.axenthost.com#%#//scriptlet('set-constant', 'nitroAds.loaded', 'true')
-app.axenthost.com#%#//scriptlet('prevent-fetch', 'stripe.com')
+@@||app.axenthost.com^$generichide
+@@||s.nitropay.com^$domain=app.axenthost.com
+@@||stripe.com^$domain=app.axenthost.com
+@@||static.cloudflareinsights.com^$domain=app.axenthost.com
 @@||bidder.criteo.com/cdb|$domain=app.axenthost.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=app.axenthost.com
 @@||axenthost.com^$generichide
-@@||s.nitropay.com/ads-*.js$domain=app.axenthost.com
-@@||stripe.com^$xmlhttprequest,domain=app.axenthost.com
+@@||stripe.com^$domain=app.axenthost.com
+@@||static.cloudflareinsights.com^$domain=app.axenthost.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=repo.hackyouriphone.org
 @@||linkvertise.download^$generichide
 quicksounds.com#%#//scriptlet("abort-current-inline-script", "document.getElementById", "fcca")
@@ -5917,7 +5907,6 @@ heidisql.com#%#//scriptlet('set-constant', 'floovy', 'undefined')
 ||theappstore.org/script.js$replace=/(result\.length > 10000 \? "no" : ")yes(";)/\$1no\$2/
 theappstore.org#$##divalert { display: none !important; }
 theappstore.org#$##bodypanel { filter: none !important; }
-@@||aosmark.com/ads.js
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noopjs,important,domain=theappstore.org
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=theappstore.org
 @@||porkyfap.org^$generichide
@@ -36673,6 +36662,7 @@ _300x250.js
 /v0/amp-addthis-*.js
 .com:8010/cc/
 /js/gg123/*
+||imjtv.cc^$third-party
 ||3qxsa.cc/js/news2.js
 /static/lbsite/*/*.js?v=$third-party
 ||dytt8.com/js*
@@ -40410,6 +40400,7 @@ implbits.com#@#.banner_container
 @@||beinconnect.com.tr^$stealth
 @@||account.adobe.com^$document,domain=services.adobe.com,stealth=useragent
 @@||adguard.com^$stealth
+@@||sp.auth.adobe.com/reggie/*/regcode$stealth=3p-auth
 @@.ts$stealth=referrer,domain=omuzaani.me
 @@/master.m3u8$stealth=referrer,domain=omuzaani.me
 @@||boanki.net/*/*$stealth=referrer,domain=omuzaani.me
