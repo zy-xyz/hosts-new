@@ -40500,6 +40500,8 @@ implbits.com#@#.banner_container
 @@||beinconnect.com.tr^$stealth
 @@||account.adobe.com^$document,domain=services.adobe.com,stealth=useragent
 @@||adguard.com^$stealth
+@@||cdn1.comicknew.pictures^$image,stealth=referrer
+@@||checkoutshopper-live-us.adyen.com^$stealth=referrer
 @@||cdnvideo*.shop^$stealth=referrer
 @@||stream1.store^$stealth=referrer
 @@||tp-link.com^$stealth=referrer
@@ -40674,7 +40676,7 @@ implbits.com#@#.banner_container
 @@||mdnplay.dev/runner.html$stealth=referrer
 @@||happymh.com^$image,domain=hihimanga.com,stealth=referrer
 @@||mgsearcher.com/api/$stealth=referrer
-@@||g-mh.online^$image,domain=bzmh.org,stealth=referrer
+@@||*mh.online/*.webp$stealth=referrer
 @@||imgs-2.virus2hub.com^$image,stealth=referrer
 @@||imgs-2.2xstorage.com$image,stealth=referrer
 @@||img-r1.2xstorage.com^$image,stealth=referrer
