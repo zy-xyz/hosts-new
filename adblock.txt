@@ -40560,6 +40560,8 @@ implbits.com#@#.banner_container
 @@||beinconnect.com.tr^$stealth
 @@||account.adobe.com^$document,domain=services.adobe.com,stealth=useragent
 @@||adguard.com^$stealth
+@@||betconnect.website/kanalresim$stealth=referrer
+@@||betconnect.website/player/$stealth=referrer
 @@||embed.nana2play.com^$subdocument,stealth=referrer
 @@||useast-*.ordercloud.io^$stealth=3p-auth
 @@||t-j.ru^$stealth=useragent
