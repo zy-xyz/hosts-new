@@ -130,6 +130,18 @@
 ||hash.trafficmanager.net^
 ||51tongji.trafficmanager.net^
 ||cnzz.trafficmanager.net^
+||ygg1e0gmc.com^
+||kqgx3eyz7.com^
+||xjx11210ts.com^
+||membrane68.com^
+||zwvq.cn^
+||jfxefv.icu^
+||glmeilgroi.com^
+||rz2xtcvuy.com^
+||xjx11211ts.com^
+||j694fx3bp.com^
+||qrtibl.cn^
+||ghovvadv.com^
 ||n2d79v41a3.com^
 ||5hffr1p22j.com^
 ||yournames.click^
@@ -6087,6 +6099,18 @@
 ||hash.trafficmanager.net^
 ||51tongji.trafficmanager.net^
 ||cnzz.trafficmanager.net^
+||ygg1e0gmc.com^
+||kqgx3eyz7.com^
+||xjx11210ts.com^
+||membrane68.com^
+||zwvq.cn^
+||jfxefv.icu^
+||glmeilgroi.com^
+||rz2xtcvuy.com^
+||xjx11211ts.com^
+||j694fx3bp.com^
+||qrtibl.cn^
+||ghovvadv.com^
 ||n2d79v41a3.com^
 ||5hffr1p22j.com^
 ||yournames.click^
@@ -38015,6 +38039,7 @@
 ||adfrontiers.com^
 ||adfsda005.xyz^
 ||adfunds.org^
+||adfunlink.com^
 ||adfurikun.jp^
 ||adfusion.com^
 ||adfuture.cn^
@@ -45507,7 +45532,7 @@
 ||bidsxchange.com^
 ||bidtheatre.com^
 ||bidtimize.com^
-||c.bidtoolads.com^
+||bidtoolads.com^
 ||m.biduo.cc^
 ||cn.bidushe.com^
 ||bidvance.com^
@@ -107973,6 +107998,7 @@
 ||yddtah.takingshape.com^
 ||a8clk.takken-job.com^
 ||traffic.taktikal.is^
+||takuad.com^
 ||swwcyk.takvim.com.tr^
 ||talaropa.com^
 ||marketing.talbot-promo.com^
@@ -110305,6 +110331,7 @@
 ||toazdkl.top^
 ||tobaccosturgeon.com^
 ||tobaltoyon.com^
+||tobidad.com^
 ||tobipovsem.com^
 ||toboads.com^
 ||toc.io^
@@ -110521,6 +110548,7 @@
 ||topnewsgo.com^
 ||topodat.info^
 ||topofblogs.com^
+||toponad.com^
 ||topperformance.xyz^
 ||otx23nu6rzon.prep.toppers.com^
 ||toppleunit.com^
@@ -123278,6 +123306,8 @@
 ||a8.zzz-land.com^
 ||zzzjvqzmkaevj.top^
 ||zzzmjfixezere.site^
+||aorlpi.cn^
+||tagtd.cn^
 ||hwwzqi.cn^
 ||blzgeuuz.icu^
 ||iefmvk.cn^
@@ -128173,6 +128203,9 @@
 ||mobads-logs.baidu.com^
 ||als.baidu.com^
 ||hmma.baidu.com^
+||loadmypath.click^
+||jumpfiledoor.click^
+||oysterspottery.com^
 ||dsxlez.com^
 ||iionads.com^
 ||slc.cbssports.com^
