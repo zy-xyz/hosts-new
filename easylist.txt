@@ -348703,6 +348703,13 @@
 @@||yandex.st/swfobject^
 @@||zhuti.xiaomi.com^
 @@||zlavomat.sk/akcia^
+@@||a0.app.xiaomi.com^
+@@||sec.miui.com^
+@@||quark.cn^
+@@||xboxlive.cn^
+||open-iflow.meizu.com^
+||jddebug.com^
+@@||tanx.com^
 ||adunblock.static-cloudflare.workers.dev^
 ||pasfox.co^
 ||armpitgratitudecruelty.com^
