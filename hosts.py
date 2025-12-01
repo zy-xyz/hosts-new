@@ -44,7 +44,6 @@ links = [
     "https://raw.githubusercontent.com/Clov614/SteamHostSync/main/Hosts",
     "https://raw.githubusercontent.com/entr0pia/fcm-hosts/fcm/fcm-hosts",
     "https://raw.githubusercontent.com/JohyC/Hosts/refs/heads/main/hosts.txt",
-    "https://raw.githubusercontent.com/8680/GOODBYEADS/master/data/rules/dns.txt",
     "https://raw.githubusercontent.com/8680/GOODBYEADS/master/data/rules/allow.txt",
     "https://raw.githubusercontent.com/zy-xyz/hosts-new/refs/heads/main/diy.txt",
     "https://github-hosts.tinsfox.com/hosts",
