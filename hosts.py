@@ -47,6 +47,7 @@ links = [
     "https://raw.githubusercontent.com/8680/GOODBYEADS/master/data/rules/dns.txt",
     "https://raw.githubusercontent.com/8680/GOODBYEADS/master/data/rules/adblock.txt",
     "https://raw.githubusercontent.com/8680/GOODBYEADS/master/data/rules/allow.txt",
+    "https://raw.githubusercontent.com/zy-xyz/hosts-new/refs/heads/main/diy.txt",
     "https://github-hosts.tinsfox.com/hosts",
     "https://raw.githubusercontent.com/geoisam/FuckScripts/main/adfuck.txt"    
 ]
