@@ -21962,8 +21962,8 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > .r
 ||im.1vkx.cn/uploads/images/*.gif$third-party
 /^(?!.*(mega.co.nz|mega.nz|libs.baidu.com|ilfcdn.li|bytecdntp.com|doodcdn.io|intensedebate.com|vixcloud.co|cdn.plyr.io|rsc.cdn77.org|linkvertise.com|fastly.net|statically.io|sharecast.ws|b-cdn.net|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|(\/\/|\.)vk\.com|yandex.|yastatic.net|ytimg.com|zencdn.net|player|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|fastcomments.com|plyr.io|imgsmail.ru|cloudflare.net|rabbitstream.net|51.la|cloudflareinsights.com|tongjiniao.com|vp1shop.shop|ovscdns.com|(\/\/|\.)x\.com)).*$/$third-party,script,_____,domain=manshuxs.com|yemancomic.com|qimiaoxiaoshuo.com|gaofuwu.org|nxpaaq.com|dengbi2.com|92hm.top|634.tv|myhaitang.cc|ckplayer.vip|qushucheng.com|av6k.com|18j.tv|uaa.com
 *$script,third-party,denyallow=mega.co.nz|mega.nz|libs.baidu.com|ilfcdn.li|bytecdntp.com|doodcdn.io|intensedebate.com|vixcloud.co|cdn.plyr.io|rsc.cdn77.org|linkvertise.com|fastly.net|statically.io|sharecast.ws|b-cdn.net|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yastatic.net|ytimg.com|zencdn.net|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|fastcomments.com|plyr.io|imgsmail.ru|cloudflare.net|rabbitstream.net|x.com|51.la|cloudflareinsights.com|tongjiniao.com|vp1shop.shop|lamparasde.net|hoopchina.com.cn|kankan2024.com|ovscdns.com,_____,domain=wap.dmwenku.com|m.wfxs.tw|wap.ishuquge.la|m.91zww.com|592mh.top|dubuxiaoshuo.com|clm410.buzz|bookbl.com|shuku99.com|qiyoudy2.com|1yydstxt178.com|rouman5.com|feijisu20.com|iqb5.org|wap.xkushu.com|spoilertop.com|booktxts.com|bixia33.com|rouwenwu19.com|91porny.com|yznnw.com|vodtw.la|ckplayer.vip|uuread.tw|fengchedmp.com|aeahsck.cc|xiaoshubao.net|wap.yushuwu.cloud|twbook.cc|vodtw.xyz|xbqg6.com|qq3009qq.link|18jtv.cc|m.haxuku.com|xm200.com|av6k.com|18j.tv|haiwaishubao.com|uaa.com|lamparasde.net|bbs.hupu.com|kankan2024.com|hanime1-me.icu|hanime1-me.top
+toy-people.com##.article_insertAD
 news.cnyes.com##.a133dm9s
-||xchina.$domain=crxs.me
 crxs.me#%#//scriptlet('abort-current-inline-script', 'document.createElement', 'visitUrl')
 crxs.me##.push-top
 cava.tw##.banner
@@ -23785,6 +23785,7 @@ $$script:contains(?is_not=1&target=1&ty=2)
 ~leynwell.top##body > [style^="display: block; width: 100%; height:"]:empty
 ~leynwell.top##body > [style^="display: block; width: 100%; height:"]:empty ~ :not(div)[style^="display: block; z-index: "]
 /^https:\/\/www\.xiguashuwu\.com\/[a-z]{15,20}\/[a-z]{15,20}\.js\?v=/$script,domain=xiguashuwu.com
+huoqwk.com,wap.biqugewx.info#%#//scriptlet('prevent-setTimeout', 'addEventListener("touchstart"')
 enhuku.com#%#//scriptlet('set-constant', 'adObj', 'noopFunc')
 m.13xsw.com,wap.yushuwu.cloud#%#//scriptlet('prevent-addEventListener', 'touchend', 'clientheight')
 hanime1.me#%#//scriptlet("trusted-replace-node-text", "script", "popunder", "/window\.open\('(.*?)',.*?\);\n.*location.href = '.*';/", "location.assign('$1');")
@@ -44440,6 +44441,7 @@ popbee.com##.adblocker
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=cwseed.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=dailystar.co.uk
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=danet.vn
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=denik.cz
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=digitalspy.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=dingit.tv
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=discoveryplus.in
@@ -47819,6 +47821,7 @@ popbee.com##.adblocker
 @@||play.tv3.lv^$generichide
 @@||play.vidyard.com^$stealth=referrer|webrtc
 @@||playback.api.streaks.jp/*/projects/tver-*/medias/$domain=tver.jp,stealth=ip
+@@||playcloud1.asia^$stealth=referrer
 @@||playcode.io^$generichide
 @@||playep.pro/log_event$~third-party,xmlhttprequest
 @@||player*.cinestream.bid^$stealth=referrer
@@ -47873,6 +47876,7 @@ popbee.com##.adblocker
 @@||player.ynet.co.il/*/flowplayer.ads.*.ynet.js$domain=ynet.co.il
 @@||playercdn.net/*.mp4
 @@||playercdn.net/*.mp4$domain=anyanime.com
+@@||playerp2p.com^$stealth=referrer
 @@||players.fichub.com/plugins/adobe/$domain=24kitchen.pt
 @@||playlists.rocks^$generichide
 @@||playmyopinion.com/assets/developer/js/prebid-ads.js
@@ -50292,6 +50296,7 @@ popbee.com##.adblocker
 @@||tms.delta.com/delta/dl_bastian/*.js$domain=delta.com
 @@||tms.delta.com/delta/dl_bastian/serverComponent.php$domain=delta.com
 @@||tms.oracle.com/main/prod/utag.sync.js$~third-party
+@@||tms.post.ch/*gtm.js|
 @@||tn.voyeurhit.com^$domain=voyeurhit.tube
 @@||tnmr.org/hls$stealth=useragent
 @@||tns-counter.ru/tcounter.js$domain=forbes.ru
@@ -54839,6 +54844,7 @@ implbits.com#@#.banner_container
 @@||beinconnect.com.tr^$stealth
 @@||account.adobe.com^$document,domain=services.adobe.com,stealth=useragent
 @@||adguard.com^$stealth
+@@||playcloud1.asia^$stealth=referrer
 @@||playerp2p.com^$stealth=referrer
 @@||ifsaembed.site^$stealth=referrer
 @@||kadolop.cfd/*.mp4$stealth=referrer
