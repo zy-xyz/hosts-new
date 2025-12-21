@@ -820,6 +820,8 @@ pornhub.com,pornhub.org,pornhub.net#%#//scriptlet('prevent-setTimeout', '\x41\x6
 youporn.com#%#//scriptlet('remove-node-text', 'script', '/window\.[\s\S]*?_zone_[\s\S]*?{"zone_id":/')
 youporn.com$$script:contains(/window\.[\s\S]*?_zone_[\s\S]*?{"zone_id":/)
 @@||static.trafficjunky.com/ab/ads_test.js$domain=bztube.com|hotovs.com|insuredhome.org|nudegista.com|pornluck.com|vidd.se|redtube.*|youpornru.com|tube8.com|tube8.es|tube8.fr|tube8.net|pornhub.com|pornhub.org|pornhub.net
+ups2up.fun#%#//scriptlet('prevent-setTimeout', 'justDetectAdblock')
+@@||ups2up.fun^$generichide
 ajdown.space#%#//scriptlet('prevent-fetch', '/pagead2\.googlesyndication\.com|doubleclick\.net|adservice\.google\.com/')
 ajdown.space###adblock-overlay { display: none !important; }
 ajdown.space#$#body { overflow: auto !important; }
@@ -29256,6 +29258,7 @@ h-ciyuan.com##.responsive-figure
 warcraftlogs.com##span[id^="ap-"]
 warcraftlogs.com##span[id^="apsf-"]
 youku.com##div[class*="adDrawer"]
+vikacg.com,vikacg.icu,vikacg.xyz##div[class^="my-"] > .grid > a[href^="http"]:not([href*="vikacg."])
 vikacg.com,vikacg.icu,vikacg.xyz##div[class^="my-"] > a[href^="http"]:not([href*="vikacg."])
 6park.com##td[style="line-height:30px;text-align:center;color:red;background-color:white;"]
 6park.com##.main_news_list > a[href^="http"]:not([href*="6park.com"])
@@ -37253,6 +37256,8 @@ thepaper.cn##[class^='index_footer_banner']
 www.wenshushu.cn##A[href^='https://wenshushu.cn/ad/']
 cupfox.app##IMG[class^='jsx-'][width='100%'],.swiper-wrapper img[class^='jsx-'][class*='a']:only-child,.cupfox-content.right,.cupfox-content.left
 youtube.com##AD-SLOT-RENDERER
+iplark.com##div.search-container > [style='display: block;']
+iplark.com##body > #capture-area ~ div[class]:empty
 90mh.org##[style$='background-size: 393px 125px !important;']
 118pan.com##.card.mt-2:nth-child(2)
 m.autohome.com.cn##section > ol
@@ -37752,6 +37757,7 @@ popbee.com##.adblocker
 @@.google-analytics.com%2Fanalytics.js$domain=free.com.tw
 @@.googleadservices.*.js$domain=ponominalu.ru
 @@.html$xmlhttprequest,subdocument,stealth=referrer,domain=edgedeliverynetwork.com
+@@.html-load.com/player/*/70/$script,subdocument,xmlhttprequest
 @@.instantservice.com$document
 @@.jpg#$domain=huhupan.com
 @@.jpg#$domain=ktmx.pro
@@ -38039,6 +38045,7 @@ popbee.com##.adblocker
 @@/pop.js|$domain=pornve.com
 @@/prebid-js-$domain=mytvsuper.com|tvb.com|tvbs.com.tw
 @@/prebid.$script,domain=mingpao.com
+@@/prebid.min.js$~third-party,domain=advertape.net|tapepops.com|watchadsontape.com|advertisertape.com|tapeadvertisement.com|adblockplustape.xyz|tapelovesads.org|gettapeads.com|tapeadsenjoyer.com|noblocktape.com|antiadtape.com|tapewithadblock.org|streamadblocker.*|strtape.cloud|adblockeronstape.me|streamadblockplus.com|shavetape.*|adblockstrtape.link|adblockstrtech.link|adblockstreamtape.*|stape.fun|strcloud.link|streamtape.*|streamtape.com
 @@/premium*/*.php$subdocument,stealth=referrer,domain=stronstream.shop|sportzlive.shop
 @@/premium*/tracks-*.html$xmlhttprequest,stealth=referrer
 @@/progress.php?callback=$script,domain=ytmp3.cc
@@ -50826,6 +50833,7 @@ popbee.com##.adblocker
 @@||ups.com/WebTracking/
 @@||ups.xplosion.de/ctx$domain=ingame.de
 @@||ups.xplosion.de/ctx?event_id=$domain=tz.de
+@@||ups2up.fun^$generichide
 @@||upstream.to/ads/pop.js
 @@||upstream.to/advertisement/ads.js
 @@||upstream.to/embed-*.html$domain=javtiful.com
@@ -51188,7 +51196,6 @@ popbee.com##.adblocker
 @@||wataugademocrat.com^$generichide
 @@||watch.globaltv.com^$generichide
 @@||watch.opensubtitles.org/signup?ad_domain=
-@@||watchadsontape.com/prebid.min.js
 @@||watchdirty.to/player/stats.php
 @@||watchdoctorwhoonline.com^$generichide
 @@||watcheverybodylovesraymond.com^$generichide
