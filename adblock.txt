@@ -23899,8 +23899,13 @@ csdn.net###footerRightAds
 ||banzhu*.net/js/html*.js$~third-party
 banzhu1111111.com,banzhu2222222.com,banzhu3333333.com,banzhu4444444.com,banzhu5555555.com,banzhu6666666.com,banzhu7777777.com,banzhu8888888.com,banzhu9999999.com#%#//scriptlet('abort-current-inline-script', 'document.getElementsByTagName', '_mtj')
 *$script,third-party,denyallow=mega.co.nz|mega.nz|libs.baidu.com|ilfcdn.li|bytecdntp.com|doodcdn.io|intensedebate.com|vixcloud.co|cdn.plyr.io|rsc.cdn77.org|linkvertise.com|fastly.net|statically.io|sharecast.ws|b-cdn.net|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yastatic.net|ytimg.com|zencdn.net|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|fastcomments.com|plyr.io|imgsmail.ru|cloudflare.net|rabbitstream.net|x.com|51.la|cloudflareinsights.com|tongjiniao.com|vp1shop.shop|lamparasde.net|hoopchina.com.cn|kankan2024.com|ovscdns.com,domain=banzhu1111111.com|banzhu2222222.com|banzhu3333333.com|banzhu4444444.com|banzhu5555555.com|banzhu6666666.com|banzhu7777777.com|banzhu8888888.com|banzhu9999999.com
+:800*/d/*n=$script,third-party,xmlhttprequest
+:800*/d/*?t=$script,third-party,xmlhttprequest
+.top:9956/$third-party
 .com:8007/sc/*?n=$third-party,script
+~github.com$$script:contains(F6O2cY=Fa[67c}vFvvcY85cYaa)
 ~github.com$$script:contains(var d10={win:false,mac:false,xll:false};)
+$$div[style="display: none !important;"]:contains(return atob()
 $$div[style="display: none !important;"]:contains('ed2k://)
 $$div[style="display: none !important;"]:contains(!function(){function a(a){var _idx=)
 ~github.com$$script:contains(!function(){function a(a){var _idx=)
@@ -36943,6 +36948,7 @@ js/yys/Pfhl365.js
 /static/jietiandixs/jtd.js$~third-party
 ||xsbiquge.la/js/detail.js
 /vj1/*$third-party
+||baidu.com/baidu.php?url=
 /vj2/*$third-party
 /v2/stats/9*$third-party
 /vh2/*$third-party
@@ -37848,6 +37854,7 @@ popbee.com##.adblocker
 @@.google-analytics.com%2Fanalytics.js$domain=free.com.tw
 @@.googleadservices.*.js$domain=ponominalu.ru
 @@.html$xmlhttprequest,subdocument,stealth=referrer,domain=edgedeliverynetwork.com
+@@.html-load.com/papi/*/70/$image,script,subdocument,xmlhttprequest
 @@.html-load.com/player/*/70/$script,subdocument,xmlhttprequest
 @@.instantservice.com$document
 @@.jpg#$domain=huhupan.com
