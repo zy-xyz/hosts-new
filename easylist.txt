@@ -134,6 +134,26 @@
 ||hash.trafficmanager.net^
 ||51tongji.trafficmanager.net^
 ||cnzz.trafficmanager.net^
+||xgsvpsz7f4.com^
+||pavdiibdvr.com^
+||x3lps9uuog.com^
+||ainb01040zh.com^
+||txh201a51k.com^
+||zpgb.cn^
+||ttimhethzm.com^
+||cgcg01040ht.com^
+||prelude69.com^
+||nstltp.icu^
+||lfamuxkaqobp.com^
+||wpy6xuq4.xyz^
+||qkg7yplpfo.com^
+||9ck9umcyvt.com^
+||ainb01041zh.com^
+||cgcg01041ht.com^
+||u6uy9lzdcj.com^
+||qigreveth.com^
+||lt3f9p5ox2.com^
+||eliezerpmsa.com^
 ||5p35xkp1p.com^
 ||c0xz0b2dy.com^
 ||w75zr9nfj.com^
@@ -6509,6 +6529,26 @@
 ||hash.trafficmanager.net^
 ||51tongji.trafficmanager.net^
 ||cnzz.trafficmanager.net^
+||xgsvpsz7f4.com^
+||pavdiibdvr.com^
+||x3lps9uuog.com^
+||ainb01040zh.com^
+||txh201a51k.com^
+||zpgb.cn^
+||ttimhethzm.com^
+||cgcg01040ht.com^
+||prelude69.com^
+||nstltp.icu^
+||lfamuxkaqobp.com^
+||wpy6xuq4.xyz^
+||qkg7yplpfo.com^
+||9ck9umcyvt.com^
+||ainb01041zh.com^
+||cgcg01041ht.com^
+||u6uy9lzdcj.com^
+||qigreveth.com^
+||lt3f9p5ox2.com^
+||eliezerpmsa.com^
 ||5p35xkp1p.com^
 ||c0xz0b2dy.com^
 ||w75zr9nfj.com^
@@ -14307,6 +14347,7 @@
 ||adk2.com^
 ||adk2x.com^
 ||adkwai.com^
+||adlaunch.moji.com^
 ||adleads.com^
 ||adlog.flurry.com^
 ||adlog.molitv.cn^
@@ -15315,6 +15356,7 @@
 ||ads.mobitree.co.kr^
 ||ads.mobvertising.net^
 ||ads.mofos.com^
+||ads.mojicdn.com^
 ||ads.mondogames.com^
 ||ads.monetize-me.com^
 ||ads.mopub.com^
@@ -16840,6 +16882,9 @@
 ||adsmart.konka.com^
 ||adsmart.net^
 ||adsmart.yicha.cn^
+||adsmartget.datads.cn^
+||adsmartget.guangtuikeji.com^
+||adsmartgetbes.datads.cn^
 ||adsmartgetqtt.guangtuikeji.com^
 ||adsmartracker.com^
 ||adsmaster.dev^
@@ -17325,6 +17370,7 @@
 ||adveng.hiasys.com^
 ||advenscrip.pro^
 ||advent-discount.luckypickr.com^
+||adventcalendar.site^
 ||adventcalendarhouse.com^
 ||adventistsoapbox.org^
 ||adventori.com^
@@ -17420,6 +17466,7 @@
 ||advertindia.co.in^
 ||advertipros.com^
 ||advertise-bingads-microsoft.com^
+||advertise.baicizhan.cn^
 ||advertise.baicizhan.com^
 ||advertise.baicizhan.org^
 ||advertise.bingads.microsoft.com^
@@ -17659,6 +17706,7 @@
 ||adwin.startappservice.com^
 ||adwpaces.ero-advertising.com^
 ||adx-ad.smart-tv.cn^
+||adx-api.hupu.com^
 ||adx-api.jinmo.tech^
 ||adx-api.otm-r.com^
 ||adx-asia-imp.aarki.net^
@@ -17721,6 +17769,7 @@
 ||adx.ads.heytapmobi.com^
 ||adx.ads.oppomobile.com^
 ||adx.adtaipo.com^
+||adx.adwangmai.com^
 ||adx.adxglobal.com^
 ||adx.agrantsem.com^
 ||adx.alimama.com^
@@ -17747,6 +17796,7 @@
 ||adx.hzbxm.com^
 ||adx.ibibo.com^
 ||adx.io^
+||adx.kat.ph^
 ||adx.kuaiyiad.com^
 ||adx.kul.vn^
 ||adx.lsosad.com^
@@ -17756,6 +17806,7 @@
 ||adx.mocoplex.com^
 ||adx.ocala.com^
 ||adx.op.cp18.ott.cibntv.net^
+||adx.open-adx.com^
 ||adx.opera.com^
 ||adx.phunuadong.vn^
 ||adx.pro.cn^
@@ -17776,6 +17827,7 @@
 ||adx.xemvtv.net^
 ||adx.xiaodutv.com^
 ||adx.xtv.vn^
+||adx.yiche.com^
 ||adx.yixin.im^
 ||adx.zuoyebang.com^
 ||adx1.com^
@@ -19078,6 +19130,7 @@
 ||apistats-static.propellerads.com^
 ||apistats.propellerads.com^
 ||apiv4-iyes.youku.com^
+||apiv4.anythinktech.com^
 ||apm-volcano.zuoyebang.com^
 ||apo.ero-advertising.com^
 ||app-ads-services.com^
@@ -20271,6 +20324,7 @@
 ||cm.dmp.360.cn^
 ||cm.dmp.sina.cn^
 ||cm.e.qq.com^
+||cm.fancyapi.com^
 ||cm.g.doubleclick.net^
 ||cm.ipinyou.com^
 ||cm.jd.com^
@@ -20696,7 +20750,6 @@
 ||demobl.cityads.com^
 ||demr.mspaceads.com^
 ||denucu.photonads.com^
-||dependableadventures.live^
 ||deployads.com^
 ||desb.mspaceads.com^
 ||designer.dynamic-dns.net^
@@ -20848,7 +20901,6 @@
 ||downeconomywp.advancedtech.com^
 ||download-app.net^
 ||download-campaign.com^
-||download-exodus.io^
 ||download-fast.net^
 ||download-free-hack.com^
 ||download-ledgerlive.us^
@@ -21275,6 +21327,7 @@
 ||fastlane-adv.rubiconproject.com^
 ||fata.ero-advertising.com^
 ||fav.simba.taobao.com^
+||fb51-11-en.ad-facebook.shop^
 ||fbofferads.com^
 ||fc.adswt.com^
 ||fcanr.tracking.miui.com^
@@ -21466,6 +21519,7 @@
 ||g.cn.miaozhen.com^
 ||g.doubleclick.net^
 ||g.dtv.cn.miaozhen.com^
+||g.fancyapi.com^
 ||g.jssdk.net^
 ||g.s.360.cn^
 ||g.sdk.look.360.cn^
@@ -22508,6 +22562,7 @@
 ||kyson.ad.daum.net^
 ||kyy-dl.dzhread.cn^
 ||kz.admaster.com.cn^
+||l.fancyapi.com^
 ||l.gm.mob.com^
 ||l.tcp.push.mob.com^
 ||l2.l.qq.com^
@@ -22522,7 +22577,6 @@
 ||ladsatz.com^
 ||ladsblue.com^
 ||ladsecz.com^
-||ladsims.com^
 ||ladsips.com^
 ||ladsipz.com^
 ||ladskiz.com^
@@ -22784,6 +22838,7 @@
 ||m.ads.zalo.me^
 ||m.adsdsu.cn^
 ||m.adsymptotic.com^
+||m.advast.cn^
 ||m.analytics.126.net^
 ||m.anycast.adnxs.com^
 ||m.api.baifendian.com^
@@ -22971,7 +23026,6 @@
 ||max.mediav.com^
 ||maxads.ruralpress.com^
 ||maxadserver.corusradionetwork.com^
-||maxadserver.media^
 ||maxesads.com^
 ||maxesads.ru^
 ||maxiadv.com^
@@ -23005,6 +23059,7 @@
 ||mclick.simba.taobao.com^
 ||mcoreads.com^
 ||mdp-appconf-sg.heytapdl.com^
+||mdrecv.app.cntvwb.cn^
 ||mdws.advancesavings.ca^
 ||mdznads.com^
 ||mdznads.pages.dev^
@@ -24534,7 +24589,6 @@
 ||rads.msn.com^
 ||rads.stackoverflow.com^
 ||radshedmisrep.com^
-||radshedmisrepu.info^
 ||rakutenadvertising.io^
 ||rampidads.com^
 ||randomadsrv.com^
@@ -25212,6 +25266,7 @@
 ||script.mclick.mobi^
 ||script.proadscdn.com^
 ||scripts-ads.s3.ir-thr-at1.arvanstorage.com^
+||sdapprecv.app.cntvwb.cn^
 ||sdfp.snssdk.com^
 ||sdk-02.moengage.com^
 ||sdk-ab-config.aiclk.com^
@@ -25354,6 +25409,7 @@
 ||sdk2api.getui.com^
 ||sdk3api.getui.com^
 ||sdkapi-smartop.jiguang.cn^
+||sdkapi.cloooud.com^
 ||sdkapp.mobile.sina.cn^
 ||sdkapp.uve.weibo.com^
 ||sdkcfg.adintl.cn^
@@ -26157,6 +26213,7 @@
 ||t1.extreme-dm.com^
 ||t1.teads.tv^
 ||t2.a.market.xiaomi.com^
+||t2.fancyapi.com^
 ||t3.a.market.xiaomi.com^
 ||t4.a.market.xiaomi.com^
 ||t4.agrantsem.com^
@@ -27011,6 +27068,7 @@
 ||vcdn.anthill.vn^
 ||vcdn.media.innity.net^
 ||vcdn.subiz-cdn.com^
+||vdapprecv.app.cntvwb.cn^
 ||vdcci.adsame.com^
 ||veads.veinteractive.com^
 ||veim.lrswl.com^
@@ -27386,6 +27444,7 @@
 ||vz-cdn2.trafficjunky.net^
 ||w.cnzz.com^
 ||w.extreme-dm.com^
+||w.fancyapi.com^
 ||w.l.qq.com^
 ||w0.extreme-dm.com^
 ||w0.gskwai.com^
@@ -27775,7 +27834,6 @@
 ||www.admarket.mobi^
 ||www.admaster.com.cn^
 ||www.adnxs.com^
-||www.adobe.crulseadvance.de^
 ||www.adobe.esign.cn.com^
 ||www.ads-converz.digital^
 ||www.ads-customers-advertising.com^
@@ -27876,10 +27934,10 @@
 ||www.advancedsoftwaresupport.com^
 ||www.advancepathflow12.sbs^
 ||www.advanpromo.com^
-||www.advcamp.buzz^
 ||www.advconversion.com^
 ||www.advcostacouto.sbs^
 ||www.advent-discount.luckypickr.com^
+||www.adventcalendar.site^
 ||www.adventcalendarhouse.com^
 ||www.adventurefeeds.com^
 ||www.adventuregamers.xyz^
@@ -28850,6 +28908,8 @@
 ||xads.one^
 ||xads.zedo.com^
 ||xadsmart.com^
+||xadsmartget.adgain.cn^
+||xadsmartgetbes.datads.cn^
 ||xadve.lat^
 ||xaka.adsndtrackify.xyz^
 ||xapads.com^
