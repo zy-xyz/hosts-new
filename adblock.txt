@@ -20058,7 +20058,6 @@ fqsousou.com,kengso.com#@#.user-share
 *-be-pack-sign.pglstatp-toutiao.com*
 *-normal.zijieapi.com*
 @@||uniqlo.com^$jsinject,content
-tt1069.com#@##ad-slot
 sou-yun.cn#@##adsPanel
 @@||p3-tt.byteimg.com/obj/$domain=agedm.io
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,domain=zhongguose.com
@@ -24039,7 +24038,6 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_apps
 ||aiyifan.tv/app/*.js$replace=/this\.shouldSkipAds\|\|/!0||/
 ||101.qq.com/js/base.js$replace=/(el\.getAttribute\("type"\) === "text\/javascript")/\(\$1 && !el\.getAttribute\("nonce"\)\)/
 ||acs.youku.com/*/mtop.youku.play.ups.appinfo.get/*/?jsv=$replace=/("ad":\{)[\s\S]*?(\}\,"playlog")/\$1\$2/,important
-tt1069.com#@##ad-slot
 sou-yun.cn#@##adsPanel
 @@||p3-tt.byteimg.com/obj/$domain=agedm.io
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,domain=zhongguose.com
@@ -40679,6 +40677,7 @@ popbee.com##.adblocker
 @@||cdn.jsdelivr.net/combine/npm/jquery
 @@||cdn.jsdelivr.net/combine/npm/video.js*/dist/video-js.min.css*/videojs-contrib-ads*/dist/videojs.ads.min.css$domain=player.motorsport-magazin.com
 @@||cdn.jsdelivr.net/gh/imediacdn/wp-plugins@main/imedia-basic/doubleserve.js$domain=sgxnifty.org
+@@||cdn.jsdelivr.net/gh/itspro-dev/project_files@master/publicearn2.js$domain=bhadohimusic.in.net|usanowday.com|fullformsmarathi.in
 @@||cdn.jsdelivr.net/gh/njentit/testads/ads.js
 @@||cdn.jsdelivr.net/gh/vli-platform/adb-analytics@*.min.js$domain=orbispatches.com
 @@||cdn.jsdelivr.net/npm/*.js$domain=faselhd.cafe
@@ -45700,6 +45699,7 @@ popbee.com##.adblocker
 @@||live-buyback-order-api.live-api.recommerce.cloud/product?$stealth=3p-auth
 @@||live.indiatimes.com/trackjs.cms
 @@||live.lequipe.fr/thirdparty/prebid.js$~third-party
+@@||live.mrf.io/statics/marfeel/gardac-sync.js$domain=muylinux.com
 @@||live.mrf.io/statics/marfeel/prebid-worker/webworker.js$domain=hipertextual.com
 @@||live.mrf.io/statics/marfeel/prebid-worker/webworker.js$domain=simpleflying.com
 @@||live.primis.tech/content/$domain=manchestereveningnews.co.uk
@@ -50826,6 +50826,7 @@ popbee.com##.adblocker
 @@||tvserial.it^$generichide
 @@||tvshows4mobile.com^$generichide
 @@||tw-hkt.blogspot.com^$generichide
+@@||tw.netcore.co.in/smartechclient.js$domain=investor-web.hdfcfund.com
 @@||tweakdoor.com^$generichide
 @@||tweakers.net/aanbod/admanager/
 @@||tweaktown.com^$generichide,badfilter
@@ -52672,6 +52673,7 @@ $popup,third-party,domain=fembed-hd.com,badfilter
 $popup,third-party,domain=sbplay2.com,badfilter
 $popup,third-party,domain=dood.ws,badfilter
 @@||download.ros.org/*.xsd$document
+@@||cdn.jsdelivr.net/gh/itspro-dev/project_files@master/publicearn2.js$domain=bhadohimusic.in.net|usanowday.com|fullformsmarathi.in
 @@||camspacelive.com/widgets/$domain=lemoncams.com
 amtrak.com#@#.ads-block
 amtrak.com#@#.ads-box-border
@@ -55099,6 +55101,7 @@ implbits.com#@#.banner_container
 @@||beinconnect.com.tr^$stealth
 @@||account.adobe.com^$document,domain=services.adobe.com,stealth=useragent
 @@||adguard.com^$stealth
+@@$stealth=useragent,app=top.rootu.lampa
 @@||jgvcdn.com^$stealth=referrer
 @@||xzfile.aliyuncs.com^$image,stealth=referrer,domain=xz.aliyun.com
 @@||zirvedesin120.cfd/yayinzirve.m3u8$stealth=referrer
