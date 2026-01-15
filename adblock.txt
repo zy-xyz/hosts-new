@@ -832,6 +832,12 @@ pornhub.com,pornhub.org,pornhub.net#%#//scriptlet('prevent-setTimeout', '\x41\x6
 youporn.com#%#//scriptlet('remove-node-text', 'script', '/window\.[\s\S]*?_zone_[\s\S]*?{"zone_id":/')
 youporn.com$$script:contains(/window\.[\s\S]*?_zone_[\s\S]*?{"zone_id":/)
 @@||static.trafficjunky.com/ab/ads_test.js$domain=bztube.com|hotovs.com|insuredhome.org|nudegista.com|pornluck.com|vidd.se|redtube.*|youpornru.com|tube8.com|tube8.es|tube8.fr|tube8.net|pornhub.com|pornhub.org|pornhub.net
+kanoongpt.in#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'showGate')
+kanoongpt.in#@#ins.adsbygoogle[data-ad-slot]
+kanoongpt.in#@#ins.adsbygoogle[data-ad-client]
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=kanoongpt.in
+forum.sbenny.com#%#//scriptlet('prevent-setTimeout', 'offsetHeight')
+forum.sbenny.com#@##adsbox
 resulthubdtu.com#@#.ad-unit:not(.textads)
 resulthubdtu.com#@#.ad-space:not(.textads)
 resulthubdtu.com#%#//scriptlet('prevent-setTimeout', '.offsetHeight === 0')
@@ -1334,7 +1340,7 @@ goodstream.one##body > footer + script + div[class][oncontextmenu]
 indexsubtitle.cc#%#//scriptlet('abort-current-inline-script', 'EventTarget.prototype.addEventListener', 'adsbygoogle.js')
 indexsubtitle.cc#@#.ad-unit:not(.textads)
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=indexsubtitle.cc
-pinterest.*#$#body[style="overflow: hidden;"] { overflow: auto !important; }
+pinterest.*#$#body[style*="overflow: hidden;"] { overflow: auto !important; }
 pinterest.*#$#div[name="trap-focus"] > div[aria-label="Ad blocker modal"][role="alertdialog"] { display: none !important; }
 pinterest.*#%#//scriptlet('prevent-setTimeout', '/.\(Array\.from\(document\.querySelectorAll\(.\)\)\.some\(.=>.\(.\)&&!.\(.\)\)\)\}|.\(Array\.from\(document\.querySelectorAll\(.\)\)\.some\(.=>.*checkVisibility/')
 ||savefiles.com/js/noadblocker.js
@@ -19155,23 +19161,23 @@ guailie.com#@#.google-ad
 17ce.com##a[href^="http"]:not([href*="17ce.com"]) img
 ||17ce.com^*_$image
 /exads-adblock-$image
-18comic.org,18comic.vip###guide-modal
-18comic.org,18comic.vip##.div_sticky2
-18comic.org,18comic.vip##.modal-backdrop
-18comic.org,18comic.vip##.row[style="display: flex;flex-wrap: wrap;"]
-18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > [style*="back"]
-18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > div[style]
-18comic.org,18comic.vip##a[herf*="//"]:not([href*="comic."]) > img
-18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > img
-18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > img + [style]
-18comic.org,18comic.vip##div[data-group][data-width="300"]
-18comic.org,18comic.vip##style + div[style="cursor: pointer; position: relative;"]
-18comic.org,18comic.vip#?#:-abp-has(>ins+div)
-18comic.org,18comic.vip#?#:-abp-has(>ins+script)
-18comic.org,18comic.vip#?#:-abp-has(>ins+style)
-18comic.org,18comic.vip#?#:-abp-has(>script+ins)
-18comic.org,18comic.vip#?#:not(body):-abp-has(>script[src*=".realsrv.com"])
-18comic.org,18comic.vip#?#div[data-group]:-abp-has(>.group-notice)
+18comic.org,18comic.vip,jm18c-jjd.club###guide-modal
+18comic.org,18comic.vip,jm18c-jjd.club##.div_sticky2
+18comic.org,18comic.vip,jm18c-jjd.club##.modal-backdrop
+18comic.org,18comic.vip,jm18c-jjd.club##.row[style="display: flex;flex-wrap: wrap;"]
+18comic.org,18comic.vip,jm18c-jjd.club##a[href*="//"]:not([href*="18c"]) > [style*="back"]
+18comic.org,18comic.vip,jm18c-jjd.club##a[href*="//"]:not([href*="18c"]) > div[style]
+18comic.org,18comic.vip,jm18c-jjd.club##a[herf*="//"]:not([href*="18c"]) > img
+18comic.org,18comic.vip,jm18c-jjd.club##a[href*="//"]:not([href*="18c"]) > img
+18comic.org,18comic.vip,jm18c-jjd.club##a[href*="//"]:not([href*="18c"]) > img + [style]
+18comic.org,18comic.vip,jm18c-jjd.club##div[data-group][data-width="300"]
+18comic.org,18comic.vip,jm18c-jjd.club##style + div[style="cursor: pointer; position: relative;"]
+18comic.org,18comic.vip,jm18c-jjd.club#?#:-abp-has(>ins+div)
+18comic.org,18comic.vip,jm18c-jjd.club#?#:-abp-has(>ins+script)
+18comic.org,18comic.vip,jm18c-jjd.club#?#:-abp-has(>ins+style)
+18comic.org,18comic.vip,jm18c-jjd.club#?#:-abp-has(>script+ins)
+18comic.org,18comic.vip,jm18c-jjd.club#?#:not(body):-abp-has(>script[src*=".realsrv.com"])
+18comic.org,18comic.vip,jm18c-jjd.club#?#div[data-group]:-abp-has(>.group-notice)
 ||18comic.*/media/albums/*?$media
 58.com###rightRetui
 58.com##.S_table_ding_box
@@ -19664,7 +19670,7 @@ yydstxt*.com/js/cdn.
 ||xiaohuks.com/1.
 ||8xbook.org/scripts/ad/
 ||kelehut.cc/js/m.
-||xncwxw.me/js/xiaxuanfu.
+/js/xiaxuanfu.js
 ||yushuwen.com/astyle/wap.js
 ykxs.cc##a[href^="javascript"]
 /static/69shuba/69.js
@@ -22936,7 +22942,7 @@ tieba.baidu.com##.top_toutu_admarks
 wnflb2023.com##.GzList
 bdys03.com##.artplayer-plugin-ads
 ||ll.ibiqiuge.com/m.js
-axutongxue.onrender.com,axutongxue.space,axutongxue.cn,axu.pages.dev,axutongxue.vip,axutongxue.com,axutongxue.net###bottomSearch ~ div:not([id]) > .mySwiper
+axutongxue.onrender.com,axutongxue.space,axutongxue.cn,axu.pages.dev,axutongxue.vip,axutongxue.com,axutongxue.net###bottomSearch ~ div:not([id]) > div[class$="Swiper"]
 axutongxue.onrender.com,axutongxue.space,axutongxue.cn,axu.pages.dev,axutongxue.vip,axutongxue.com,axutongxue.net#%#//scriptlet('prevent-setTimeout', '/getCookie|checkCK|checkCookie|checkC00kie|checkCoookie|checkCookiiiie|document\.cookie|buttonClose|exptime/')
 axutongxue.onrender.com,axutongxue.space,axutongxue.cn,axu.pages.dev,axutongxue.vip,axutongxue.com,axutongxue.net#%#//scriptlet('set-constant', 'infoList', 'emptyArr')
 axutongxue.onrender.com,axutongxue.space,axutongxue.cn,axu.pages.dev,axutongxue.vip,axutongxue.com,axutongxue.net##div[style*="z-index: 9999999"][style*="position: absolute"]
@@ -35692,23 +35698,23 @@ guailie.com#@#.google-ad
 17ce.com##a[href^="http"]:not([href*="17ce.com"]) img
 ||17ce.com^*_$image
 /exads-adblock-$image
-18comic.org,18comic.vip###guide-modal
-18comic.org,18comic.vip##.div_sticky2
-18comic.org,18comic.vip##.modal-backdrop
-18comic.org,18comic.vip##.row[style="display: flex;flex-wrap: wrap;"]
-18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > [style*="back"]
-18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > div[style]
-18comic.org,18comic.vip##a[herf*="//"]:not([href*="comic."]) > img
-18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > img
-18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > img + [style]
-18comic.org,18comic.vip##div[data-group][data-width="300"]
-18comic.org,18comic.vip##style + div[style="cursor: pointer; position: relative;"]
-18comic.org,18comic.vip#?#:has(>ins+div)
-18comic.org,18comic.vip#?#:has(>ins+script)
-18comic.org,18comic.vip#?#:has(>ins+style)
-18comic.org,18comic.vip#?#:has(>script+ins)
-18comic.org,18comic.vip#?#:not(body):has(>script[src*=".realsrv.com"])
-18comic.org,18comic.vip#?#div[data-group]:has(>.group-notice)
+18comic.org,18comic.vip,jm18c-jjd.club###guide-modal
+18comic.org,18comic.vip,jm18c-jjd.club##.div_sticky2
+18comic.org,18comic.vip,jm18c-jjd.club##.modal-backdrop
+18comic.org,18comic.vip,jm18c-jjd.club##.row[style="display: flex;flex-wrap: wrap;"]
+18comic.org,18comic.vip,jm18c-jjd.club##a[href*="//"]:not([href*="18c"]) > [style*="back"]
+18comic.org,18comic.vip,jm18c-jjd.club##a[href*="//"]:not([href*="18c"]) > div[style]
+18comic.org,18comic.vip,jm18c-jjd.club##a[herf*="//"]:not([href*="18c"]) > img
+18comic.org,18comic.vip,jm18c-jjd.club##a[href*="//"]:not([href*="18c"]) > img
+18comic.org,18comic.vip,jm18c-jjd.club##a[href*="//"]:not([href*="18c"]) > img + [style]
+18comic.org,18comic.vip,jm18c-jjd.club##div[data-group][data-width="300"]
+18comic.org,18comic.vip,jm18c-jjd.club##style + div[style="cursor: pointer; position: relative;"]
+18comic.org,18comic.vip,jm18c-jjd.club#?#:has(>ins+div)
+18comic.org,18comic.vip,jm18c-jjd.club#?#:has(>ins+script)
+18comic.org,18comic.vip,jm18c-jjd.club#?#:has(>ins+style)
+18comic.org,18comic.vip,jm18c-jjd.club#?#:has(>script+ins)
+18comic.org,18comic.vip,jm18c-jjd.club#?#:not(body):has(>script[src*=".realsrv.com"])
+18comic.org,18comic.vip,jm18c-jjd.club#?#div[data-group]:has(>.group-notice)
 ||18comic.*/media/albums/*?$media
 58.com###rightRetui
 58.com##.S_table_ding_box
@@ -36201,7 +36207,7 @@ yydstxt*.com/js/cdn.
 ||xiaohuks.com/1.
 ||8xbook.org/scripts/ad/
 ||kelehut.cc/js/m.
-||xncwxw.me/js/xiaxuanfu.
+/js/xiaxuanfu.js
 ||yushuwen.com/astyle/wap.js
 ykxs.cc##a[href^="javascript"]
 /static/69shuba/69.js
@@ -38841,6 +38847,7 @@ popbee.com##.adblocker
 @@||ads.*.ch^$xmlhttprequest,other,script,domain=tio.ch
 @@||ads.a-static.com/ads.js$domain=ad4msan.com
 @@||ads.a-static.com/ads.js|
+@@||ads.adthrive.com/abd/abd.js$xmlhttprequest
 @@||ads.adthrive.com/api/$domain=adamtheautomator.com|packhacker.com|packinsider.com
 @@||ads.adthrive.com/builds/core/*/js/adthrive.min.js$domain=adamtheautomator.com|laurelberninteriors.com|packhacker.com|packinsider.com
 @@||ads.adthrive.com/builds/core/*/prebid.min.js$domain=laurelberninteriors.com
@@ -39563,6 +39570,7 @@ popbee.com##.adblocker
 @@||api.taboola.com/2.0/json/*/recommendations.$domain=azby.fmworld.net
 @@||api.themoviedb.org^$stealth=3p-auth
 @@||api.touchnote.io^$xmlhttprequest,domain=app.touchnote.com
+@@||api.twitter.com/1.1/onboarding/referrer.json$~third-party
 @@||api.useinsider.com/api/web/$xmlhttprequest
 @@||api.val.qq.com/go/agame/resource/banner?bannerid=aclos_website_banner$domain=val.qq.com
 @@||api.vhx.com^$stealth=3p-auth
@@ -39618,6 +39626,7 @@ popbee.com##.adblocker
 @@||app.netatmo.net/api/$stealth=3p-auth
 @@||app.netatmo.net/syncapi/$stealth=3p-auth
 @@||app.plex.tv^$extension
+@@||app.roll20.net^$stealth=webrtc
 @@||app.sebitti.fi/maestrojukebox2/lib/Controllers/AdController.js$domain=app.sebitti.fi
 @@||app.sendgrid.com$document
 @@||app.sendgrid.com^$elemhide,jsinject
@@ -46511,6 +46520,7 @@ popbee.com##.adblocker
 @@||mycastapp.*.amazonaws.com/assets/ads.js$domain=mycast.io
 @@||mycdn.me^$stealth=referrer
 @@||mycleverpush.com/iframe?$domain=bsdex.de
+@@||mycliplister.com^$xmlhttprequest,stealth=referrer,domain=otto.de
 @@||mycokerewards.com^*/webtrends/mcr3-webtrends_POST_$script
 @@||mycommunitynow.com/includes/JI_trafficTracking.js$domain=mycommunitynow.com
 @@||myfamilycominc.tt.omtrdc.net^$domain=ancestry.com|ancestry.co.uk|ancestry.ca|ancestry.de|ancestry.it|ancestry.fr|ancestry.se|ancestry.mx
@@ -47170,7 +47180,7 @@ popbee.com##.adblocker
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=deblocker.merkulov.design
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=decrypt.day
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=dgb.lol
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=digiclown.com|sattanewss.com|djflpduniya.com|gadix.in|raftarsamachar.in|cinedesi.in|health.blueridgegeorgia.us|openhouseperthinsurance.com|spatsify.com|marathivacancy.com|cyberlynews.com|bongguider.com|inklix.com|india.studentshelp.in|india.bgmiproconfig.com|web.quizrent.com|india.ctfest.org|hindi.sarkarijobinformation.com|health.wikizinsider.online|india.sharpexamz.in|autorisuchna.in|india.bgmiproconfig.com|techarmor.xyz|india.gujaratcareerhub.in|gadialert.in|v.thetch.in|india.reportmarathi.in|india.newsguides.in|health.gujaratcareerhub.in|uploadhub.dad|india.livegaminghub.com|bhumibihar.co.in|web.wblaxmibhandar.com|health.bgmiproconfig.com|india.hindivigyan.in|main.24jobalert.com|health.bgmiproconfig.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=digiclown.com|sattanewss.com|djflpduniya.com|gadix.in|raftarsamachar.in|cinedesi.in|health.blueridgegeorgia.us|openhouseperthinsurance.com|spatsify.com|marathivacancy.com|cyberlynews.com|bongguider.com|inklix.com|india.studentshelp.in|india.bgmiproconfig.com|web.quizrent.com|india.ctfest.org|hindi.sarkarijobinformation.com|health.wikizinsider.online|india.sharpexamz.in|autorisuchna.in|india.bgmiproconfig.com|techarmor.xyz|india.gujaratcareerhub.in|gadialert.in|v.thetch.in|india.reportmarathi.in|india.newsguides.in|health.gujaratcareerhub.in|uploadhub.dad|india.livegaminghub.com|bhumibihar.co.in|web.wblaxmibhandar.com|health.bgmiproconfig.com|india.hindivigyan.in|main.24jobalert.com|health.bgmiproconfig.com|health.sarkarijobinformation.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=digitalinformationworld.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=diglink.blogspot.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=dishy.co.ke
@@ -47571,6 +47581,7 @@ popbee.com##.adblocker
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=zobacz.ws
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=bdstream.site
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=citroen-club.cz|renault-club.cz
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=kanoongpt.in
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=panel.waifly.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=uploadmall.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,xmlhttprequest,domain=topsporter.net
@@ -50996,6 +51007,7 @@ popbee.com##.adblocker
 @@||userupload.in^$generichide
 @@||usgamer.net/static/scripts/AdsLoad.js
 @@||usgamer.net/static/scripts/SidebarAds.js
+@@||usnlive.com/stream/$xmlhttprequest,stealth=referrer
 @@||usplastic.com/js/hawk.js
 @@||ut.pubmatic.com/geo?pubid=$domain=zeenews.india.com
 @@||utorrentgamesps2.blogspot.com^$generichide
@@ -52080,6 +52092,8 @@ _click*(com?
 /source/plugin/drk_ledadv/*
 .com/stat-qq.html?*&click_url_final=$all
 icu##.banner-layout-box
+||goodsstor.vip^$all
+||heartlessanthemantiquity.com^$all
 ||smartcastaddon.com^$subdocument,third-party
 ||bqstreamer.com^$third-party
 ||figureraisinupper.com^$all
@@ -52687,6 +52701,7 @@ $popup,third-party,domain=fembed-hd.com,badfilter
 $popup,third-party,domain=sbplay2.com,badfilter
 $popup,third-party,domain=dood.ws,badfilter
 @@||download.ros.org/*.xsd$document
+@@||googletagmanager.com/gtm.js$domain=lp.empire.goodgamestudios.com
 @@||cdn.jsdelivr.net/gh/itspro-dev/project_files@master/publicearn2.js$domain=bhadohimusic.in.net|usanowday.com|fullformsmarathi.in
 @@||camspacelive.com/widgets/$domain=lemoncams.com
 amtrak.com#@#.ads-block
@@ -55115,6 +55130,7 @@ implbits.com#@#.banner_container
 @@||beinconnect.com.tr^$stealth
 @@||account.adobe.com^$document,domain=services.adobe.com,stealth=useragent
 @@||adguard.com^$stealth
+@@||app.roll20.net^$stealth=webrtc
 @@||usnlive.com/stream/$xmlhttprequest,stealth=referrer
 @@||mycliplister.com^$xmlhttprequest,stealth=referrer,domain=otto.de
 @@||fleurop.cstatic.io/media/$stealth=referrer
