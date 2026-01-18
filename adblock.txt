@@ -1232,8 +1232,8 @@ historicaerials.com#$##xcontent_container > div[id][style*="position: fixed"][st
 choralia.net#%#//scriptlet('trusted-set-constant', 'ads_stop', '"true"')
 uploadcloud.pro#%#//scriptlet('prevent-setTimeout', '.offsetHeight == 0')
 uploadcloud.pro###container > div[id][style*="display:"]:has(> div[class][style="z-index: 9999999;"])
-mmsbee42.com,mmsmasala.com#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=mmsbee42.com|mmsmasala.com
+mmsmasala.com#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=mmsmasala.com
 rjnovels.blogspot.com#%#//scriptlet('abort-on-property-read', 'detectBlockers')
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=rjnovels.blogspot.com
 rlxoff.com#%#//scriptlet('prevent-addEventListener', 'load', 'detectAdBlock')
@@ -41658,6 +41658,7 @@ popbee.com##.adblocker
 @@||damduck01.com^$generichide
 @@||damnripped.com^$generichide
 @@||dan-ball.jp/*/img.gif$domain=dan-ball.jp
+@@||dan-ball.jp/en/javagame/mine/data/d.gif$image,~third-party
 @@||dangotoons.com^$generichide
 @@||daoju.qq.com/time/*/js/ad/
 @@||dapi.kakao.com/*/maps/sdk.js$stealth=referrer,domain=kfckorea.com
@@ -47363,7 +47364,7 @@ popbee.com##.adblocker
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=mixrootmod.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=mixrootmods.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=mmacore.tv
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=mmsbee42.com|mmsmasala.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=mmsmasala.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=mobile-tracker-free.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=moviemakeronline.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=mpyit.com
@@ -49189,6 +49190,7 @@ popbee.com##.adblocker
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=lastampa.it
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=league-funny.com
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=line.me
+@@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=m2o.it
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=maharashtratimes.com
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=manchestereveningnews.co.uk
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=midomi.com
