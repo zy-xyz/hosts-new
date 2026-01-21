@@ -5,7 +5,7 @@ from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
 
-links = [  
+links = [    
     "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/refs/heads/master/ChineseFilter/sections/adservers.txt",
     "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/refs/heads/master/ChineseFilter/sections/allowlist.txt",
     "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/refs/heads/master/ChineseFilter/sections/antiadblock.txt",
@@ -66,19 +66,19 @@ def clear_cache():
     os.makedirs(CACHE)
 
 def fetch(url, path):
-    """下载单个链接，返回 (是否成功, url, 错误信息)"""
+    """Download a single link, returns (success, url, error_message)"""
     s = Session()
     s.mount('https://', HTTPAdapter(max_retries=Retry(total=3, backoff_factor=1)))
     try:
         response = s.get(url, timeout=10)
-        response.raise_for_status()  # 检查HTTP状态码
+        response.raise_for_status()  # Check HTTP status code
         open(path, 'wb').write(response.content)
         return True, url, None
     except Exception as e:
         return False, url, str(e)
 
 def run_fetch():
-    """并发下载所有链接并统计结果"""
+    """Download all links concurrently and show statistics"""
     clear_cache()
     tasks = ([(url, f"{CACHE}/host-{i}") for i, url in enumerate(links, 1)] +
              [(url, f"{CACHE}/dead_host-{i}") for i, url in enumerate(dead_hosts, 1)])
@@ -87,37 +87,37 @@ def run_fetch():
     failed_urls = []
     
     with ThreadPoolExecutor(max_workers=MAX_WORKERS) as pool:
-        # 提交所有任务
+        # Submit all tasks
         future_to_url = {
             pool.submit(fetch, url, path): url 
             for url, path in tasks
         }
         
-        # 逐个获取结果（使用as_completed可以边下载边显示）
+        # Get results as they complete
         for future in as_completed(future_to_url):
             success, url, error = future.result()
             if success:
                 success_urls.append(url)
-                print(f"[OK] 成功: {url}")
+                print(f"[OK] Success: {url}")
             else:
                 failed_urls.append((url, error))
-                print(f"[FAIL] 失败: {url} - {error}")
+                print(f"[FAIL] Failed: {url} - {error}")
     
-    # 打印汇总报告
+    # Print summary report
     print("\n" + "="*60)
-    print(f"下载完成！总计: {len(tasks)} | 成功: {len(success_urls)} | 失败: {len(failed_urls)}")
+    print(f"Download complete! Total: {len(tasks)} | Success: {len(success_urls)} | Failed: {len(failed_urls)}")
     print("="*60)
     
     if success_urls:
-        print("\n[成功的链接]")
+        print("\n[Succeeded URLs]")
         for url in success_urls:
             print(f"  - {url}")
     
     if failed_urls:
-        print("\n[失败的链接]")
+        print("\n[Failed URLs]")
         for url, error in failed_urls:
             print(f"  - {url}")
-            print(f"    错误: {error}")
+            print(f"    Error: {error}")
     
     return success_urls, failed_urls
 
@@ -136,7 +136,7 @@ def clean_lines(hosts: list, black: set) -> list:
         if not stripped or stripped.startswith(( '!', '[', '<')):
             continue
         line = re.sub(r'^(0\.0\.0\.0|::)\s+', '127.0.0.1 ', line)
-        # 检查是否包含黑名单中的域名
+        # Check if contains blacklisted domains
         if any(domain in stripped for domain in black):
             continue
         cleaned.append(line)
@@ -211,11 +211,11 @@ def build():
     with open("adblock.txt", "w", encoding='utf-8') as f:
         f.write("\n".join(adblock))
 
-    # 打印文件统计
-    print(f"\n成功生成文件:")
-    print(f"  - accelerate.txt: {len(acc_hosts)} 行")
-    print(f"  - easylist.txt: {len(easylist)} 行")
-    print(f"  - adblock.txt: {len(adblock)} 行")
+    # Print file statistics
+    print(f"\nFiles generated successfully:")
+    print(f"  - accelerate.txt: {len(acc_hosts)} lines")
+    print(f"  - easylist.txt: {len(easylist)} lines")
+    print(f"  - adblock.txt: {len(adblock)} lines")
 
 if __name__ == "__main__":
     success_urls, failed_urls = run_fetch()
