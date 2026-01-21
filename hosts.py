@@ -5,7 +5,7 @@ from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
 
-links = [
+links = [  
     "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/refs/heads/master/ChineseFilter/sections/adservers.txt",
     "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/refs/heads/master/ChineseFilter/sections/allowlist.txt",
     "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/refs/heads/master/ChineseFilter/sections/antiadblock.txt",
@@ -48,7 +48,7 @@ links = [
     "https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist/raw/refs/heads/main/list.txt",
     "https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist/raw/refs/heads/main/noai_hosts.txt",
     "https://raw.githubusercontent.com/obgnail/chinese-internet-is-dead/master/blocklist.txt",
-    "https://raw.githubusercontent.com/geoisam/FuckScripts/main/adfuck.txt"      
+    "https://raw.githubusercontent.com/geoisam/FuckScripts/main/adfuck.txt"       
 ]
 dead_hosts = [
     "https://raw.githubusercontent.com/notracking/hosts-blocklists-scripts/master/domains.dead.txt",
@@ -98,10 +98,10 @@ def run_fetch():
             success, url, error = future.result()
             if success:
                 success_urls.append(url)
-                print(f"✓ 成功: {url}")
+                print(f"[OK] 成功: {url}")
             else:
                 failed_urls.append((url, error))
-                print(f"✗ 失败: {url} - {error}")
+                print(f"[FAIL] 失败: {url} - {error}")
     
     # 打印汇总报告
     print("\n" + "="*60)
