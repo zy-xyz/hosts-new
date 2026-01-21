@@ -1,7 +1,5 @@
 import os, requests, shutil, re, glob, ipaddress, functools
-
-from concurrent.futures import ThreadPoolExecutor, ProcessPoolExecutor
-
+from concurrent.futures import ThreadPoolExecutor, ProcessPoolExecutor, as_completed
 from requests import Session
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
@@ -50,7 +48,7 @@ links = [
     "https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist/raw/refs/heads/main/list.txt",
     "https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist/raw/refs/heads/main/noai_hosts.txt",
     "https://raw.githubusercontent.com/obgnail/chinese-internet-is-dead/master/blocklist.txt",
-    "https://raw.githubusercontent.com/geoisam/FuckScripts/main/adfuck.txt"    
+    "https://raw.githubusercontent.com/geoisam/FuckScripts/main/adfuck.txt"      
 ]
 dead_hosts = [
     "https://raw.githubusercontent.com/notracking/hosts-blocklists-scripts/master/domains.dead.txt",
@@ -68,20 +66,60 @@ def clear_cache():
     os.makedirs(CACHE)
 
 def fetch(url, path):
+    """下载单个链接，返回 (是否成功, url, 错误信息)"""
     s = Session()
     s.mount('https://', HTTPAdapter(max_retries=Retry(total=3, backoff_factor=1)))
     try:
-        open(path, 'wb').write(s.get(url, timeout=10).content)
-    except Exception:
-        pass
+        response = s.get(url, timeout=10)
+        response.raise_for_status()  # 检查HTTP状态码
+        open(path, 'wb').write(response.content)
+        return True, url, None
+    except Exception as e:
+        return False, url, str(e)
 
 def run_fetch():
+    """并发下载所有链接并统计结果"""
     clear_cache()
     tasks = ([(url, f"{CACHE}/host-{i}") for i, url in enumerate(links, 1)] +
              [(url, f"{CACHE}/dead_host-{i}") for i, url in enumerate(dead_hosts, 1)])
+    
+    success_urls = []
+    failed_urls = []
+    
     with ThreadPoolExecutor(max_workers=MAX_WORKERS) as pool:
-        for url, path in tasks:
-            pool.submit(fetch, url, path)
+        # 提交所有任务
+        future_to_url = {
+            pool.submit(fetch, url, path): url 
+            for url, path in tasks
+        }
+        
+        # 逐个获取结果（使用as_completed可以边下载边显示）
+        for future in as_completed(future_to_url):
+            success, url, error = future.result()
+            if success:
+                success_urls.append(url)
+                print(f"✓ 成功: {url}")
+            else:
+                failed_urls.append((url, error))
+                print(f"✗ 失败: {url} - {error}")
+    
+    # 打印汇总报告
+    print("\n" + "="*60)
+    print(f"下载完成！总计: {len(tasks)} | 成功: {len(success_urls)} | 失败: {len(failed_urls)}")
+    print("="*60)
+    
+    if success_urls:
+        print("\n[成功的链接]")
+        for url in success_urls:
+            print(f"  - {url}")
+    
+    if failed_urls:
+        print("\n[失败的链接]")
+        for url, error in failed_urls:
+            print(f"  - {url}")
+            print(f"    错误: {error}")
+    
+    return success_urls, failed_urls
 
 def load() -> tuple[list, set]:
     hosts, dead = [], []
@@ -114,11 +152,7 @@ def is_ip(addr: str) -> bool:
     except ValueError:
         return False
 
-# ---------- 2. 纯 CPU 的处理放进进程池 ----------
 def _process_chunk(lines: list, black: set) -> tuple[list, list, list]:
-    """
-    纯函数：给进程池执行，返回 (acc_hosts, easylist, adblock)
-    """
     acc, easy, adblock = [], [], []
     for line in lines:
         line = line.strip()
@@ -130,29 +164,24 @@ def _process_chunk(lines: list, black: set) -> tuple[list, list, list]:
         if len(parts) >= 2:
             try:
                 ipaddress.ip_address(parts[0])
-                # 只要是以 127.0.0.1 打头的 hosts 行，都转成 ||domain^
                 if parts[0] == '127.0.0.1':
                     domain = parts[1]
                     if domain not in black:
                         easy.append(f'||{domain}^')
-                # 其它 IP（如 0.0.0.0）想保留就放到 acc
                 else:
                     acc.append(line)
                 continue
             except ValueError:
                 pass
 
-        # 其余情况：Adblock/EasyList 规则
         if line.endswith('^') and (line.startswith('||') or line.startswith('@@||')):
-            # 提取域名：去掉打头标记和末尾 ^
-            domain = line[2:-1].split('/', 1)[0]   # 兼容 ||domain/path^
+            domain = line[2:-1].split('/', 1)[0]
             if domain not in black:
                 easy.append(line)
         else:
             adblock.append(line)
 
     return acc, easy, adblock
-
 
 def parallel_classify(all_lines: list, black: set) -> tuple[list, list, list]:
     chunk_size = max(1, len(all_lines) // MAX_PROC_WORKERS)
@@ -182,6 +211,12 @@ def build():
     with open("adblock.txt", "w", encoding='utf-8') as f:
         f.write("\n".join(adblock))
 
+    # 打印文件统计
+    print(f"\n成功生成文件:")
+    print(f"  - accelerate.txt: {len(acc_hosts)} 行")
+    print(f"  - easylist.txt: {len(easylist)} 行")
+    print(f"  - adblock.txt: {len(adblock)} 行")
+
 if __name__ == "__main__":
-    run_fetch()
+    success_urls, failed_urls = run_fetch()
     build()
