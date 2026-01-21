@@ -478,7 +478,7 @@ euskalnews.tv,eventiavversinews.it,studybullet.com,studybullet.com#%#//scriptlet
 djstar.in,profileviewpic.com,downev.com,bedrat.xyz,euskalnews.tv,eventiavversinews.it,studybullet.com,studybullet.com#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
 itopmusics.com,novelasligeras.net,4horlover.com#%#//scriptlet('abort-current-inline-script', 'document.getElementById', 'pagead2.googlesyndication.com')
 userupload.net,coastcams.com,financeyogi.net,androidadult.com,audiotools.in,bg-gledai.co#%#//scriptlet('abort-on-property-read', 'chp_adblock_browser')
-freemagazines.top,chpadblock.com#%#//scriptlet('prevent-eval-if', 'chp_adblock')
+itopmusic.com,freemagazines.top,chpadblock.com#%#//scriptlet('prevent-eval-if', 'chp_adblock')
 premierftp.net#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'is_url_banned')
 starwarsaddicted.it,wuyong.fun,26g.me,myqqjd.com,poapan.xyz,javboys.com,idevicecentral.com,fcportables.com,codehelppro.com#%#//scriptlet('abort-on-property-read', 'reqServers')
 @@||ads-api.twitter.com^$domain=camcam.cc|euskalnews.tv|studybullet.com|studybullet.com|eventiavversinews.it|sysguides.com|branditechture.agency|cizgifilmizle.info|kawaguchimaeda.com
@@ -833,6 +833,9 @@ pornhub.com,pornhub.org,pornhub.net#%#//scriptlet('prevent-setTimeout', '\x41\x6
 youporn.com#%#//scriptlet('remove-node-text', 'script', '/window\.[\s\S]*?_zone_[\s\S]*?{"zone_id":/')
 youporn.com$$script:contains(/window\.[\s\S]*?_zone_[\s\S]*?{"zone_id":/)
 @@||static.trafficjunky.com/ab/ads_test.js$domain=bztube.com|hotovs.com|insuredhome.org|nudegista.com|pornluck.com|vidd.se|redtube.*|youpornru.com|tube8.com|tube8.es|tube8.fr|tube8.net|pornhub.com|pornhub.org|pornhub.net
+leaguegaming.com#%#//scriptlet('prevent-fetch', 'adsbygoogle')
+kissjav.com#@#.ad-unit:not(.textads)
+kissjav.com#%#//scriptlet('prevent-setTimeout', '.offsetHeight === 0')
 indexsubtitle.cc#%#//scriptlet('prevent-setTimeout', '-0x')
 indexsubtitle.cc#@#.google_ads
 @@favicon.ico$domain=indexsubtitle.cc
@@ -2501,6 +2504,8 @@ kissanime.is,kissanime.sx,kissanime.com.ru,kissanime.co#%#//scriptlet('prevent-x
 kissanime.is,kissanime.sx,kissanime.com.ru,kissanime.co#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=kissanime.com.ru|kissanime.co|kissanime.sx|kissanime.is
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=kissanime.com.ru,important
+androidpolice.com#@#.w-adsninja-video-player
+androidpolice.com#@#.ad-zone:not(.textads)
 androidpolice.com#@#.adsninja-ad-zone
 androidpolice.com#@#.ad-current
 androidpolice.com#@#.ad-zone-container
@@ -38282,6 +38287,7 @@ popbee.com##.adblocker
 @@clicks.$domain=cimbclicks.com.my,~third-party
 @@doubleclick.net/ads/preferences/
 @@embed/$stealth=webrtc,domain=vipbox.lc
+@@favicon.ico$domain=indexsubtitle.cc
 @@get=*&short=*&refer=google$domain=advertisingcamps.com,stealth=referrer
 @@google$domain=focus.de,script
 @@hls/player$stealth=referrer,xmlhttprequest,domain=sportshub.to
@@ -40776,6 +40782,7 @@ popbee.com##.adblocker
 @@||cdn.ocmhood.com/sdk/hood.js$xmlhttprequest,domain=idlixofficialx.net
 @@||cdn.ocmhood.com/sdk/hood.js$xmlhttprequest,domain=idlixvip.asia
 @@||cdn.ometria.com/tags/*.js$domain=holtrenfrew.com
+@@||cdn.optimizely.com/datafiles/$domain=metro.at|metro.bg|metro-cc.hr|metro.fr|metro.it|metro-kz.com|metro.md|metro.pk|metro.ro|metro.rs|metro.sk|makro.es|metro-tr.com|metro.ua|makro.pt|metro.de
 @@||cdn.optimizely.com/datafiles/*.json$domain=alaskaair.com
 @@||cdn.optimizely.com/datafiles/*.json$domain=hm.com
 @@||cdn.optimizely.com/datafiles/*.json$domain=pizzahut.*
@@ -40824,7 +40831,6 @@ popbee.com##.adblocker
 @@||cdn.questionpro.com^$domain=questionpro.*
 @@||cdn.radiostreamlive.com/v*/js/adblock/advert-1bb.js
 @@||cdn.rawgit.com/*/lazyload.js$domain=javmost.com
-@@||cdn.rawgit.com/dmauro/keypress/master/keypress.js$script,domain=dmauro.github.io
 @@||cdn.rawgit.com/sitexw/FuckAdBlock/*/fuckadblock.js$domain=eskago.pl
 @@||cdn.reactandshare.com/plugin/rns.js$stealth=referrer,domain=maanmittauslaitos.fi
 @@||cdn.reignn.com/Products/Reignn/DataPixels/AdBlockerCheck/ads.js
@@ -48880,6 +48886,7 @@ popbee.com##.adblocker
 @@||samplette.io^$stealth=push
 @@||sams.11freunde.de/ee/*/interact?$xmlhttprequest,domain=11freunde.de
 @@||sams.spiegel.de/ee/irl1/v1/interact?$domain=spiegel.de
+@@||samsclub.com/px/*/captcha/captcha.js$domain=samsclub.com
 @@||samsunhaber.com/images/banner/*logo$~third-party
 @@||samuraiscan.com^$generichide
 @@||sandbox.cryptpad.info^$elemhide,jsinject,content,extension
@@ -49873,6 +49880,7 @@ popbee.com##.adblocker
 @@||static.adsafeprotected.com/vans-adapter-google-ima.js$domain=tyla.com
 @@||static.adsafeprotected.com/vans-adapter-google-ima.js$domain=wsj.com
 @@||static.adtrue24.com/images/*$domain=fap18.net
+@@||static.airbridge.io/sdk/latest/$domain=airbridge.io
 @@||static.amazon.jobs/assets/analytics-$script,domain=amazon.jobs
 @@||static.anyporn.com/bravoplayer/custom/anyporncom/scripts/bpcc.js
 @@||static.anyporn.com/bravoplayer/fluidplayer.js
@@ -51368,6 +51376,7 @@ popbee.com##.adblocker
 @@||wandhi.com^$generichide
 @@||wappass.baidu.com/static/touch/js/lib/fingerprint.js$domain=tieba.baidu.com
 @@||ware.shop.jd.com^$genericblock,generichide
+@@||warforum.xyz/ads.js?$script,~third-party
 @@||wargag.ru/public/js/counter.js?
 @@||wargaming.net^$stealth=3p-cookie
 @@||warpwire.com/AD/
@@ -55449,6 +55458,7 @@ title/– 青楼网/
 title/– 蜜糖网/
 title/– 糖豆网/
 title/– 三三图/
+title/– 图碧萝/
 title/– 形色人/
 title/– 美图舍/
 title/– 黑色猫/
@@ -55477,7 +55487,6 @@ title/-爱图社/
 title/-色久爱/
 title/-丝腿网/
 title/-色欲阁/
-title/– 图碧萝/
 title/-冰火次元/
 title/-蜜思图集/
 title/-虫虫乐园/
@@ -55512,6 +55521,7 @@ title/- COS妖/
 title/- COS君/
 title/- cos社/
 title/- COS集/
+title/- Cos写真/
 title/- COS写真/
 title/- cos王者/
 title/- COS猎人/
@@ -55527,6 +55537,7 @@ title/- E次元/
 title/- JK营/
 title/- OK写真/
 title/- Xcos/
+title/- 美库/
 title/- 酱推/
 title/- 丝域/
 title/- 奶圈/
@@ -55630,6 +55641,9 @@ title/- 猎刀手文章集合/
 title/- 我為人人人人為我/
 title/- 我为人人人人为我/
 title/- 微图吧/
+title/- 伊图恋/
+title/- 萌图集/
+title/- 萌想阁/
 title/- 舞艺吧/
 title/- 图集侠/
 title/- 影语阁/
@@ -55829,8 +55843,8 @@ title/- C次元/
 /(.+%E3%8A%99%EF%B8%8F)+/
 /(.+%E2%98%80%EF%B8%8F)+/
 /(.+%E2%9D%A4%EF%B8%8F%E2%80%8D)+/
-*://*.csdnimg.cn/*
 *://*.csdn.net/*
+*://*.csdnimg.cn/*
 *://*.icode.best/*
 *://*.chuzhounews.com/*
 *://*.ddkktxy.xyz/*
@@ -60492,6 +60506,30 @@ title/- C次元/
 *://*.caihongjiepai.me/*
 *://*.kuakeba.cn/*
 *://*.yuanqxz.com/*
+*://*.ysbaoku.com/*
+*://jianghu.taobao.com/*
+*://*.nryxh.com/*
+*://*.almcy88.com/*
+*://*.kvacg.com/*
+*://*.heimao1.com/*
+*://*.lululu.la/*
+*://*.cosjunpro.com/*
+*://*.miaolingyu.com/*
+*://*.fetisale.com/*
+*://*.tuluoj.cc/*
+*://*.coserpic.com/*
+*://*.hcw3.cn/*
+*://*.cosplay2.com/*
+*://*.snzhixu.com/*
+*://*.tujizhi.com/*
+*://*.zhaiheji01.com/*
+*://*.xiurenx.com/*
+*://*.tuyinji.com/*
+*://*.weimiba.com/*
+*://*.hhoverseas.cn/*
+*://*.cosersilo.com/*
+*://*.cosjidipro.com/*
+*://*.weimimao.cc/*
 /^https:\/\/zz\d{4}bb\d{4}\.com/$third-party,image
 :8686/8888/*.gif$third-party,image
 /960x60.
