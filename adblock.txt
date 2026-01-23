@@ -844,7 +844,7 @@ indexsubtitle.cc#@#.google_ads
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=indexsubtitle.cc
 epic.hellosports.live#%#//scriptlet('prevent-setTimeout', 'offsetHeight')
 epic.hellosports.live##.popSc
-pasteflash.sx#%#//scriptlet('prevent-setInterval', 'blocked')
+pasteflash.sx#%#//scriptlet('prevent-requestAnimationFrame', 'blocked')
 hexanaut.io#%#//scriptlet('prevent-fetch', 'adsbygoogle', 'length:60000-60001')
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=hexanaut.io,important
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=hexanaut.io
@@ -1929,9 +1929,9 @@ fastp.org#%#//scriptlet('set-constant', 'adsbygoogle.loaded', 'true')
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=arahdrive.com
 whatsafterthemovie.com#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=whatsafterthemovie.com
-luluvid.com,luluvdoo.com,savefiles.com,rubyvidhub.com,streamruby.com,lulustream.com,luluvdo.com#%#//scriptlet('abort-on-property-read', 'showADBOverlay')
-luluvid.com,luluvdoo.com,savefiles.com,rubyvidhub.com,streamruby.com,lulustream.com,luluvdo.com#%#//scriptlet('abort-on-stack-trace', '$', 'showADBOverlay')
-luluvid.com,luluvdoo.com,savefiles.com,rubyvidhub.com,streamruby.com,lulustream.com,luluvdo.com##body > div[class][oncontextmenu][style="display: block;"]
+bestbondagevideos.com,up4fun.top,luluvid.com,luluvdoo.com,savefiles.com,rubyvidhub.com,streamruby.com,lulustream.com,luluvdo.com#%#//scriptlet('abort-on-property-read', 'showADBOverlay')
+bestbondagevideos.com,up4fun.top,luluvid.com,luluvdoo.com,savefiles.com,rubyvidhub.com,streamruby.com,lulustream.com,luluvdo.com#%#//scriptlet('abort-on-stack-trace', '$', 'showADBOverlay')
+bestbondagevideos.com,up4fun.top,luluvid.com,luluvdoo.com,savefiles.com,rubyvidhub.com,streamruby.com,lulustream.com,luluvdo.com##body > div[class][oncontextmenu][style="display: block;"]
 fullboys.com#%#//scriptlet('prevent-element-src-loading', 'script', 'pagead2.googlesyndication.com/pagead/js/adsbygoogle.js')
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=fullboys.com
 tempinbox.xyz#%#//scriptlet('prevent-setTimeout', 'enable_ad_block_detector')
@@ -18453,6 +18453,7 @@ android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.t
 @@.adserver.$domain=litv.tv
 @@||holmesmind.com/js/drawV2.$domain=bingfong.com
 @@||hkcards.com^$generichide
+@@||linovelib.com^$generichide
 @@/prebid.$script,domain=mingpao.com
 @@||txws.yyzb456.top^$domain=857zb7.tv
 @@||jinritemai.com^$generichide
@@ -34995,6 +34996,7 @@ android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.t
 @@.adserver.$domain=litv.tv
 @@||holmesmind.com/js/drawV2.$domain=bingfong.com
 @@||hkcards.com^$generichide
+@@||linovelib.com^$generichide
 @@/prebid.$script,domain=mingpao.com
 @@||txws.yyzb456.top^$domain=857zb7.tv
 @@||jinritemai.com^$generichide
@@ -45754,6 +45756,7 @@ popbee.com##.adblocker
 @@||linkvertise.com/assets/ads.js
 @@||linkvertise.com^$generichide
 @@||linkvertise.download^$generichide
+@@||linovelib.com^$generichide
 @@||linuxize.com/detroitchicago/dayton.js
 @@||linuxize.com/porpoiseant/banger.js
 @@||linuxuprising.com^$generichide
@@ -45898,6 +45901,7 @@ popbee.com##.adblocker
 @@||lp.sophos.com/email-preferences-
 @@||lpg-forum.pl/ad-blocker.js
 @@||lprs*.fr/assets/js/lib/squid/smarttag.js$domain=leparisien.fr
+@@||lptag.liveperson.net^$domain=yesstyle.com
 @@||lr-ingest.io/LogRocket.min.js$domain=smartcare.com
 @@||lsi.com^*/google-analytics.js
 @@||lso.ca^$stealth=dpi
@@ -49719,6 +49723,7 @@ popbee.com##.adblocker
 @@||squidssh.com^$generichide
 @@||sravni-labs.ru^$stealth=dpi
 @@||src.fedoraproject.org/static/issues_stats.js?$~third-party
+@@||src.litix.io/*/bitmovin-mux.js$domain=shoof.alkass.net
 @@||src.litix.io/core/*/mux.js$domain=kanald.com.tr
 @@||src.litix.io/shakaplayer/*/shakaplayer-mux.js
 @@||src.litix.io/videojs/*/videojs-mux.js
@@ -63604,6 +63609,7 @@ implbits.com#@#.banner_container
 @@||beinconnect.com.tr^$stealth
 @@||account.adobe.com^$document,domain=services.adobe.com,stealth=useragent
 @@||adguard.com^$stealth
+@@||pornlib.com/player_config_json/$stealth=ip
 @@||auth.avs.io^$stealth=referrer
 @@||animevost.org^$stealth=webrtc
 @@||data.tnlycdn.com^$image,stealth=referrer,domain=toonily.com
