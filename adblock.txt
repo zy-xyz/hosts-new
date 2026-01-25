@@ -834,6 +834,8 @@ pornhub.com,pornhub.org,pornhub.net#%#//scriptlet('prevent-setTimeout', '\x41\x6
 youporn.com#%#//scriptlet('remove-node-text', 'script', '/window\.[\s\S]*?_zone_[\s\S]*?{"zone_id":/')
 youporn.com$$script:contains(/window\.[\s\S]*?_zone_[\s\S]*?{"zone_id":/)
 @@||static.trafficjunky.com/ab/ads_test.js$domain=bztube.com|hotovs.com|insuredhome.org|nudegista.com|pornluck.com|vidd.se|redtube.*|youpornru.com|tube8.com|tube8.es|tube8.fr|tube8.net|pornhub.com|pornhub.org|pornhub.net
+simpmusic.org#%#//scriptlet('prevent-xhr', 'adsbygoogle')
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=simpmusic.org
 asianporn.li#%#//scriptlet('prevent-addEventListener', 'load', 'checkAndLock')
 asianporn.li#@#.ad-unit:not(.textads)
 leaguegaming.com#%#//scriptlet('prevent-fetch', 'adsbygoogle')
@@ -47720,6 +47722,7 @@ popbee.com##.adblocker
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=s0ft4pc.com|portable4pc.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=scamwatcher.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=sgxnifty.org|comexlive.org|dowfutures.org
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=simpmusic.org
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=slashview.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=smallseotools.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=sms-ol.com
@@ -60582,7 +60585,6 @@ icu##.banner-layout-box
 ||galiysana.vip^$all
 ||k-words.io^$third-party
 ||44x.io^$script
-||adopsboost.com^$third-party
 ||hostk.cfd^$all
 ||dipperflightrecommend.com^$all
 ||leadstar.com.pl^$third-party
@@ -60665,7 +60667,6 @@ icu##.banner-layout-box
 ||my.toruftuiov.com^$all
 ||esvpnjdntgr.com^$all
 ||obtaintrout.com^$all
-||comicad.net^$third-party
 ||countabledawdlerunaudited.com^$all
 ||cfusion-internet.com^$third-party
 ||js.trendmd.com^$third-party
