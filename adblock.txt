@@ -838,6 +838,10 @@ pornhub.com,pornhub.org,pornhub.net#%#//scriptlet('prevent-setTimeout', '\x41\x6
 youporn.com#%#//scriptlet('remove-node-text', 'script', '/window\.[\s\S]*?_zone_[\s\S]*?{"zone_id":/')
 youporn.com$$script:contains(/window\.[\s\S]*?_zone_[\s\S]*?{"zone_id":/)
 @@||static.trafficjunky.com/ab/ads_test.js$domain=bztube.com|hotovs.com|insuredhome.org|nudegista.com|pornluck.com|vidd.se|redtube.*|youpornru.com|tube8.com|tube8.es|tube8.fr|tube8.net|pornhub.com|pornhub.org|pornhub.net
+almafhm.online,androidonepro.com,bosejk.in,cinema-3d.xyz,everydaytechvams.com,gfx-station.com,gold-24.net,hindisink.com,innateblogger.com,movies4u.*,princetechzone.in,rlxoff.com,rlxtech24h.com,stream2watch.*,to-travel.net,treasl.com,yjiur.xyz##.popup
+almafhm.online,androidonepro.com,bosejk.in,cinema-3d.xyz,everydaytechvams.com,gfx-station.com,gold-24.net,hindisink.com,innateblogger.com,movies4u.*,princetechzone.in,rlxoff.com,rlxtech24h.com,stream2watch.*,to-travel.net,treasl.com,yjiur.xyz##.overlay
+almafhm.online,androidonepro.com,bosejk.in,cinema-3d.xyz,everydaytechvams.com,gfx-station.com,gold-24.net,hindisink.com,innateblogger.com,movies4u.*,princetechzone.in,rlxoff.com,rlxtech24h.com,stream2watch.*,to-travel.net,treasl.com,yjiur.xyz##.popSc
+almafhm.online,androidonepro.com,bosejk.in,cinema-3d.xyz,everydaytechvams.com,gfx-station.com,gold-24.net,hindisink.com,innateblogger.com,movies4u.*,princetechzone.in,rlxoff.com,rlxtech24h.com,stream2watch.*,to-travel.net,treasl.com,yjiur.xyz#%#//scriptlet('abort-on-property-write', 'checkAdsStatus')
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,domain=radio.de|radio.at|radio.net,important
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=radio.de|radio.at|radio.net
 airlive.net#$##rb-checktag > .adsbygoogle { display: block !important; }
@@ -1655,8 +1659,6 @@ moovitapp.com#%#//scriptlet('prevent-fetch', '/www3\.doubleclick\.net|googlesynd
 1xanimes.in#$##pbt { display: none !important; }
 1xanimes.in#$#body { overflow: auto !important; }
 1xanimes.in#%#//scriptlet('abort-current-inline-script', 'document.createElement', 'adsbygoogle.js')
-princetechzone.in##.popSc
-princetechzone.in#%#//scriptlet('abort-on-property-write', 'checkAdsStatus')
 twitch.tv##.video-player__overlay .player-overlay-background:has(> div[class^="Layout-"] > div[class^="Layout-"] > div[class^="Layout-"] > a:is([href*="/how-to-allow-ads-browser"], [href="https://www.twitch.tv/turbo"]))
 file-upload.net#%#//scriptlet('set-constant', 'advertisement3', 'true')
 @@||file-upload.net/include/adserver.js$domain=file-upload.net
@@ -1966,8 +1968,6 @@ paste-drop.com#%#//scriptlet('prevent-xhr', 'adsbygoogle')
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=paste-drop.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=hentaigasm.com
 hentaigasm.com#%#//scriptlet('prevent-fetch', 'agead2.googlesyndication.com/pagead/js/adsbygoogle.js')
-gold-24.net,yjiur.xyz,to-travel.net,bosejk.in,rlxoff.com,innateblogger.com,gfx-station.com##.popSc
-gold-24.net,yjiur.xyz,to-travel.net,bosejk.in,rlxoff.com,innateblogger.com,gfx-station.com#%#//scriptlet('abort-on-property-write', 'checkAdsStatus')
 hqq.ac#%#//scriptlet('set-constant', 'adblockcheck', 'false')
 hqq.ac#%#//scriptlet('prevent-element-src-loading', 'script', '/script_')
 hqq.ac#%#//scriptlet('prevent-element-src-loading', 'script', '/adsbygoogle.js')
@@ -1978,8 +1978,6 @@ y2mate.is#%#//scriptlet('prevent-element-src-loading', 'script', 'pagead2.google
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=y2mate.is
 hentaihd.net,xstream.top,blurayufr.cam#%#//scriptlet('prevent-fetch', 'adsbygoogle')
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=xstream.top
-rlxtech24h.com##.popSc
-rlxtech24h.com#%#//scriptlet('abort-on-property-write', 'checkAdsStatus')
 ||popcdn.day/magnitude.js
 u.co.uk#%#//scriptlet('prevent-fetch', 'v.fwmrm.net')
 @@||v.fwmrm.net/?$xmlhttprequest,domain=u.co.uk
@@ -2028,8 +2026,6 @@ sportshub.to##.popSc
 @@||stats.g.doubleclick.net^$domain=sportshub.to
 @@||stats.wp.com^$domain=sportshub.to
 @@||static.media.net^$domain=sportshub.to
-stream2watch.*##.popSc
-stream2watch.*#%#//scriptlet('abort-on-property-write', 'checkAdsStatus')
 videzz.net##.vjs-adblock-overlay
 videzz.net#%#//scriptlet('set-constant', 'isAdBlockDetected', 'false')
 videzz.net#%#//scriptlet('set-constant', 'pData.adblockOverlayEnabled', '0')
@@ -2091,8 +2087,6 @@ arahtekno.com,gnaija.net#%#//scriptlet('prevent-fetch', 'adsbygoogle')
 tmail.io#$#body .ad.ads.adsbygoogle { display: block !important; }
 tmail.io#%#//scriptlet('abort-on-property-write', 'detectAdblock')
 @@||tmail.io^$generichide
-everydaytechvams.com##.popSc
-everydaytechvams.com#%#//scriptlet('abort-on-property-write', 'checkAdsStatus')
 abs-cbn.com#%#//scriptlet('prevent-fetch', 'www3.doubleclick.net')
 lootlink.org#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=lootlink.org
@@ -2274,8 +2268,6 @@ fmoonembed.*,embedme.*,filemoon.*,finfang.*,hellnaw.*,moonembed.*,z12z0vla.*#%#/
 arabic-for-nerds.com#%#//scriptlet("prevent-fetch", "cookiebanner")
 arabic-for-nerds.com#%#//scriptlet("prevent-addEventListener", "DOMContentLoaded", "detect")
 @@||arabic-for-nerds.com/wp-content/plugins/complianz-gdpr-premium/cookiebanner/js/complianz.min.js$domain=arabic-for-nerds.com
-treasl.com##.popSc
-treasl.com#%#//scriptlet('abort-on-property-write', 'checkAdsStatus')
 ||botrix.live/web_files/main-es2015.*.js$replace=/isUsingAdblock\(\){return window\.usingAdblock/isUsingAdblock(){return;/
 botrix.live#%#//scriptlet('set-constant', 'Object.prototype.isAdblock', 'undefined')
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=botrix.live
@@ -2355,8 +2347,6 @@ uflash.tv#%#//scriptlet('set-constant', 'popBlocked', 'falseFunc')
 aviationsourcenews.com##body div.mfp-wrap
 aviationsourcenews.com##body div.mfp-bg
 trackid.net#%#//scriptlet('prevent-fetch', 'www3.doubleclick.net')
-movies4u.*##.popSc
-movies4u.*#%#//scriptlet('abort-on-property-write', 'checkAdsStatus')
 godstoryinfo.com,laweducationinfo.com,rsgames.xyz,vichitrainfo.com#%#//scriptlet('set-cookie', '__gads', '1')
 godstoryinfo.com,laweducationinfo.com,rsgames.xyz,vichitrainfo.com#%#//scriptlet('abort-on-property-write', 'window.onload')
 godstoryinfo.com,laweducationinfo.com,rsgames.xyz,vichitrainfo.com#%#//scriptlet('abort-on-stack-trace', 'document.getElementsByTagName', 'adsBlocked')
