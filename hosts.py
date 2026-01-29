@@ -47,6 +47,9 @@ links = [
     "https://github-hosts.tinsfox.com/hosts",
     "https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist/raw/refs/heads/main/list.txt",
     "https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist/raw/refs/heads/main/noai_hosts.txt",
+    "https://raw.githubusercontent.com/runningcheese/RunningCheese-Firefox/master/Restore/Adblock_Watermark.txt",
+    "https://raw.githubusercontent.com/Noyllopa/NoAppDownload/master/NoAppDownload.txt",
+    "https://easylist-downloads.adblockplus.org/antiadblockfilters.txt",
     "https://raw.githubusercontent.com/geoisam/FuckScripts/main/adfuck.txt"       
 ]
 dead_hosts = [
