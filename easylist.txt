@@ -141,6 +141,12 @@
 ||lgu7in90o.com^
 ||permissible67.com^
 ||gsk802030hh.com^
+||pvtd.cn^
+||q1txsah8s.com^
+||gnfr03906.com^
+||gsk802031hh.com^
+||zceniddd.com^
+||gb3scpejq.com^
 ||qizq4hn7pr.com^
 ||ojn1zxz0ni.com^
 ||guu0bfmpf5.com^
@@ -4628,6 +4634,7 @@
 @@||buyad.bi-xenon.cn^
 @@||captcha.su.baidu.com^
 @@||img.ads.tvb.com^
+||kdewa111.familydoctor.com.cn^
 ||zgzxm.weathercn.com^
 ||cientch.360doc.cn^
 ||bdwmhz.120askimages.com^
@@ -6459,6 +6466,12 @@
 ||lgu7in90o.com^
 ||permissible67.com^
 ||gsk802030hh.com^
+||pvtd.cn^
+||q1txsah8s.com^
+||gnfr03906.com^
+||gsk802031hh.com^
+||zceniddd.com^
+||gb3scpejq.com^
 ||qizq4hn7pr.com^
 ||ojn1zxz0ni.com^
 ||guu0bfmpf5.com^
@@ -10946,6 +10959,7 @@
 @@||buyad.bi-xenon.cn^
 @@||captcha.su.baidu.com^
 @@||img.ads.tvb.com^
+||kdewa111.familydoctor.com.cn^
 ||zgzxm.weathercn.com^
 ||cientch.360doc.cn^
 ||bdwmhz.120askimages.com^
@@ -29905,7 +29919,6 @@
 ||hzs9.cnzz.com^
 ||hzvs1.cnzz.com^
 ||pcookie.cnzz.com^
-||ksk.co.id^
 ||rumahsabiq.com^
 @@||ad.azure.com^
 @@||ad.ext.azure.com^
