@@ -12,7 +12,6 @@
 ||vernaellac.com^
 ||dkaktsb.icu^
 ||tw-726620180914.*.run.app^
-||kai5741.xyz^
 ||mernrza.com^
 ||xjwhtz10.com^
 ||xjwhtz2.com^
@@ -134,6 +133,14 @@
 ||hash.trafficmanager.net^
 ||51tongji.trafficmanager.net^
 ||cnzz.trafficmanager.net^
+||nws5ay4cr2.com^
+||sxzl6x4k9p.com^
+||multiple46.top^
+||l2qdfaq62o.com^
+||dlsybe78o0.com^
+||8rht5welv5.com^
+||rtip4abjv3.com^
+||idavmk1276.com^
 ||skirmish33.top^
 ||1hhwyb4vl.com^
 ||yzhcp6cw1.com^
@@ -756,7 +763,6 @@
 ||cgcg01040ht.com^
 ||prelude69.com^
 ||nstltp.icu^
-||lfamuxkaqobp.com^
 ||wpy6xuq4.xyz^
 ||qkg7yplpfo.com^
 ||9ck9umcyvt.com^
@@ -2632,7 +2638,6 @@
 ||achophranb.com^
 ||rbze.cn^
 ||goose64.top^
-||dopeoutspoken.com^
 ||musclesaskewfeeding.com^
 ||3vnofjidlv.com^
 ||p7jroq6xco.com^
@@ -6438,7 +6443,6 @@
 ||vernaellac.com^
 ||dkaktsb.icu^
 ||tw-726620180914.*.run.app^
-||kai5741.xyz^
 ||mernrza.com^
 ||xjwhtz10.com^
 ||xjwhtz2.com^
@@ -6560,6 +6564,14 @@
 ||hash.trafficmanager.net^
 ||51tongji.trafficmanager.net^
 ||cnzz.trafficmanager.net^
+||nws5ay4cr2.com^
+||sxzl6x4k9p.com^
+||multiple46.top^
+||l2qdfaq62o.com^
+||dlsybe78o0.com^
+||8rht5welv5.com^
+||rtip4abjv3.com^
+||idavmk1276.com^
 ||skirmish33.top^
 ||1hhwyb4vl.com^
 ||yzhcp6cw1.com^
@@ -7182,7 +7194,6 @@
 ||cgcg01040ht.com^
 ||prelude69.com^
 ||nstltp.icu^
-||lfamuxkaqobp.com^
 ||wpy6xuq4.xyz^
 ||qkg7yplpfo.com^
 ||9ck9umcyvt.com^
@@ -9058,7 +9069,6 @@
 ||achophranb.com^
 ||rbze.cn^
 ||goose64.top^
-||dopeoutspoken.com^
 ||musclesaskewfeeding.com^
 ||3vnofjidlv.com^
 ||p7jroq6xco.com^
@@ -30121,6 +30131,7 @@
 ||hzs9.cnzz.com^
 ||hzvs1.cnzz.com^
 ||pcookie.cnzz.com^
+||www.baotong.com^
 @@||ad.azure.com^
 @@||ad.ext.azure.com^
 @@||ads.taboola.com^
@@ -132286,6 +132297,7 @@
 @@||indiaeveryday.com/staticcontent/ads/googleads.js^
 @@||inews.gtimg.com^
 @@||infolink.pavv.co.kr^
+@@||injections.adguard.org^
 @@||js.dogannet.tv/q/s/player/html5^
 @@||kiplinger.112.2o7.net^
 @@||lesechos.com/*/dfp.js^
@@ -132367,6 +132379,14 @@
 ||jddebug.com^
 @@||tanx.com^
 ||fundingchoicesmessages.google.com^
+||pahter.tech^
+||pahtuo.tech^
+||pahtuz.tech^
+||pahtlf.tech^
+||pahtsx.tech^
+||pahtbt.tech^
+||adbkacpmu.com^
+||lepidpomps.com^
 ||typicallyuncovernull.com^
 ||improbablehospital.com^
 ||zstnzufw.com^
@@ -132715,6 +132735,7 @@
 ||advlistings.com^
 ||minutelight-1.online^
 ||onemediawork.com^
+@@||injections.adguard.org^
 @@||cdn.datatables.net^
 @@||reports.adguard.com^
 @@||s.optnx.com^
