@@ -133,6 +133,10 @@
 ||hash.trafficmanager.net^
 ||51tongji.trafficmanager.net^
 ||cnzz.trafficmanager.net^
+||aa7hzjsow.com^
+||jh2szzt7n.com^
+||envision75.com^
+||5edf1d2qv.com^
 ||nws5ay4cr2.com^
 ||sxzl6x4k9p.com^
 ||multiple46.top^
@@ -6564,6 +6568,8 @@
 ||hash.trafficmanager.net^
 ||51tongji.trafficmanager.net^
 ||cnzz.trafficmanager.net^
+||aa7hzjsow.com^
+||jh2szzt7n.com^
 ||nws5ay4cr2.com^
 ||sxzl6x4k9p.com^
 ||multiple46.top^
@@ -30131,7 +30137,6 @@
 ||hzs9.cnzz.com^
 ||hzvs1.cnzz.com^
 ||pcookie.cnzz.com^
-||www.baotong.com^
 @@||ad.azure.com^
 @@||ad.ext.azure.com^
 @@||ads.taboola.com^
@@ -132379,6 +132384,7 @@
 ||jddebug.com^
 @@||tanx.com^
 ||fundingchoicesmessages.google.com^
+||frugraoqlo.com^
 ||pahter.tech^
 ||pahtuo.tech^
 ||pahtuz.tech^
