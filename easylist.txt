@@ -133,6 +133,13 @@
 ||hash.trafficmanager.net^
 ||51tongji.trafficmanager.net^
 ||cnzz.trafficmanager.net^
+||heuristic95.top^
+||80753325p.com^
+||f9bnlbgjf.com^
+||5w31xv1a2.com^
+||v8fjvv9o3.com^
+||wbkar038r.com^
+||phuolhogmxin.com^
 ||aa7hzjsow.com^
 ||jh2szzt7n.com^
 ||envision75.com^
@@ -6577,6 +6584,13 @@
 ||hash.trafficmanager.net^
 ||51tongji.trafficmanager.net^
 ||cnzz.trafficmanager.net^
+||heuristic95.top^
+||80753325p.com^
+||f9bnlbgjf.com^
+||5w31xv1a2.com^
+||v8fjvv9o3.com^
+||wbkar038r.com^
+||phuolhogmxin.com^
 ||aa7hzjsow.com^
 ||jh2szzt7n.com^
 ||envision75.com^
@@ -6589,6 +6603,7 @@
 ||overboard27.com^
 ||curthkivew.com^
 ||ziwl05nrf1.com^
+||0yjeii25x4.com^
 ||nws5ay4cr2.com^
 ||sxzl6x4k9p.com^
 ||multiple46.top^
@@ -133081,6 +133096,11 @@
 ||jddebug.com^
 @@||tanx.com^
 ||fundingchoicesmessages.google.com^
+||lakollsukj.com^
+||bogustrouble.com^
+||8c66b76e9b.com^
+||phoneupstandingcatholic.com^
+||aufas.com^
 ||atytentioniaukmla.org^
 ||d1j5bhx6uel4km.cloudfront.net^
 ||frugraoqlo.com^
