@@ -42271,6 +42271,7 @@ popbee.com##.adblocker
 @@||epikplayer.xyz/embed/$stealth=referrer
 @@||episode.pmcontent.com^$stealth=referrer
 @@||epnt.ebay.com/static/epn-smart-tools.js$xmlhttprequest,domain=theshedend.com
+@@||epstore.com/file_includes.php?path=*/pageview.js$script,~third-party
 @@||epubit.com/static/epubit/share/js/share.min.js
 @@||erai-raws.info^$generichide
 @@||ero18.cc^$generichide
@@ -61142,7 +61143,7 @@ implbits.com#@#.banner_container
 @@||faiusr.com^$image,stealth=referrer
 @@||watchanimesub.net^$media,stealth=referrer,domain=watchcartoononline.com
 @@||dizifilmevreni.xyz/embed/$stealth=referrer
-@@||mxcontent.net^$media,stealth=referrer,domain=m1xdrop.com
+@@||mxcontent.net^$media,stealth=referrer,domain=m1xdrop.com|m1xdrop.bz
 @@||checkout.api.scayle.cloud/next/api/$stealth=3p-auth
 @@||gse.it^$stealth=ip
 @@||kfc.com^$stealth=ip
