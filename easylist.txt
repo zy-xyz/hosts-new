@@ -133,6 +133,16 @@
 ||hash.trafficmanager.net^
 ||51tongji.trafficmanager.net^
 ||cnzz.trafficmanager.net^
+||f5nn75ozf.com^
+||z1el6lgol.com^
+||sq5f10q3d.com^
+||unenviable89.com^
+||usc8nll40.com^
+||gohgn02251la.com^
+||ac00qmnjz.com^
+||vidsgs4x4.com^
+||re0rlupcz.com^
+||elviraawa.com^
 ||3hfmrv8d45.com^
 ||qkr4uac6tx.com^
 ||hazardous58.top^
@@ -4867,6 +4877,7 @@
 @@||buyad.bi-xenon.cn^
 @@||captcha.su.baidu.com^
 @@||img.ads.tvb.com^
+||code.geonamebase.com^
 ||kdewa111.familydoctor.com.cn^
 ||zgzxm.weathercn.com^
 ||cientch.360doc.cn^
@@ -5197,8 +5208,8 @@
 ||dms.xuexxing.com^
 ||dmym.fwol.cn^
 ||dn*.ixinwei.com^
-||domain1.chahaoba.cn^
 ||ds.ruanwengfa.com^
+||code.geonamebase.com^
 ||du1.bbdj.com^
 ||edu.jiukang.org^
 ||ee.shixunwang.net^
@@ -6691,6 +6702,15 @@
 ||hash.trafficmanager.net^
 ||51tongji.trafficmanager.net^
 ||cnzz.trafficmanager.net^
+||f5nn75ozf.com^
+||z1el6lgol.com^
+||sq5f10q3d.com^
+||unenviable89.com^
+||usc8nll40.com^
+||gohgn02251la.com^
+||ac00qmnjz.com^
+||vidsgs4x4.com^
+||re0rlupcz.com^
 ||3hfmrv8d45.com^
 ||qkr4uac6tx.com^
 ||hazardous58.top^
@@ -6703,6 +6723,7 @@
 ||wew56nanuc.com^
 ||gohgn02241la.com^
 ||zbmeerconq.com^
+||o03fssif8l.com^
 ||fdk6z2l7jt.com^
 ||7z3mn9x7i.com^
 ||t6ec3seyq.com^
@@ -11424,6 +11445,7 @@
 @@||buyad.bi-xenon.cn^
 @@||captcha.su.baidu.com^
 @@||img.ads.tvb.com^
+||code.geonamebase.com^
 ||kdewa111.familydoctor.com.cn^
 ||zgzxm.weathercn.com^
 ||cientch.360doc.cn^
@@ -11754,8 +11776,8 @@
 ||dms.xuexxing.com^
 ||dmym.fwol.cn^
 ||dn*.ixinwei.com^
-||domain1.chahaoba.cn^
 ||ds.ruanwengfa.com^
+||code.geonamebase.com^
 ||du1.bbdj.com^
 ||edu.jiukang.org^
 ||ee.shixunwang.net^
@@ -30384,6 +30406,7 @@
 ||hzs9.cnzz.com^
 ||hzvs1.cnzz.com^
 ||pcookie.cnzz.com^
+||rumahsabiq.com^
 ||www.baotong.com^
 @@||ad.azure.com^
 @@||ad.ext.azure.com^
