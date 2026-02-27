@@ -133,6 +133,15 @@
 ||hash.trafficmanager.net^
 ||51tongji.trafficmanager.net^
 ||cnzz.trafficmanager.net^
+||muxc8wxhv.com^
+||z0vogb8ns.com^
+||jvqo1iiej.com^
+||contemplate23.top^
+||1vd2esrss.com^
+||gu4xxpoe9.com^
+||rltwz2cmo.com^
+||gbiltuj8w.com^
+||fikppvmul.com^
 ||i2fxsez4f0.com^
 ||22eo9qlbpt.com^
 ||pcmxcdjbgo.com^
@@ -5221,7 +5230,6 @@
 ||dmym.fwol.cn^
 ||dn*.ixinwei.com^
 ||ds.ruanwengfa.com^
-||code.geonamebase.com^
 ||du1.bbdj.com^
 ||edu.jiukang.org^
 ||ee.shixunwang.net^
@@ -6714,6 +6722,15 @@
 ||hash.trafficmanager.net^
 ||51tongji.trafficmanager.net^
 ||cnzz.trafficmanager.net^
+||muxc8wxhv.com^
+||z0vogb8ns.com^
+||jvqo1iiej.com^
+||contemplate23.top^
+||1vd2esrss.com^
+||gu4xxpoe9.com^
+||rltwz2cmo.com^
+||gbiltuj8w.com^
+||fikppvmul.com^
 ||i2fxsez4f0.com^
 ||22eo9qlbpt.com^
 ||pcmxcdjbgo.com^
@@ -11802,7 +11819,6 @@
 ||dmym.fwol.cn^
 ||dn*.ixinwei.com^
 ||ds.ruanwengfa.com^
-||code.geonamebase.com^
 ||du1.bbdj.com^
 ||edu.jiukang.org^
 ||ee.shixunwang.net^
