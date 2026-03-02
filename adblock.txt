@@ -565,6 +565,7 @@ playareaz.com,carensureplan.com#%#//scriptlet('prevent-setTimeout', '/AdBlock/i'
 @@||team-octavi.com^$generichide
 @@||softcobra.com^$generichide
 @@||rbs.ta36.com^$generichide
+fitnesstipz.com,stock-rom.com,xporn.to,kodibeginner.com,windbreaker.me,fazy.online,wikijankari.com,greett.xyz,cricket12.com,stimotion.pl,thelastgamestandingexp.com,chart.services,moneysave.info,pornmz.com,yakisurume.com,tehnar.net.ua,rocdacier.com,audiotrip.org,flowsnet.com,brulosophy.com,reprezentacija.rs##body > div#page ~ div[id][class*=" "]
 trendmagazineonline.com,broadbottomvillage.co.uk,call4cloud.nl,aitoolsfree.org,realpornblogger.com,sirenitashot.com,medeberiya.site,djstar.in,two4storytale.altervista.org,marimo-info.net,bestofchristianity.com,princetechzone.in,clockskin.us,haqem.com,tvappapk.com,violablu.net,villettt.kitchen,aitohuman.org,dailyweb.pl,zerogptai.org,nsw2u.*,game-2u.com,rubyskitchenrecipes.uk,know-how-tree.com,nswrom.com##body > #page + div[id][class*=" "]
 gcmob.net##.site ~ div[id][class]
 playareaz.com,carensureplan.com###custom-background-css > div:not(#wpcp-error-message, .bs-latest-ticker-news)
@@ -637,7 +638,6 @@ bikyonyu-bijo-zukan.com,sumirekeiba.com###container + div[id][class*=" "]
 gengen17.com###jetpack-lazy-images-js + div[id][class*=" "]
 helicomicro.com##.backtoptop + div[id][class*=" "]
 karwan.tv##.gdpr-cm-wrap + script + div[id][class*=" "]
-stock-rom.com,xporn.to,kodibeginner.com,windbreaker.me,fazy.online,wikijankari.com,greett.xyz,cricket12.com,stimotion.pl,thelastgamestandingexp.com,chart.services,moneysave.info,pornmz.com,yakisurume.com,tehnar.net.ua,rocdacier.com,audiotrip.org,flowsnet.com,brulosophy.com,reprezentacija.rs##body > div#page ~ div[id][class*=" "]
 laurasia.info,udebut.jp,www2.tmyinsight.net###page-top ~ div[id][class*=" "]
 ourcoincash.xyz###miniFooterWrapper ~ script + style + div[id][class*=" "]
 analysis-chess.io.vn###exampleModal + div[id][class*=" "]
@@ -847,6 +847,9 @@ pornhub.com,pornhub.org,pornhub.net#%#//scriptlet('prevent-setTimeout', '\x41\x6
 youporn.com#%#//scriptlet('remove-node-text', 'script', '/window\.[\s\S]*?_zone_[\s\S]*?{"zone_id":/')
 youporn.com$$script:contains(/window\.[\s\S]*?_zone_[\s\S]*?{"zone_id":/)
 @@||static.trafficjunky.com/ab/ads_test.js$domain=bztube.com|hotovs.com|insuredhome.org|nudegista.com|pornluck.com|vidd.se|redtube.*|youpornru.com|tube8.com|tube8.es|tube8.fr|tube8.net|pornhub.com|pornhub.org|pornhub.net
+@@||static.doubleclick.net/instream/ad_status.js$xmlhttprequest,domain=softinfo.ro
+twitchnosub.com$$script:contains(accessGate)
+twitchnosub.com#%#//scriptlet('remove-node-text', 'script', 'accessGate')
 automoto.it#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=automoto.it
 camwhores.tv#%#//scriptlet('set-constant', 'flashvars.protect_block_html', '')
@@ -864,7 +867,6 @@ spotidown.app#%#//scriptlet('prevent-xhr', 'adsbygoogle')
 gupload.xyz#%#//scriptlet('prevent-setTimeout', 'detect')
 @@||gupload.xyz^$generichide
 reallifecams.us#@#.AdsBox
-||twitchnosub.com/static/js/app.js
 ||acapellas.eu/ublock-only.js
 techybuff.com,bgmiesports.in#%#//scriptlet('prevent-setTimeout', 'baitElementDetector')
 techybuff.com#@#ins.adsbygoogle[data-ad-slot]
@@ -40741,6 +40743,7 @@ popbee.com##.adblocker
 @@||cdn.hsmedia.ru/dist/$stealth=referrer,domain=maximonline.ru|woman.ru|parents.ru|vokrugsveta.ru|psychologies.ru|ellegirl.ru|wday.ru|marieclaire.ru
 @@||cdn.idevbase.com/static/$stealth=referrer,domain=ohttps.com
 @@||cdn.inside-handy.de/ih/top/
+@@||cdn.intellimize.co/snippet/$script,domain=talkspace.com
 @@||cdn.intergi.com/*/js/libs/cmg-prebid-*.new.js$domain=coolmathgames.com
 @@||cdn.intergi.com/hera/*.js$domain=thenextweb.com
 @@||cdn.intergi.com/hera/releases/*.js$domain=addictinggames.com
@@ -43965,6 +43968,7 @@ popbee.com##.adblocker
 @@||googletagmanager.com/gtm.js$domain=store.line.me
 @@||googletagmanager.com/gtm.js$domain=str.toyokeizai.net
 @@||googletagmanager.com/gtm.js$domain=stressless.com
+@@||googletagmanager.com/gtm.js$domain=styl.fm
 @@||googletagmanager.com/gtm.js$domain=superesportes.com.br
 @@||googletagmanager.com/gtm.js$domain=suwen.com.tr
 @@||googletagmanager.com/gtm.js$domain=systemrequirementslab.com
@@ -44186,6 +44190,7 @@ popbee.com##.adblocker
 @@||gstatic.com/cv/js/sender/*/cast_sender.js$domain=pornhub.com|pornhub.org|pornhub.net
 @@||gstatic.com/images/branding/product/*/adsense_$image,domain=support.google.com
 @@||gstatic.com/images/branding/product/*x/translate_24dp.png$image,domain=translate.googleapis.com
+@@||gstatic.com/marketing-cms/assets/images/$image,domain=business.google.com
 @@||gstatic.com/recaptcha/
 @@||gstatic.com^$stealth=referrer,domain=cup.rallyfans.info
 @@||gstatic.com^*/firebase-performance-standalone.js$script,domain=flightradar24.com
@@ -44769,8 +44774,7 @@ popbee.com##.adblocker
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=globoplay.globo.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=gocolumbialions.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=goducks.com
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=goniec.pl|lelum.pl|biznesinfo.pl|portalparentingowy.pl|pacjenci.pl|rolnikinfo.pl|turysci.pl|smakosze.pl|swiatzwierzat.pl|domekiogrodek.pl|aleklasa.pl|rynek-kolejowy.pl
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=goracetematy.pl
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=goniec.pl|lelum.pl|biznesinfo.pl|portalparentingowy.pl|pacjenci.pl|rolnikinfo.pl|turysci.pl|smakosze.pl|swiatzwierzat.pl|domekiogrodek.pl|aleklasa.pl|rynek-kolejowy.pl|goracetematy.pl
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=gostanford.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=gousfbulls.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=greatdaygames.com
@@ -49976,6 +49980,7 @@ popbee.com##.adblocker
 @@||static.doubleclick.net/instream/ad_status.js$domain=youtube.com
 @@||static.doubleclick.net/instream/ad_status.js$script,domain=ignboards.com
 @@||static.doubleclick.net/instream/ad_status.js$xmlhttprequest,domain=exeygo.com
+@@||static.doubleclick.net/instream/ad_status.js$xmlhttprequest,domain=softinfo.ro
 @@||static.doubleclick.net^$xmlhttprequest,domain=sgxnifty.org|comexlive.org|dowfutures.org
 @@||static.editor.naver.net/static/$stealth=referrer
 @@||static.ex.co/pb-play/production/*/playbuzz-viewer-play.es5.js
@@ -58802,6 +58807,7 @@ $popup,third-party,domain=fembed-hd.com,badfilter
 $popup,third-party,domain=sbplay2.com,badfilter
 $popup,third-party,domain=dood.ws,badfilter
 @@||download.ros.org/*.xsd$document
+@@||gstatic.com/marketing-cms/assets/images/$image,domain=business.google.com
 ||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=metacritic.com,redirect=googletagservices-gpt
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,domain=metacritic.com
 @@||securepubads.g.doubleclick.net/pagead/managed/$script,domain=metacritic.com
