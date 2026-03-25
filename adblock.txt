@@ -860,6 +860,7 @@ youporn.com#%#//scriptlet('remove-node-text', 'script', '/window\.[\s\S]*?_zone_
 youporn.com$$script:contains(/window\.[\s\S]*?_zone_[\s\S]*?{"zone_id":/)
 @@||static.trafficjunky.com/ab/ads_test.js$domain=bztube.com|hotovs.com|insuredhome.org|nudegista.com|pornluck.com|vidd.se|redtube.*|youpornru.com|tube8.com|tube8.es|tube8.fr|tube8.net|pornhub.com|pornhub.org|pornhub.net
 @@://www.exoclick.com/ads.js|
+vidsonic.net#%#//scriptlet('prevent-xhr', 'adsbygoogle')
 vidsonic.net#%#//scriptlet('prevent-fetch', 'adsbygoogle')
 vidsonic.net#@##ad-box
 vidsonic.net#@##google-ad
@@ -7705,7 +7706,7 @@ mgtv.com###sideFloatbtn,.rightnav .openvip,.proright .m-search-source,.vip-butto
 m.mgtv.com##.ReactModalPortal,[class*="OpenApp"],.open-app-popup,.ht.mgui-btn.mgui-btn-nowelt,.mg-down-btn,.m-vip-list,.m-vip-list + div,.vip-popover
 ||da.mgtv.com^$image
 ||video.da.mgtv.com/$media
-123pan.com,123pan.cn,123684.com,123865.com,123912.com##.advBanner,[class*="banner_guide"],[class*="adv-container"],[class*="banner-container"],[class*="header-waning-tips"],.btn_reward,.ant-carousel,.activity-box,#top_container,.banner_all_wrap,#banner_container,.verifyBox img.default-img-title,.uppy-Dashboard-slowSpeed-banner,.video-new-user-tips:has(.open-vip),.ant-modal-content .download-msgInfo-phone,.bg_svip_block_ads,.ant-modal-root:has(img[src*="tuia-fa.jpg"])
+123pan.com,123pan.cn,123684.com,123865.com,123912.com##.advBanner,[class*="banner_guide"],[class*="adv-container"],[class*="banner-container"],[class*="header-waning-tips"],.btn_reward,.ant-carousel,.activity-box,#top_container,.banner_all_wrap,#banner_container,.verifyBox img.default-img-title,.uppy-Dashboard-slowSpeed-banner,.video-new-user-tips:has(.open-vip),.ant-modal-content .download-msgInfo-phone,.bg_svip_block_ads,.ant-modal-root:has(img[src*="tuia-fa."])
 123pan.com,123pan.cn,123684.com,123865.com,123912.com#$#.contentBorder .conter { margin-bottom: 0 !important; }
 123pan.com,123pan.cn,123684.com,123865.com,123912.com#$#.appBottomBtn.banner-bottom { bottom: 0 !important; }
 123pan.com,123pan.cn,123684.com,123865.com,123912.com#$#.webbody.svip-body,.app-body.svip-body,.backgroundImage,.verifyBox { background-image: none !important; }
@@ -12877,6 +12878,12 @@ meijutt.*/js/pcjs/
 ||*.mp4$rewrite=abp-resource:blank-mp3,domain=huavod.com
 ||pan0304.com/ads.
 ||mwka.cc/static/gg.
+madou.com###videoPauseBox
+madou.com##a[ref="nofollow sponsored"]
+madou.com##.top-and-banners
+madou.com##.info-row-wrap
+madou.com##.scroll-wrapper
+madou.com##.floatSwiperPop
 zhihu.com##.Pc-word-new
 baidu.com##div[data-key^="ad__"]
 4hu.tv##.kkm-content
@@ -29465,6 +29472,12 @@ meijutt.*/js/pcjs/
 ||*.mp4$redirect=noopmp3-0.1s,domain=huavod.com
 ||pan0304.com/ads.
 ||mwka.cc/static/gg.
+madou.com###videoPauseBox
+madou.com##a[ref="nofollow sponsored"]
+madou.com##.top-and-banners
+madou.com##.info-row-wrap
+madou.com##.scroll-wrapper
+madou.com##.floatSwiperPop
 zhihu.com##.Pc-word-new
 baidu.com##div[data-key^="ad__"]
 4hu.tv##.kkm-content
@@ -38264,8 +38277,8 @@ popbee.com##.adblocker
 @@/pdc_s_code.js$domain=adobe.com
 @@/piwik-$domain=github.com
 @@/player/*$stealth=referrer,domain=ibomma.*
-@@/player/stats.php$domain=camwhores.tv|viralxxxporn.com|thothub.vip|yesporn.vip|85po.com|85po.net|85xo.com|85xo.com|watchporn.to|viralpornhub.com|watchmdh.to|porn4fans.com
-@@/player_ads.html$domain=camwhores.tv|viralxxxporn.com|thothub.vip|yesporn.vip|85po.com|85po.net|85xo.com|85xo.com|watchporn.to|viralpornhub.com|camwhoresbay.porn|watchmdh.to|ebalovo.porn|ebalovo.adult|camlovers.tv|camhub.tv|pornissimo.org|porntn.com|femdomtb.com|pornoham.me|tubsexer.com|homegrownfreaks.net|pornfd.com|sexcams-24.com|watchmdh.to
+@@/player/stats.php$domain=camwhores.tv|viralxxxporn.com|thothub.vip|yesporn.vip|85po.com|85po.net|85xo.com|85xo.com|watchporn.to|viralpornhub.com|watchmdh.to|porn4fans.com|porno24.to
+@@/player_ads.html$domain=camwhores.tv|viralxxxporn.com|thothub.vip|yesporn.vip|85po.com|85po.net|85xo.com|85xo.com|watchporn.to|viralpornhub.com|camwhoresbay.porn|watchmdh.to|ebalovo.porn|ebalovo.adult|camlovers.tv|camhub.tv|pornissimo.org|porntn.com|femdomtb.com|pornoham.me|tubsexer.com|homegrownfreaks.net|pornfd.com|sexcams-24.com|watchmdh.to|porno24.to
 @@/playlist.m3u8$stealth=referrer|ip
 @@/playlist/*caxi.m3u8$xmlhttprequest,stealth=referrer,domain=crackstreamer.net|streameast.app|1stream.eu|buffstreams.app
 @@/playlists/*/play*.jpeg$xmlhttprequest,stealth=referrer
@@ -44771,7 +44784,6 @@ popbee.com##.adblocker
 @@||images4u.cc^$generichide
 @@||imasdk.googleapis.com$domain=video.huffingtonpost.it
 @@||imasdk.googleapis.com/js/$domain=cari.com.my
-@@||imasdk.googleapis.com/js/core/bridge*.html$domain=~spotify.com|~danet.vn
 @@||imasdk.googleapis.com/js/core/bridge*.html$subdocument,domain=~airtelxstream.in|~danet.vn|~spotify.com
 @@||imasdk.googleapis.com/js/core/dai_iframe3$domain=southpark.cc.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3$domain=rotana.net
@@ -48878,6 +48890,7 @@ popbee.com##.adblocker
 @@||rollbar.com^*/rollbar.min.js$domain=rollingstone.com|variety.com|wwd.com
 @@||rollingstone.de/resources/js/webtrekk.js
 @@||romsforever.co^$generichide
+@@||roomlala.*/assets/myspace/myprofile/sponsorship_controller-*.js
 @@||rootzaffiliates.com^$domain=rootzaffiliates.com
 @@||rosefile.net^$generichide
 @@||rota.cc^$stealth=referrer
@@ -51372,6 +51385,7 @@ popbee.com##.adblocker
 @@||vidhidevip.com/embed/$subdocument,stealth=referrer
 @@||vidible.tv^*/ComScore.StreamSense.js
 @@||vidible.tv^*/ComScore.Viewability.js
+@@||vidkocu.site/embed.php$stealth=referrer,third-party
 @@||vidlii.com^$generichide
 @@||vidload.lol/iframe/$stealth=referrer
 @@||vidload.site^$stealth=referrer
@@ -58912,6 +58926,7 @@ $popup,third-party,domain=fembed-hd.com,badfilter
 $popup,third-party,domain=sbplay2.com,badfilter
 $popup,third-party,domain=dood.ws,badfilter
 @@||download.ros.org/*.xsd$document
+@@||roomlala.*/assets/myspace/myprofile/sponsorship_controller-*.js
 ||flashtalking.com^$image,redirect-rule=1x1-transparent.gif,domain=racenet.com.au
 @@||go.trvdp.com/init/$domain=olhardigital.com.br
 @@||s.trvdp.com/scripts/*/ins.js$domain=olhardigital.com.br
@@ -60995,7 +61010,6 @@ petshop.ru#@#.advert-block
 @@||saabcentral.com^$generichide
 @@||swedbank.ee^$document
 @@||cdn.intergi.com/hera/*.js$domain=thenextweb.com
-@@||imasdk.googleapis.com/js/core/bridge*.html$domain=~spotify.com|~danet.vn
 @@||user.weiyun.com/newcgi/outlink.fcg$document
 @@||static.youporn.phncdn.com/cb/assets/css/$domain=youporn.com
 @@||dlh.net/ajax/keyassign.php?$elemhide
@@ -61358,6 +61372,7 @@ implbits.com#@#.banner_container
 @@||beinconnect.com.tr^$stealth
 @@||account.adobe.com^$document,domain=services.adobe.com,stealth=useragent
 @@||adguard.com^$stealth
+@@||vidkocu.site/embed.php$stealth=referrer,third-party
 @@||dapi.kakao.com/v*/local/search/address?$stealth=3p-auth
 @@||search-myfonts-api.monotype.com^$stealth=referrer
 @@||supercachecdn.com/play/$media,stealth=referrer,domain=pornmedium.com
