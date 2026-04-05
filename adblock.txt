@@ -46758,7 +46758,7 @@ popbee.com##.adblocker
 @@||mvz.hufeland.de^$stealth=dpi
 @@||mx-sh.net/advertisements.js
 @@||mx-sh.net^$generichide
-@@||mxcontent.net^$media,stealth=referrer,domain=m1xdrop.com|m1xdrop.bz
+@@||mxcontent.net^$media,third-party,stealth=referrer
 @@||mxomo.com^$image,stealth=referrer,domain=kxo.moe
 @@||mxpnl.com/libs/mixpanel-*.min.js$domain=change.org|frigidaire.com
 @@||mxpnl.com/libs/mixpanel-*.min.js$domain=eloan.co.il
@@ -47956,7 +47956,6 @@ popbee.com##.adblocker
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=spotidown.app
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=sshkit.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=ssstik.io
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=storage.googleapiscdn.com|stream.googleapiscdn.com|animevietsub.id
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=talksport.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=techacrobat.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=temp-mail.lol
@@ -47989,6 +47988,7 @@ popbee.com##.adblocker
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=zippyshare.day
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=zsexf.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,script,domain=cybermania.ws|spyro.blogu.co.uk|jobalertswithgbrar.com|radiofreehubcity.com|edoga.biz.hr|chat.irc.in.th|rozgarnews.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,script,domain=storage.googleapiscdn.com|stream.googleapiscdn.com|animevietsub.id
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?$domain=production-api.androidacy.com,stealth=referrer
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?adblocktest$domain=haafedk2.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-$domain=uploadg.com
@@ -49818,7 +49818,7 @@ popbee.com##.adblocker
 @@||snowfl.com/ads/*.js$~third-party
 @@||snowplow.swm.digital/com.snowplowanalytics.snowplow/$domain=7plus.com.au
 @@||snowplow.swm.digital^$domain=7plus.com.au
-@@||snva.jp/javascripts/reco/$script,domain=store.charle.co.jp
+@@||snva.jp/javascripts/reco/$script,domain=abc-mart.net|store.charle.co.jp
 @@||so-magazyn.pl^$generichide
 @@||so-net.ne.jp/access/hikari/minico/ad/images/$~third-party
 @@||sobootlogo.blogspot.com^$generichide
@@ -50396,7 +50396,7 @@ popbee.com##.adblocker
 @@||suratkargo.com.tr^$stealth=dpi
 @@||surfguru.com^$generichide
 @@||surirt.com/ad/ads.php?id=$script,domain=surirt.com
-@@||surrit.com^$image,stealth=referrer,domain=missav.live
+@@||surrit.com^$image,xmlhttprequest,stealth=referrer,domain=missav.live|missav.ws
 @@||survey.devographics.com^$stealth=useragent
 @@||survey.g.doubleclick.net^$script,domain=sporcle.com
 @@||suumo.jp/sp/js/beacon.js$script,~third-party
@@ -58960,6 +58960,7 @@ ad.broadstreetads.com
 ||hub.fghtem.com^$third-party
 @@||amgload.net/z|$domain=sinoptik.ua|gismeteo.ua
 ||d162h6x3rxav67.cloudfront.net^$third-party
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion#@?#div[role="feed"] > div:has(div[role="article"] a[attributionsrc^="/privacy_sandbox/comet/register/source/"])
 ||ad.ari.lt^$badfilter
 @@||jsapi.amap.com^$domain=amap.com
 @@://www.bet365.com/|$jsinject,elemhide,extension
@@ -61470,7 +61471,7 @@ implbits.com#@#.banner_container
 @@||tiktok.com^$stealth=java|flash
 @@||supabase.co/auth/v*/user|$stealth=3p-auth
 @@/video.m3u8$stealth=referrer,domain=missav.live
-@@||surrit.com^$image,stealth=referrer,domain=missav.live
+@@||surrit.com^$image,xmlhttprequest,stealth=referrer,domain=missav.live|missav.ws
 @@||vidkocu.site/embed.php$stealth=referrer,third-party
 @@||dapi.kakao.com/v*/local/search/address?$stealth=3p-auth
 @@||search-myfonts-api.monotype.com^$stealth=referrer
