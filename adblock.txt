@@ -859,6 +859,8 @@ youporn.com#%#//scriptlet('remove-node-text', 'script', '/window\.[\s\S]*?_zone_
 youporn.com$$script:contains(/window\.[\s\S]*?_zone_[\s\S]*?{"zone_id":/)
 @@||static.trafficjunky.com/ab/ads_test.js$domain=bztube.com|hotovs.com|insuredhome.org|nudegista.com|pornluck.com|vidd.se|redtube.*|youpornru.com|tube8.com|tube8.es|tube8.fr|tube8.net|pornhub.com|pornhub.org|pornhub.net
 @@://www.exoclick.com/ads.js|
+smksports.live#%#//scriptlet('prevent-addEventListener', 'load', 'checkAdBlock')
+smksports.live#@#.ad-unit:not(.textads)
 app.khaddavi.net#%#//scriptlet('prevent-element-src-loading', 'script', 'https://safelinku.com/admanager.js')
 @@||safelinku.com/admanager.js$script,domain=app.khaddavi.net
 rule34hentai.net#@#.ad-unit:not(.textads)
@@ -19305,9 +19307,9 @@ jm18c-oec.club,18comic.org,18comic.vip,18comic.ink#?#div[data-group]:-abp-has(>.
 ||alicdn.com/kf/Ha3566a6209ec45f597d392707b066cb9D.jpg
 ||alicdn.com/kf/Ub1be4a53456c4dd2a7dbc839969ed856a.gif
 ||upload.cc/i1/2020/07/13/8BGJiL.gif
-xinhua348.com,xinhua110.com,91porny.org,jstv600.com##.footer + .block
-xinhua348.com,xinhua110.com,91porny.org,jstv600.com#?#.card:-abp-has(>.card-image>a[href^="http"])
-xinhua348.com,xinhua110.com,91porny.org,jstv600.com###main > div[id^="rd"]
+xinhua348.com,jstv42.site,91porny.org,jstv600.com##.footer + .block
+xinhua348.com,jstv42.site,91porny.org,jstv600.com#?#.card:-abp-has(>.card-image>a[href^="http"])
+xinhua348.com,jstv42.site,91porny.org,jstv600.com###main > div[id^="rd"]
 91porny.com##.container-fluid.p-0[class*="mb-"]
 91porny.com##.jsv-g1
 ||27gh.cc^$popup,third-party
@@ -35943,9 +35945,9 @@ jm18c-oec.club,18comic.org,18comic.vip,18comic.ink#?#div[data-group]:has(>.group
 ||alicdn.com/kf/Ha3566a6209ec45f597d392707b066cb9D.jpg
 ||alicdn.com/kf/Ub1be4a53456c4dd2a7dbc839969ed856a.gif
 ||upload.cc/i1/2020/07/13/8BGJiL.gif
-xinhua348.com,xinhua110.com,91porny.org,jstv600.com##.footer + .block
-xinhua348.com,xinhua110.com,91porny.org,jstv600.com#?#.card:has(>.card-image>a[href^="http"])
-xinhua348.com,xinhua110.com,91porny.org,jstv600.com###main > div[id^="rd"]
+xinhua348.com,jstv42.site,91porny.org,jstv600.com##.footer + .block
+xinhua348.com,jstv42.site,91porny.org,jstv600.com#?#.card:has(>.card-image>a[href^="http"])
+xinhua348.com,jstv42.site,91porny.org,jstv600.com###main > div[id^="rd"]
 91porny.com##.container-fluid.p-0[class*="mb-"]
 91porny.com##.jsv-g1
 ||27gh.cc^$popup,third-party
