@@ -1083,7 +1083,7 @@ tryigit.dev#%#//scriptlet('abort-on-stack-trace', 'console.log', 'checkAdBlocker
 hitslink.xyz###adblock-overlay
 ||adultconfessions.com/js/abdetectorpro
 bigshare.io#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'detectAdBlock')
-f75s.com,f16px.com#%#//scriptlet('prevent-setTimeout', 'readyWait')
+398fitus.com,f75s.com,f16px.com#%#//scriptlet('prevent-setTimeout', 'readyWait')
 @@||manhuarmtl.com^$generichide
 rez.jbnews.it.com#%#//scriptlet('prevent-addEventListener', 'load', 'location.reload')
 rpmplay.online#%#//scriptlet('google-ima3')
@@ -42381,6 +42381,7 @@ popbee.com##.adblocker
 @@||dwnserver.com/download/$stealth=referrer
 @@||dwstatic.com/b=amkit
 @@||dwstatic.com/b=amkit&f=*/adjoin.
+@@||dxp.optimizely.com^$domain=suse.com
 @@||dydog.org/*/DPlayer.min.css
 @@||dydog.org/*/DPlayer.min.js
 @@||dygassets.dygdigital.com/player-new/
