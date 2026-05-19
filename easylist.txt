@@ -151,6 +151,11 @@
 ||hash.trafficmanager.net^
 ||51tongji.trafficmanager.net^
 ||cnzz.trafficmanager.net^
+||9613gwqee.com^
+||pl7ncaj0b.com^
+||invalidation93.com^
+||d9zx24n0d.com^
+||3xeedcdci.com^
 ||3is34bpqs4.com^
 ||ecg21n9t8d.com^
 ||oa83fs5udz.com^
@@ -6994,6 +6999,11 @@
 ||hash.trafficmanager.net^
 ||51tongji.trafficmanager.net^
 ||cnzz.trafficmanager.net^
+||9613gwqee.com^
+||pl7ncaj0b.com^
+||invalidation93.com^
+||d9zx24n0d.com^
+||3xeedcdci.com^
 ||3is34bpqs4.com^
 ||ecg21n9t8d.com^
 ||oa83fs5udz.com^
@@ -31280,6 +31290,7 @@
 @@||widgets.wp.com^
 @@||analysis.windows.net^
 @@||widget.tianqiapi.com^
+@@||analysis.chess.com^
 @@||ad.vivo.com.cn^
 @@||ads.alafish.cn^
 @@||ads.atmosphere.copernicus.eu^
@@ -139512,6 +139523,7 @@
 ||zlp6s.pw^
 ||zonewedgeshaft.com^
 ||fundingchoicesmessages.google.com^
+||pkoapbafhgaf.in^
 ||kurxabjwulu.in^
 ||wxqdcakvuv.com^
 ||somepossibility.com^
