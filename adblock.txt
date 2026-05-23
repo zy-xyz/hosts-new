@@ -859,6 +859,9 @@ youporn.com#%#//scriptlet('remove-node-text', 'script', '/window\.[\s\S]*?_zone_
 youporn.com$$script:contains(/window\.[\s\S]*?_zone_[\s\S]*?{"zone_id":/)
 @@||static.trafficjunky.com/ab/ads_test.js$domain=bztube.com|hotovs.com|insuredhome.org|nudegista.com|pornluck.com|vidd.se|redtube.*|youpornru.com|tube8.com|tube8.es|tube8.fr|tube8.net|pornhub.com|pornhub.org|pornhub.net
 @@://www.exoclick.com/ads.js|
+hidencloud.com#%#//scriptlet('prevent-fetch', 'adsboosters')
+hidencloud.com#%#//scriptlet('prevent-element-src-loading', 'script', 'adsboosters')
+@@||hidencloud.com^$generichide
 watch.evod.co.za#%#//scriptlet('prevent-fetch', 'www3.doubleclick.net')
 @@||www3.doubleclick.net^$domain=watch.evod.co.za
 filexstream.sujanbotx.workers.dev#@#.google-ads
@@ -42198,6 +42201,7 @@ popbee.com##.adblocker
 @@||discoveryplus.in/*/ads/banner_ad.js
 @@||discretemath.org/ads/
 @@||discretemath.org^$image,stylesheet
+@@||dishtv.in/scripts/adobeAnalytics.js$~third-party
 @@||disney.aicdn.live/videos/$stealth=referrer
 @@||disneyplus.com^$generichide
 @@||disneyplus.com^$generichide,badfilter
@@ -44665,6 +44669,7 @@ popbee.com##.adblocker
 @@||hhgregg.com/wcsstore/MadisonsStorefrontAssetStore/javascript/Analytics/AnalyticsTagDataObject.js
 @@||hhkungfu.tv^$generichide
 @@||hideandseek.world/js/prebid-ads.js
+@@||hidencloud.com^$generichide
 @@||highcharts.com.cn/highcharts/modules/heatmap.js
 @@||highresolutionmusic.com^$generichide
 @@||hightechbuzz.net^$generichide
@@ -52026,6 +52031,7 @@ popbee.com##.adblocker
 @@||www.ups.com/WebTracking/processInputRequest
 @@||www.youtube.com^$generichide
 @@||www.zee5.com^$stealth=ip,domain=zee5.com
+@@||www3.doubleclick.net^$domain=watch.evod.co.za
 @@||wwwcache.wral.com/presentation/v3/scripts/providers/analytics/ga.js$~third-party
 @@||wwwstream.pro^$subdocument,stealth=referrer
 @@||wx.qq.com/*/ad_$script
@@ -60327,6 +60333,7 @@ implbits.com#@#.banner_container
 @@||beinconnect.com.tr^$stealth
 @@||account.adobe.com^$document,domain=services.adobe.com,stealth=useragent
 @@||adguard.com^$stealth
+@@||elitesuppsproduction15fy12zem.org.coveo.com^$stealth=3p-auth,domain=elitesupps.com.au
 @@.xyz/embed-*.html$stealth=referrer
 @@||s*.*.xyz/hls2/*.m3u8$stealth=referrer
 @@||asiangayporn.tv/embed/$stealth=referrer
