@@ -1054,6 +1054,7 @@ torupload.com#$##adblockModal { display: none !important; }
 torupload.com#%#//scriptlet('set-constant', 'loadads', 'noopFunc')
 torupload.com#%#//scriptlet('prevent-element-src-loading', 'img', 'googlesyndication.com')
 nzn3.org,bysevepoin.com,arbitrarydecisions.com#%#//scriptlet('json-prune', 'adblock_detection force_disable_adblock')
+cloudfam.io#%#//scriptlet('prevent-fetch', 'method:HEAD')
 cloudfam.io#%#//scriptlet('prevent-element-src-loading', 'script', '/adsbygoogle|doubleclick/')
 cloudfam.io#%#//scriptlet('prevent-fetch', '/pagead|adserve|adsbygoogle/')
 @@||cloudfam.io^$generichide
@@ -7726,6 +7727,7 @@ v.qq.com##+js(no-fetch-if, /(beacon|trace)\.qq\.com/)
 ||mall.video.qq.com/m/activity/h5/$subdocument
 ||mark.l.qq.com/fcgi-bin/get_video_mark_all?$script
 ||vfiles.gtimg.cn/tvideo/js/new_ping_video.js
+||video.qq.com/getlogo
 youku.com##.cardContentVip,#playerMouseWheel,.kui-watermark-0,.kui-vipentrance-member-control-container
 m.youku.com##.clipboard.h5-detail-guide,.clipboard.h5-detail-vip-guide,.callEnd_box
 youku.com#%#//scriptlet("set-constant", "Object.prototype._adData", "emptyObj")
@@ -7765,12 +7767,14 @@ apkmirror.com#$#a.accent_bg.downloadButton { pointer-events: auto !important;bac
 apkmirror.com#$#a.accent_bg.downloadButton:hover { cursor: pointer !important; }
 lanzn.com,lanpv.com,lanpw.com,lanzov.com,lanzoub.com,lanzouc.com,lanzoue.com,lanzouf.com,lanzoug.com,lanzouh.com,lanzoui.com,lanzouj.com,lanzouk.com,lanzoul.com,lanzoum.com,lanzouo.com,lanzoup.com,lanzouq.com,lanzout.com,lanzouu.com,lanzouv.com,lanzouw.com,lanzoux.com,lanzouy.com##a[style*="image"][style*="block"],.s_ad,#adpost
 ||statics.woozooo.com/assets/img/clipboard.min.js$script
-/Mirages/js*/web*tracker*.js$script
-/Mirages/js*/web*sdk*.js$script
-/web/js/web*tracker*.js$script
-/web/js/web*sdk*.js$script
+/ai/common/*.js$script
+/js*/web_tracker_v*.js$script
+/js*/web-sdk-v*.js$script
 /js*/*domain*.js$script
-/*report*.php^$third-party
+/*report*.js^
+/*report*.php^
+/*report*.json^
+/eventtracking/*
 -*-*-*-*.alpha^$script,third-party
 /7755com-*00x*.gif
 :866/o.js$script,third-party
@@ -12918,6 +12922,7 @@ meijutt.*/js/pcjs/
 ||nbpicture.xyz^$domain=ltd.ua
 ||tcptest.cn/prod-api/web/adLinks/
 ||r3sub.com/nb/
+||xwcm.net/caches/ahm.
 huaren.live##.pause-love
 jucha.com##.money_item
 mixytalk.com##.result-inline-ad
@@ -22239,6 +22244,10 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > .r
 ||im.1vkx.cn/uploads/images/*.gif$third-party
 /^(?!.*(mega.co.nz|mega.nz|libs.baidu.com|ilfcdn.li|bytecdntp.com|doodcdn.io|intensedebate.com|vixcloud.co|cdn.plyr.io|rsc.cdn77.org|linkvertise.com|fastly.net|statically.io|sharecast.ws|b-cdn.net|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|(\/\/|\.)vk\.com|yandex.|yastatic.net|ytimg.com|zencdn.net|player|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|fastcomments.com|plyr.io|imgsmail.ru|cloudflare.net|rabbitstream.net|51.la|cloudflareinsights.com|tongjiniao.com|vp1shop.shop|ovscdns.com|alicdn.com|(\/\/|\.)x\.com)).*$/$third-party,script,_____,domain=manshuxs.com|yemancomic.com|qimiaoxiaoshuo.com|gaofuwu.org|nxpaaq.com|dengbi2.com|92hm.top|634.tv|myhaitang.cc|ckplayer.vip|qushucheng.com|av6k.com|18j.tv|uaa.com|xb6v.org|6v520.cc
 *$script,third-party,denyallow=mega.co.nz|mega.nz|libs.baidu.com|ilfcdn.li|bytecdntp.com|doodcdn.io|intensedebate.com|vixcloud.co|cdn.plyr.io|rsc.cdn77.org|linkvertise.com|fastly.net|statically.io|sharecast.ws|b-cdn.net|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yastatic.net|ytimg.com|zencdn.net|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|fastcomments.com|plyr.io|imgsmail.ru|cloudflare.net|rabbitstream.net|x.com|51.la|cloudflareinsights.com|tongjiniao.com|vp1shop.shop|lamparasde.net|hoopchina.com.cn|kankan2024.com|ovscdns.com|rumanhua.org|cdnsrc.asp.net|ddxsmf.com|apps.bdimg.com|alicdn.com,_____,domain=wap.dmwenku.com|m.wfxs.tw|wap.ishuquge.la|m.91zww.com|592mh.top|dubuxiaoshuo.com|clm410.buzz|bookbl.com|shuku99.com|qiyoudy2.com|1yydstxt178.com|rouman5.com|feijisu20.com|iqb5.org|wap.xkushu.com|spoilertop.com|booktxts.com|bixia33.com|rouwenwu19.com|91porny.com|yznnw.com|vodtw.la|ckplayer.vip|uuread.tw|fengchedmp.com|aeahsck.cc|xiaoshubao.net|wap.yushuwu.cloud|twbook.cc|vodtw.xyz|xbqg6.com|qq3009qq.link|18jtv.cc|m.haxuku.com|xm200.com|av6k.com|18j.tv|haiwaishubao.com|uaa.com|lamparasde.net|bbs.hupu.com|kankan2024.com|hanime1-me.icu|hanime1-me.top|rumanhua.org|ddxsmf.com|xb6v.org|6v520.cc|xl02.com.de|26img.com|noslocker.com
+51cg1.com#%#//scriptlet('set-constant', 'DPLAYER_PREROLL_AD.attachPreRollAd', 'noopFunc')
+51cg1.com##.dplayer-pre-img
+51cg1.com##.dplayer-pre-bg
+51cg1.com##.dplayer-pre-countdown
 noslocker.com#%#//scriptlet('remove-node-text', 'script', '/navigator\.platform|new Function/')
 moegirl.org.cn#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'sponsored')
 moegirl.org.cn##.moeautotrans-side-ad
@@ -29644,6 +29653,7 @@ meijutt.*/js/pcjs/
 ||nbpicture.xyz^$domain=ltd.ua
 ||tcptest.cn/prod-api/web/adLinks/
 ||r3sub.com/nb/
+||xwcm.net/caches/ahm.
 huaren.live##.pause-love
 jucha.com##.money_item
 mixytalk.com##.result-inline-ad
@@ -42584,6 +42594,7 @@ popbee.com##.adblocker
 @@||dual1080p.blogspot.com^$generichide
 @@||duckduckgo.com/?q=$generichide
 @@||duckduckgo.com/?q=$generichide,badfilter
+@@||duckduckgo.com/local.js$~third-party
 @@||duckduckgo.com/y.js?*url
 @@||duelmeta.com^$generichide
 @@||duihui.duoduocdn.com^$image,stealth=referrer,domain=zhibo8.cc
@@ -50858,6 +50869,7 @@ popbee.com##.adblocker
 @@||tag.aticdn.net^$script,domain=gouv.fr|openservices.enedis.fr|rte.ie|tv5monde.com|uktvplay.co.uk|visaconcierge.eu|yourstory.com
 @@||tag.perfectaudience.com/serve/*.js$domain=asana.com
 @@||tag.search.sensefuel.live/search/$domain=bricomart.es
+@@||tag.search.sensefuel.live/tag$domain=bricoman.pl
 @@||tag.search.sensefuel.live/tag/*/tagp.js$domain=bricomart.es
 @@||tag.vlitag.com^$script,domain=orbispatches.com
 @@||tagan.adlightning.com/setupad-hai/op.js$domain=dgb.lol
