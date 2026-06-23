@@ -862,6 +862,14 @@ youporn.com#%#//scriptlet('remove-node-text', 'script', '/window\.[\s\S]*?_zone_
 youporn.com$$script:contains(/window\.[\s\S]*?_zone_[\s\S]*?{"zone_id":/)
 @@||static.trafficjunky.com/ab/ads_test.js$domain=bztube.com|hotovs.com|insuredhome.org|nudegista.com|pornluck.com|vidd.se|redtube.*|youpornru.com|tube8.com|tube8.es|tube8.fr|tube8.net|pornhub.com|pornhub.org|pornhub.net
 @@://www.exoclick.com/ads.js|
+vnjpclub.com#%#//scriptlet('prevent-setTimeout', 'detectAdBlock')
+@@||vnjpclub.com^$generichide
+cinehd.app#%#//scriptlet('prevent-fetch', '/doubleclick|ads-twitter.com|google-analytics.com|adsbygoogle/')
+@@||cinehd.app^$generichide
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=cinehd.app
+@@||google-analytics.com/analytics.js$domain=cinehd.app
+@@||static.ads-twitter.com/ads.js$domain=cinehd.app
+@@||googleads.g.doubleclick.net/pagead/ads$domain=cinehd.app
 luciferdonghua.in#%#//scriptlet('abort-current-inline-script', 'document.getElementById', 'afu')
 luciferdonghua.in###afu-ab
 luciferdonghua.in##.afu-banner
@@ -22294,7 +22302,6 @@ x6g.com##.news-article_container > ul > li[class]:has(> a[href^="/ad.php?aHR0c"]
 tcptest.cn##div.min-w-0 > .relative
 tcptest.cn##div.fixed.hidden
 xchina.co##.photo-items > div[class^="item auto-height"]
-techritual.com##.th-single-ad
 ||newtalk.tw/js/ad/
 newtalk.tw##.ad-half
 tupaki.com##div[id^="detail_wrap_ad"]
@@ -39255,7 +39262,7 @@ popbee.com##.adblocker
 @@||adobedtm.com/launch-$script,xmlhttprequest
 @@||adobedtm.com^$script,domain=sonystyle.com.cn
 @@||adobedtm.com^*-libraryCode_source.min.js$domain=doda.jp
-@@||adobedtm.com^*-source.min.js$script,domain=53.com|aarp.org|aircanada.com|ally.com|americanexpress.com|as.com|atresplayer.com|automobiles.honda.com|backcountry.com|bbva.com.ar|bbvacib.com|bbvauk.com|bestbuy.ca|bose.ae|bose.at|bose.ca|bose.ch|bose.cl|bose.co|bose.co.jp|bose.co.nz|bose.co.uk|bose.com|bose.com.au|bose.de|bose.dk|bose.es|bose.fi|bose.fr|bose.hk|bose.hu|bose.ie|bose.it|bose.lu|bose.mx|bose.nl|bose.no|bose.pe|bose.pl|bose.se|boseapac.com|bosebelgium.be|boselatam.com|bt.com|cadenaser.com|churchofjesuschrist.org|cibc.com|crave.ca|currys.co.uk|deutsche-bank.de|dollargeneral.com|etihad.com|eurosport.de|fedex.com|guitarcenter.com|healthsafe-id.com|healthy.kaiserpermanente.org|helvetia.com|hgtv.com|hilton.com|homedepot.ca|ihg.com|imsa.com|ing.com.au|ingrammicro.com|kroger.com|lenovo.com|lifetime.life|lowes.com|manager-magazin.de|marriott.com|mtvuutiset.fi|mybell.bell.ca|natwest.com|nbarizona.com|news.sky.com|philips.com|plasticsnews.com|pnc.com|poweredbycovermore.com|ralphlauren.com|samsung.com|sephora.com|snsbank.nl|ssrn.com|starwarscelebration.com|subway.com|tatacliq.com|telegraph.co.uk|telus.com|verizon.com|virginplus.ca|walgreens.com|xfinity.com
+@@||adobedtm.com^*-source.min.js$script,domain=53.com|aarp.org|aircanada.com|ally.com|americanexpress.com|as.com|atresplayer.com|automobiles.honda.com|backcountry.com|bbva.com.ar|bbvacib.com|bbvauk.com|bestbuy.ca|bose.ae|bose.at|bose.ca|bose.ch|bose.cl|bose.co|bose.co.jp|bose.co.nz|bose.co.uk|bose.com|bose.com.au|bose.de|bose.dk|bose.es|bose.fi|bose.fr|bose.hk|bose.hu|bose.ie|bose.it|bose.lu|bose.mx|bose.nl|bose.no|bose.pe|bose.pl|bose.se|boseapac.com|bosebelgium.be|boselatam.com|bt.com|cadenaser.com|churchofjesuschrist.org|cibc.com|crave.ca|currys.co.uk|deutsche-bank.de|dollargeneral.com|etihad.com|eurosport.de|fedex.com|guitarcenter.com|healthsafe-id.com|healthy.kaiserpermanente.org|helvetia.com|hgtv.com|hilton.com|homedepot.ca|ihg.com|imsa.com|ing.com.au|ingrammicro.com|kroger.com|lenovo.com|lifetime.life|lowes.com|manager-magazin.de|marriott.com|medscape.com|mtvuutiset.fi|mybell.bell.ca|natwest.com|nbarizona.com|news.sky.com|philips.com|plasticsnews.com|pnc.com|poweredbycovermore.com|ralphlauren.com|samsung.com|sephora.com|snsbank.nl|ssrn.com|starwarscelebration.com|subway.com|tatacliq.com|telegraph.co.uk|telus.com|verizon.com|virginplus.ca|walgreens.com|xfinity.com
 @@||adobedtm.com^*/AppMeasurement.min.js$script,domain=sky.it
 @@||adobedtm.com^*/launch-$script,xmlhttprequest
 @@||adobedtm.com^*/mbox-contents-$script,domain=absa.co.za|ally.com|americanexpress.com|as.com|backcountry.com|ceair.com|conad.it|costco.com|dhl.de|fcbarcelona.cat|fcbarcelona.cn|fcbarcelona.com|fcbarcelona.es|fcbarcelona.fr|fcbarcelona.jp|firststatesuper.com.au|hgtv.com|lenovo.com|lowes.com|nfl.com|oprah.com|pnc.com|shoppersdrugmart.ca|sony.jp|tatacliq.com|usanetwork.com|vanityfair.com|wired.com
@@ -39545,6 +39552,7 @@ popbee.com##.adblocker
 @@||aircanada.com^$stealth
 @@||airchina.com.cn/dynamicAd/
 @@||airevue.net$generichide
+@@||airfind.com^$image,domain=headlinelogic.com
 @@||airplaydirect.com/openx/www/images/$image
 @@||airportinfo.live/images/ads.gif
 @@||aisandbox-pa.googleapis.com/v1:checkAppAvailability$stealth=referrer
@@ -41015,6 +41023,9 @@ popbee.com##.adblocker
 @@||cdn.adsninja.ca/adsninja_worker_caller.js$domain=makeuseof.com|howtogeek.com
 @@||cdn.adsninja.ca/an_sn.js$domain=polygon.com
 @@||cdn.adsninja.ca/api/$domain=polygon.com
+@@||cdn.adsninja.ca/v*/an.js$domain=thegamer.com
+@@||cdn.adsninja.ca/v*/init.js$domain=thegamer.com
+@@||cdn.adsninja.ca/v*/valstream.js$domain=thegamer.com
 @@||cdn.adspirit.de/banner/_default/160x600.jpg$domain=streetdir.com|roaddir.com
 @@||cdn.adspirit.de/banner/_default/300x250.jpg$domain=streetdir.com|roaddir.com
 @@||cdn.adspirit.de/banner/_default/468x60.jpg$domain=streetdir.com|roaddir.com
@@ -41075,6 +41086,7 @@ popbee.com##.adblocker
 @@||cdn.clerk.io/clerk.js$domain=garmont.com
 @@||cdn.clerk.io/clerk.js$domain=globaltools.dk|globaltools.no|globaltools.se
 @@||cdn.clerk.io/clerk.js$domain=industrivarer.no
+@@||cdn.clerk.io/clerk.js$domain=jaktdepotet.no
 @@||cdn.clerk.io/clerk.js$domain=panzerglass.com
 @@||cdn.clerk.io/clerk.js$domain=smnovella.com
 @@||cdn.cloudflare.net^$stylesheet,script,xmlhttprequest,domain=cocomanga.com|cocomanga.com
@@ -41637,6 +41649,7 @@ popbee.com##.adblocker
 @@||cib.com.cn/cn/*/js/*/sensorsdata.min.js
 @@||cibntv.net/youku/*.mp4?$domain=v.youku.com
 @@||cimanow.cc/wp-content/themes/*/openads.js$script,~third-party
+@@||cinehd.app^$generichide
 @@||cinema.pia.co.jp/img/ad/$image,~third-party
 @@||cinemaxxl.de^$stealth=donottrack
 @@||cinemaz.club/video/$stealth=referrer
@@ -43681,6 +43694,7 @@ popbee.com##.adblocker
 @@||google-analytics.com/analytics.js$domain=chess24.com
 @@||google-analytics.com/analytics.js$domain=chocotv.com.tw
 @@||google-analytics.com/analytics.js$domain=cildimveben.com
+@@||google-analytics.com/analytics.js$domain=cinehd.app
 @@||google-analytics.com/analytics.js$domain=citethisforme.com
 @@||google-analytics.com/analytics.js$domain=citroen-club.cz
 @@||google-analytics.com/analytics.js$domain=citytalk.tw|ebb.io|komica.org|lenovo.com.cn|linetv.tw|maminews.com.tw|support.amd.com
@@ -43972,6 +43986,7 @@ popbee.com##.adblocker
 @@||googleads.g.doubleclick.net/ads/controlcookies/getcookies$domain=adssettings.google.com
 @@||googleads.g.doubleclick.net/ads/preferences/$domain=googleads.g.doubleclick.net
 @@||googleads.g.doubleclick.net/favicon.ico,domain=music.wandhi.com
+@@||googleads.g.doubleclick.net/pagead/ads$domain=cinehd.app
 @@||googleads.g.doubleclick.net/pagead/ads$domain=forum.release-apk.com
 @@||googleads.g.doubleclick.net/pagead/ads$domain=next-episode.net
 @@||googleads.g.doubleclick.net/pagead/ads$subdocument,domain=rjno1.com
@@ -47789,6 +47804,7 @@ popbee.com##.adblocker
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=chromeactions.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=cimanow.*|cnvids.com|freex2line.online
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=cimaramadan.site|yokugames.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=cinehd.app
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=classicalradio.com|di.fm|jazzradio.com|radiotunes.com|rockradio.com|zenradio.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=cle0desktop.blogspot.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=cloudfam.io
@@ -48641,7 +48657,7 @@ popbee.com##.adblocker
 @@||pkstep.com^$generichide
 @@||pl-play.adtonos.com^$domain=radio-internetowe.com
 @@||pl-play.adtonos.com^$domain=tokfm.pl
-@@||places.googleapis.com/*/AutocompletePlaces$stealth=referrer
+@@||places.googleapis.com/*autocomplete$stealth=referrer
 @@||places.mercedes-benz.com/*/adrum.js
 @@||places.nbnco.net.au/places/$stealth=referrer
 @@||pladform.ru/dive/$xmlhttprequest
@@ -50482,6 +50498,7 @@ popbee.com##.adblocker
 @@||static.3001.net^$stealth=referrer,domain=freebuf.com
 @@||static.adman.gr/adman.js$domain=gazzetta.gr
 @@||static.adman.gr^$domain=naftemporiki.gr
+@@||static.ads-twitter.com/ads.js$domain=cinehd.app
 @@||static.ads-twitter.com/oct.js$domain=boston.com|calgaryherald.com|calgarysun.com|celebuzz.com|montrealgazette.com|saveur.com
 @@||static.ads-twitter.com/oct.js$domain=itemmania.in.th
 @@||static.ads-twitter.com/uwt.js$domain=cms.nova.cz
@@ -51941,6 +51958,7 @@ popbee.com##.adblocker
 @@||vms-videos.minutemediaservices.com^$xmlhttprequest,domain=theplayerstribune.com
 @@||vnecdn.net/vnexpress/video/video/$stealth=referrer,domain=vnexpress.net
 @@||vnhax.com^$generichide
+@@||vnjpclub.com^$generichide
 @@||vo.msecnd.net^$domain=gsmarena.com
 @@||vod*.myqcloud.com^$stealth=referrer,domain=cloud.tencent.com
 @@||vod.olympics2010.msn.com/beacon?
@@ -58160,6 +58178,10 @@ $popup,third-party,domain=fembed-hd.com,badfilter
 $popup,third-party,domain=sbplay2.com,badfilter
 $popup,third-party,domain=dood.ws,badfilter
 @@||download.ros.org/*.xsd$document
+@@||airfind.com^$image,domain=headlinelogic.com
+@@||cdn.adsninja.ca/v*/an.js$domain=thegamer.com
+@@||cdn.adsninja.ca/v*/init.js$domain=thegamer.com
+@@||cdn.adsninja.ca/v*/valstream.js$domain=thegamer.com
 leaflet.pub#@#.pubContent
 @@||penta.a.one.impact-ad.jp/*combo?$domain=nissan.co.jp
 @@||img.ak.impact-ad.jp^$domain=nissan.co.jp
@@ -60642,7 +60664,7 @@ implbits.com#@#.banner_container
 @@||pictures.spordunyasi.site^$stealth=referrer
 @@||cartaocontinente.pt^$stealth=flash|java
 @@||hotstar.com/api/internal$stealth=ip
-@@||places.googleapis.com/*/AutocompletePlaces$stealth=referrer
+@@||places.googleapis.com/*autocomplete$stealth=referrer
 @@.mp4?headers$media,stealth=referrer,domain=vidlink.pro
 @@||ksdpictures.site/embed/$subdocument,stealth=referrer
 @@.m3u8|$stealth=referrer,domain=streamingnow.mov
