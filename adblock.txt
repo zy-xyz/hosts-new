@@ -862,6 +862,11 @@ youporn.com#%#//scriptlet('remove-node-text', 'script', '/window\.[\s\S]*?_zone_
 youporn.com$$script:contains(/window\.[\s\S]*?_zone_[\s\S]*?{"zone_id":/)
 @@||static.trafficjunky.com/ab/ads_test.js$domain=bztube.com|hotovs.com|insuredhome.org|nudegista.com|pornluck.com|vidd.se|redtube.*|youpornru.com|tube8.com|tube8.es|tube8.fr|tube8.net|pornhub.com|pornhub.org|pornhub.net
 @@://www.exoclick.com/ads.js|
+pfps.gg#@#.ad-slot
+pfps.gg#@##ad_top_banner
+pfps.gg#$#body { overflow: auto !important; }
+pfps.gg#$##smellcheck { display: none !important; }
+pfps.gg#%#//scriptlet('set-constant', 'App.checkIfUserStinky', 'noopFunc')
 vnjpclub.com#%#//scriptlet('prevent-setTimeout', 'detectAdBlock')
 @@||vnjpclub.com^$generichide
 cinehd.app#%#//scriptlet('prevent-fetch', '/doubleclick|ads-twitter.com|google-analytics.com|adsbygoogle/')
@@ -1455,7 +1460,6 @@ bestbuy.ca#@#.textAd
 bestbuy.ca#@#.text_ad
 bestbuy.ca#@#.text_ads
 bestbuy.ca#@#.text-ads
-bestbuy.ca#@#.ad-text
 bestbuy.ca#@#.adSense
 bestbuy.ca#@#.adContent
 bestbuy.ca#@#.adBanner
@@ -1889,7 +1893,6 @@ gamesmain.xyz,foodtechnos.in###adblock-modal
 newyorker.com,vogue.com#@#.ad
 newyorker.com,vogue.com#@#.adSlot
 newyorker.com,vogue.com#@#.ad-wrapper
-newyorker.com,vogue.com#@#.ad-text
 newyorker.com,vogue.com#@#.ad-slot
 newyorker.com,vogue.com#@#.ad-section
 newyorker.com,vogue.com#@#.ad-item
@@ -3175,7 +3178,6 @@ thestar.com,thespec.com,therecord.com,thepeterboroughexaminer.com,stcatharinesst
 thestar.com,thespec.com,therecord.com,thepeterboroughexaminer.com,stcatharinesstandard.ca,niagarafallsreview.ca,wellandtribune.ca,bramptonguardian.com,caledonenterprise.com,cambridgetimes.ca,durhamregion.com,flamboroughreview.com,guelphmercury.com,hamiltonnews.com,insidehalton.com,insideottawavalley.com,mississauga.com,muskokaregion.com,mykawartha.com,newhamburgindependent.ca,niagarathisweek.com,northbaynipissing.com,northumberlandnews.com,orangeville.com,ourwindsor.ca,parrysound.com,sachem.ca,simcoe.com,theifp.ca,toronto.com,waterloochronicle.ca,yorkregion.com,legacy.com,edition.pagesuite-professional.co.uk,hub.metroland.com#@#.text_ads
 thestar.com,thespec.com,therecord.com,thepeterboroughexaminer.com,stcatharinesstandard.ca,niagarafallsreview.ca,wellandtribune.ca,bramptonguardian.com,caledonenterprise.com,cambridgetimes.ca,durhamregion.com,flamboroughreview.com,guelphmercury.com,hamiltonnews.com,insidehalton.com,insideottawavalley.com,mississauga.com,muskokaregion.com,mykawartha.com,newhamburgindependent.ca,niagarathisweek.com,northbaynipissing.com,northumberlandnews.com,orangeville.com,ourwindsor.ca,parrysound.com,sachem.ca,simcoe.com,theifp.ca,toronto.com,waterloochronicle.ca,yorkregion.com,legacy.com,edition.pagesuite-professional.co.uk,hub.metroland.com#@#.text-ads
 thestar.com,thespec.com,therecord.com,thepeterboroughexaminer.com,stcatharinesstandard.ca,niagarafallsreview.ca,wellandtribune.ca,bramptonguardian.com,caledonenterprise.com,cambridgetimes.ca,durhamregion.com,flamboroughreview.com,guelphmercury.com,hamiltonnews.com,insidehalton.com,insideottawavalley.com,mississauga.com,muskokaregion.com,mykawartha.com,newhamburgindependent.ca,niagarathisweek.com,northbaynipissing.com,northumberlandnews.com,orangeville.com,ourwindsor.ca,parrysound.com,sachem.ca,simcoe.com,theifp.ca,toronto.com,waterloochronicle.ca,yorkregion.com,legacy.com,edition.pagesuite-professional.co.uk,hub.metroland.com#@#.text-ad-links
-thestar.com,thespec.com,therecord.com,thepeterboroughexaminer.com,stcatharinesstandard.ca,niagarafallsreview.ca,wellandtribune.ca,bramptonguardian.com,caledonenterprise.com,cambridgetimes.ca,durhamregion.com,flamboroughreview.com,guelphmercury.com,hamiltonnews.com,insidehalton.com,insideottawavalley.com,mississauga.com,muskokaregion.com,mykawartha.com,newhamburgindependent.ca,niagarathisweek.com,northbaynipissing.com,northumberlandnews.com,orangeville.com,ourwindsor.ca,parrysound.com,sachem.ca,simcoe.com,theifp.ca,toronto.com,waterloochronicle.ca,yorkregion.com,legacy.com,edition.pagesuite-professional.co.uk,hub.metroland.com#@#.ad-text
 thestar.com,thespec.com,therecord.com,thepeterboroughexaminer.com,stcatharinesstandard.ca,niagarafallsreview.ca,wellandtribune.ca,bramptonguardian.com,caledonenterprise.com,cambridgetimes.ca,durhamregion.com,flamboroughreview.com,guelphmercury.com,hamiltonnews.com,insidehalton.com,insideottawavalley.com,mississauga.com,muskokaregion.com,mykawartha.com,newhamburgindependent.ca,niagarathisweek.com,northbaynipissing.com,northumberlandnews.com,orangeville.com,ourwindsor.ca,parrysound.com,sachem.ca,simcoe.com,theifp.ca,toronto.com,waterloochronicle.ca,yorkregion.com,legacy.com,edition.pagesuite-professional.co.uk,hub.metroland.com#@#.adSense
 thestar.com,thespec.com,therecord.com,thepeterboroughexaminer.com,stcatharinesstandard.ca,niagarafallsreview.ca,wellandtribune.ca,bramptonguardian.com,caledonenterprise.com,cambridgetimes.ca,durhamregion.com,flamboroughreview.com,guelphmercury.com,hamiltonnews.com,insidehalton.com,insideottawavalley.com,mississauga.com,muskokaregion.com,mykawartha.com,newhamburgindependent.ca,niagarathisweek.com,northbaynipissing.com,northumberlandnews.com,orangeville.com,ourwindsor.ca,parrysound.com,sachem.ca,simcoe.com,theifp.ca,toronto.com,waterloochronicle.ca,yorkregion.com,legacy.com,edition.pagesuite-professional.co.uk,hub.metroland.com#@#.adContent
 thestar.com,thespec.com,therecord.com,thepeterboroughexaminer.com,stcatharinesstandard.ca,niagarafallsreview.ca,wellandtribune.ca,bramptonguardian.com,caledonenterprise.com,cambridgetimes.ca,durhamregion.com,flamboroughreview.com,guelphmercury.com,hamiltonnews.com,insidehalton.com,insideottawavalley.com,mississauga.com,muskokaregion.com,mykawartha.com,newhamburgindependent.ca,niagarathisweek.com,northbaynipissing.com,northumberlandnews.com,orangeville.com,ourwindsor.ca,parrysound.com,sachem.ca,simcoe.com,theifp.ca,toronto.com,waterloochronicle.ca,yorkregion.com,legacy.com,edition.pagesuite-professional.co.uk,hub.metroland.com#@#.adBanner
@@ -4637,7 +4639,6 @@ sgxnifty.org###aub_cover
 faucethero.com#$#.pub_728x90.text-ad.textAd.text_ad.text_ads.text-ads.text-ad-links { display: block !important; }
 faucethero.com#@#.adSense
 faucethero.com#@#.adContent
-faucethero.com#@#.ad-text
 freecoursesite.com#%#//scriptlet("prevent-setTimeout", "()=>this.display()")
 quizack.com#%#//scriptlet("prevent-setTimeout", "blocker")
 @@||quizack.com/assets/img/ads.js
@@ -4656,13 +4657,11 @@ $xmlhttprequest,third-party,redirect-rule=noopjs,domain=bizjournals.com
 justwatch.com#$#.pub_300x250.pub_300x250m.pub_728x90.text-ad.textAd.text_ad.text_ads.text-ads.text-ad-links { display:block!important; }
 justwatch.com#@#.adSense
 justwatch.com#@#.adContent
-justwatch.com#@#.ad-text
 mm9841.cc#@#.ad-placement
 javxxx.me#@#.ad-placement
 filessrc.com,srcimdb.com#$#.pub_300x250.pub_300x250m.pub_728x90.text-ad.textAd.text_ad.text_ads.text-ads.text-ad-links { display: block !important; }
 filessrc.com,srcimdb.com#@#.adSense
 filessrc.com,srcimdb.com#@#.adContent
-filessrc.com,srcimdb.com#@#.ad-text
 examsnet.com#%#//scriptlet("abort-on-property-read", "adsblocked")
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=examsnet.com
 askpaccosi.com#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
@@ -6313,7 +6312,6 @@ javaguides.net#@#.vertical-ads
 worldsports.st,olympicstreams.*,crackstreams.*,soccerworldcup.me,720pstream.me,buffstreams.*,vipboxtv.*,cricstreams.re,viprow.*,socceronline.me,vipleague.*,vipbox.*,strikeout.*#$#.position-absolute { position: absolute !important; left: -3000px !important; }
 vipleague.tv#@#.adSense
 vipleague.tv#@#.adContent
-vipleague.tv#@#.ad-text
 @@||raw.githubusercontent.com/wmcmurray/just-detect-adblock/master/baits
 @@||alexgoldcheidt.com^$generichide
 @@||veuclips.com^$generichide
@@ -6347,7 +6345,6 @@ pornbimbo.com#%#//scriptlet("set-constant", "flashvars.protect_block", "")
 channel4.com#%#//scriptlet('json-prune', 'adverts')
 channel4.com#%#//scriptlet('prevent-xhr', 'v.fwmrm.net/ad/')
 channel4.com#%#//scriptlet('prevent-element-src-loading', 'script', 'v.fwmrm.net/ad/')
-channel4.com#@#.ad-text
 channel4.com#@#.adSense
 channel4.com#@#.adContent
 channel4.com#@#.adBanner
@@ -7340,7 +7337,7 @@ bigbrothercanada.ca#%#//scriptlet('set-constant', 'video_player_config.players.0
 /prize-*/assets/modules.js$~third-party
 /partytown/partytown-sw.js
 /affiliates/vast/?campaign=
-/vast.php?t=*&tags=exoxvideostargetting
+/vast.php?*&tags=exoxvideostargetting
 /vast.php?idzone=
 ?qtag=*&x_pm_click=$all
 /banner.go?spaceid=
@@ -22262,6 +22259,8 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > .r
 ||im.1vkx.cn/uploads/images/*.gif$third-party
 /^(?!.*(mega.co.nz|mega.nz|libs.baidu.com|ilfcdn.li|bytecdntp.com|doodcdn.io|intensedebate.com|vixcloud.co|cdn.plyr.io|rsc.cdn77.org|linkvertise.com|fastly.net|statically.io|sharecast.ws|b-cdn.net|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|(\/\/|\.)vk\.com|yandex.|yastatic.net|ytimg.com|zencdn.net|player|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|fastcomments.com|plyr.io|imgsmail.ru|cloudflare.net|rabbitstream.net|51.la|cloudflareinsights.com|tongjiniao.com|vp1shop.shop|ovscdns.com|alicdn.com|(\/\/|\.)x\.com)).*$/$third-party,script,_____,domain=manshuxs.com|yemancomic.com|qimiaoxiaoshuo.com|gaofuwu.org|nxpaaq.com|dengbi2.com|92hm.top|634.tv|myhaitang.cc|ckplayer.vip|qushucheng.com|av6k.com|18j.tv|uaa.com|xb6v.org|6v520.cc
 *$script,third-party,denyallow=mega.co.nz|mega.nz|libs.baidu.com|ilfcdn.li|bytecdntp.com|doodcdn.io|intensedebate.com|vixcloud.co|cdn.plyr.io|rsc.cdn77.org|linkvertise.com|fastly.net|statically.io|sharecast.ws|b-cdn.net|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yastatic.net|ytimg.com|zencdn.net|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|fastcomments.com|plyr.io|imgsmail.ru|cloudflare.net|rabbitstream.net|x.com|51.la|cloudflareinsights.com|tongjiniao.com|vp1shop.shop|lamparasde.net|hoopchina.com.cn|kankan2024.com|ovscdns.com|rumanhua.org|cdnsrc.asp.net|ddxsmf.com|apps.bdimg.com|alicdn.com,_____,domain=wap.dmwenku.com|m.wfxs.tw|wap.ishuquge.la|m.91zww.com|592mh.top|dubuxiaoshuo.com|clm410.buzz|bookbl.com|shuku99.com|qiyoudy2.com|1yydstxt178.com|rouman5.com|feijisu20.com|iqb5.org|wap.xkushu.com|spoilertop.com|booktxts.com|bixia33.com|rouwenwu19.com|91porny.com|yznnw.com|vodtw.la|ckplayer.vip|uuread.tw|fengchedmp.com|aeahsck.cc|xiaoshubao.net|wap.yushuwu.cloud|twbook.cc|vodtw.xyz|xbqg6.com|qq3009qq.link|18jtv.cc|m.haxuku.com|xm200.com|av6k.com|18j.tv|haiwaishubao.com|uaa.com|lamparasde.net|bbs.hupu.com|kankan2024.com|hanime1-me.icu|hanime1-me.top|rumanhua.org|ddxsmf.com|xb6v.org|6v520.cc|xl02.com.de|26img.com|noslocker.com
+assume.gguaklar.cc,51cg1.com,51baoliao01.com,91cg1.com##.recommend-layer
+assume.gguaklar.cc,51cg1.com,51baoliao01.com,91cg1.com###adFloat
 ||scriptcat.org/api/*/advertise?
 51cg1.com#%#//scriptlet('set-constant', 'DPLAYER_PREROLL_AD.attachPreRollAd', 'noopFunc')
 51cg1.com##.dplayer-pre-img
@@ -24324,7 +24323,6 @@ netfly.*,netfly.tv##.module-tg-box
 netfly.*,netfly.tv##div[class*="tt-"] > a[target="_blank"] > img
 netfly.*,netfly.tv##div[class*="tt-"] > a[target="_blank"] + span.tt-icon-close
 ||static.okokserver.com/uploads/lesi/$xmlhttprequest,redirect=nooptext,domain=huaren.live|huavod.net|huavod.com|huavod.top|huavod.cc
-huavod.cc,huavod.top,huavod.net,huavod.com,huaren.live#%#//scriptlet('set-constant', 'ConFig.ad_duration_ms', '0')
 huavod.cc,huavod.top,huavod.net,huavod.com,huaren.live#%#//scriptlet('trusted-set-constant', 'ConFig.config.ads', '{"pause":{"state":{}}}')
 ||huavod.cc/player/$replace=/let ConFig/var ConFig/,document,subdocument
 ||huavod.top/player/$replace=/let ConFig/var ConFig/,document,subdocument
@@ -39739,6 +39737,7 @@ popbee.com##.adblocker
 @@||ams.cdn.arkadiumhosted.com/assets/*/display-ads-f.js
 @@||amsarkadium-a.akamaihd.net/assets/*/arena/heap/advertisements.js$domain=nydailynews.com
 @@||amtonline.com.br^$generichide
+@@||an-sm.naughtycdn.com/js/lti-analytics-*.min.js$domain=members.naughtyamerica.com
 @@||an.facebook.com/v1/instream/vast.xml?placementid=$xmlhttprequest,domain=anime47.com
 @@||an.yandex.ru/mapuid/*?location=*&jsredir=
 @@||an.yandex.ru/system/adfox.js$domain=minsknews.by
@@ -40320,6 +40319,7 @@ popbee.com##.adblocker
 @@||auth.gfx.ms^$document
 @@||auth.mail.ru^$stealth=useragent
 @@||auth.opera.com^$stealth=useragent
+@@||auth.pingone.com^$stealth=3p-auth
 @@||auth.schale.network^$stealth=referrer|3p-auth
 @@||auth.ticketmaster.com/*/authorization.oauth
 @@||auth.ticketmaster.com/epsf/gec*Login
@@ -58178,6 +58178,7 @@ $popup,third-party,domain=fembed-hd.com,badfilter
 $popup,third-party,domain=sbplay2.com,badfilter
 $popup,third-party,domain=dood.ws,badfilter
 @@||download.ros.org/*.xsd$document
+securegames.iwin.com#%#//scriptlet('prevent-xhr', 'gtm.js')
 @@||airfind.com^$image,domain=headlinelogic.com
 @@||cdn.adsninja.ca/v*/an.js$domain=thegamer.com
 @@||cdn.adsninja.ca/v*/init.js$domain=thegamer.com
@@ -59770,7 +59771,6 @@ carsales.com.au#@#.ad-info
 @@||jezandwayne.com/wp-content/uploads/*.webm$document
 @@||nashe.ru/wp-content/uploads/*-300x600.
 app.appvalley.vip#@#.ad-bar
-app.appvalley.vip#@#.ad-text
 app.appvalley.vip#@##ad-overlay
 @@||adbeat.com^$domain=adbeat.com
 @@||thewatchcartoononline.tv/inc/videojs-qualityselector/videojs-qualityselector.min.js
@@ -60659,6 +60659,7 @@ implbits.com#@#.banner_container
 @@||beinconnect.com.tr^$stealth
 @@||account.adobe.com^$document,domain=services.adobe.com,stealth=useragent
 @@||adguard.com^$stealth
+@@||auth.pingone.com^$stealth=3p-auth
 @@||access.worldpay.com^$stealth=referrer
 @@||ksdpictures.site^$subdocument,stealth=referrer
 @@||pictures.spordunyasi.site^$stealth=referrer
