@@ -159,6 +159,15 @@
 ||hash.trafficmanager.net^
 ||51tongji.trafficmanager.net^
 ||cnzz.trafficmanager.net^
+||oe8mnxdtoi.com^
+||y2ej3xxfve.com^
+||tkpenntaispfdm.com^
+||frustum77.top^
+||puk9mpb8dm.com^
+||ufurlokhqd.com^
+||tawjmkk1p6.com^
+||0nyzdw2maq.com^
+||eo2eaqg5no.com^
 ||e3eb4eq0v.com^
 ||opposite36.top^
 ||067oij53m.com^
@@ -5324,6 +5333,7 @@
 ||ad.parkvv.com^
 ||adasset.ethersaga.online^
 ||pc-util.gamersky.com^
+||ab3de9.gamersky.com^
 @@||ad.10010.com^
 @@||ad.abchina.com^
 @@||ad.kazakinfo.com^
@@ -7167,6 +7177,15 @@
 ||hash.trafficmanager.net^
 ||51tongji.trafficmanager.net^
 ||cnzz.trafficmanager.net^
+||oe8mnxdtoi.com^
+||y2ej3xxfve.com^
+||tkpenntaispfdm.com^
+||frustum77.top^
+||puk9mpb8dm.com^
+||ufurlokhqd.com^
+||tawjmkk1p6.com^
+||0nyzdw2maq.com^
+||eo2eaqg5no.com^
 ||e3eb4eq0v.com^
 ||opposite36.top^
 ||067oij53m.com^
@@ -12332,6 +12351,7 @@
 ||ad.parkvv.com^
 ||adasset.ethersaga.online^
 ||pc-util.gamersky.com^
+||ab3de9.gamersky.com^
 @@||ad.10010.com^
 @@||ad.abchina.com^
 @@||ad.kazakinfo.com^
@@ -136981,6 +137001,9 @@
 ||zlp6s.pw^
 ||zonewedgeshaft.com^
 ||fundingchoicesmessages.google.com^
+||politicallygreek.com^
+||prologguisedputid.qpon^
+||villagybullion.cyou^
 ||spicyrtb.com^
 ||neo7x.com^
 ||druxxo.com^
