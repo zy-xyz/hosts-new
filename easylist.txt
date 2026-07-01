@@ -1,3 +1,4 @@
+||qbhsocu.com^
 ||umini.shujupie.com^
 ||rgzz3rs.icu^
 ||impdsp.meituan.com^
@@ -159,6 +160,14 @@
 ||hash.trafficmanager.net^
 ||51tongji.trafficmanager.net^
 ||cnzz.trafficmanager.net^
+||1k1bd77k9.com^
+||tpjhxbwkvjjvtq.com^
+||kgou4s5dz.com^
+||cylinder35.top^
+||u7lb6db41.com^
+||ukgm0qily.com^
+||ueya0wo6m.com^
+||e81j0an3d.com^
 ||oe8mnxdtoi.com^
 ||y2ej3xxfve.com^
 ||tkpenntaispfdm.com^
@@ -5546,7 +5555,6 @@
 ||bd.ahsrst.cn^
 ||bd.beimap.com^
 ||bd.czxuexi.com^
-||bd.ershenghuo.com^
 ||bd.watu.cn^
 ||bd1-china.6789.com^
 ||bd1.365qilu.com^
@@ -7024,6 +7032,7 @@
 ||yfanads.com^
 ||zhangyuyidong.cn^
 @@||mlbstatic.com/mlb.com/video/config/mlb-vpp-aws^
+||qbhsocu.com^
 ||umini.shujupie.com^
 ||rgzz3rs.icu^
 ||impdsp.meituan.com^
@@ -7177,6 +7186,14 @@
 ||hash.trafficmanager.net^
 ||51tongji.trafficmanager.net^
 ||cnzz.trafficmanager.net^
+||1k1bd77k9.com^
+||tpjhxbwkvjjvtq.com^
+||kgou4s5dz.com^
+||cylinder35.top^
+||u7lb6db41.com^
+||ukgm0qily.com^
+||ueya0wo6m.com^
+||e81j0an3d.com^
 ||oe8mnxdtoi.com^
 ||y2ej3xxfve.com^
 ||tkpenntaispfdm.com^
@@ -12564,7 +12581,6 @@
 ||bd.ahsrst.cn^
 ||bd.beimap.com^
 ||bd.czxuexi.com^
-||bd.ershenghuo.com^
 ||bd.watu.cn^
 ||bd1-china.6789.com^
 ||bd1.365qilu.com^
@@ -137001,6 +137017,7 @@
 ||zlp6s.pw^
 ||zonewedgeshaft.com^
 ||fundingchoicesmessages.google.com^
+||adblendr.io^
 ||politicallygreek.com^
 ||prologguisedputid.qpon^
 ||villagybullion.cyou^
