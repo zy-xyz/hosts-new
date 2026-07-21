@@ -38724,8 +38724,10 @@ popbee.com##.adblocker
 @@?_adcheck=$xmlhttprequest,domain=manhuarmmtl.com
 @@?adType=$domain=taotaosou.com
 @@?m3u8=$xmlhttprequest,stealth=referrer,domain=cinesrc.st
+@@?p=$third-party,stealth=referrer,domain=nextbox.uno|next-box.su
 @@?seg=$xmlhttprequest,stealth=referrer,domain=cinesrc.st
 @@?sid=ads$domain=126.com|mail.163.com
+@@?type=*&id=$third-party,stealth=referrer,domain=nextbox.uno|next-box.su
 @@^abcheck=$domain=animeshqip.org
 @@^q=$xmlhttprequest,stealth=referrer,domain=vidcore.net
 @@^stream^$xmlhttprequest,media,stealth=referrer,domain=cinesrc.st
@@ -39084,6 +39086,7 @@ popbee.com##.adblocker
 @@||account.microsoft.com/?refd=$stealth=3p-cookie
 @@||account.microsoft.com/auth/$stealth=3p-cookie
 @@||account.withings.com^$stealth=ip
+@@||accountapi.gosplit.net/authorize/$stealth=referrer
 @@||accounts.ea.com^$stealth
 @@||accounts.ea.com^$stealth=3p-cookie
 @@||accounts.google.com^$generichide
@@ -39779,6 +39782,7 @@ popbee.com##.adblocker
 @@||amtonline.com.br^$generichide
 @@||an-sm.naughtycdn.com/js/lti-analytics-*.min.js$domain=members.naughtyamerica.com
 @@||an.facebook.com/v1/instream/vast.xml?placementid=$xmlhttprequest,domain=anime47.com
+@@||an.gr-wcon.com/script/$domain=chipstore.de
 @@||an.yandex.ru/mapuid/*?location=*&jsredir=
 @@||an.yandex.ru/system/adfox.js$domain=minsknews.by
 @@||an.yandex.ru/system/context.js$domain=otzovik.com
@@ -42184,6 +42188,7 @@ popbee.com##.adblocker
 @@||customgames.ru/forum/js/*/ads.min.js
 @@||custommapposter.com^$generichide
 @@||cuttlinks.com^$generichide
+@@||cuttty.com^$generichide
 @@||cvs.com/shop-assets/js/VisitorAPI.js$~third-party
 @@||cvs.com/webcontent/images/weeklyad/adcontent/$~third-party
 @@||cw-api.takeaway.com^$stealth=3p-auth
@@ -45156,6 +45161,7 @@ popbee.com##.adblocker
 @@||ib.adnxs.com/getuidj|$domain=independent.co.uk
 @@||ib.adnxs.com/opt$domain=wearemiq.com|infectiousmedia.com
 @@||ib.adnxs.com/ptv$domain=tele5.de
+@@||ib.adnxs.com/ut/$domain=cuttty.com
 @@||ib.adnxs.com/ut/$domain=youmath.it
 @@||ib.adnxs.com/ut/v3$domain=aftonbladet.se
 @@||ib.adnxs.com/ut/v3$xmlhttprequest,domain=exeygo.com
@@ -47360,6 +47366,7 @@ popbee.com##.adblocker
 @@||newsweek.com/prebid.js$script,domain=newsweek.com
 @@||newver.api.dedecms.com/index.php$subdocument
 @@||newz.dk^$generichide
+@@||next-box.su^$stealth=useragent
 @@||next.co.uk/static-content/gtm-sdk/gtm.js$~third-party
 @@||next.vuetifyjs.com^$content
 @@||nextbigfuture.s3.amazonaws.com/uploads$stealth=referrer
@@ -57612,6 +57619,7 @@ _click*(com?
 /source/plugin/drk_ledadv/*
 .com/stat-qq.html?*&click_url_final=$all
 icu##.banner-layout-box
+||cno.jerkmate.net^$all
 ||arx8x.net^$all
 ||mercu-wgp.com^$all
 ||rvmessage.online^$third-party
@@ -60767,6 +60775,10 @@ implbits.com#@#.banner_container
 @@||beinconnect.com.tr^$stealth
 @@||account.adobe.com^$document,domain=services.adobe.com,stealth=useragent
 @@||adguard.com^$stealth
+@@||qfsysguoaxbwhjeqkwat.supabase.co/rest/$stealth=3p-auth,domain=juicewrldvault.com
+@@||next-box.su^$stealth=useragent
+@@?type=*&id=$third-party,stealth=referrer,domain=nextbox.uno|next-box.su
+@@?p=$third-party,stealth=referrer,domain=nextbox.uno|next-box.su
 @@||accountapi.gosplit.net/authorize/$stealth=referrer
 @@||pictures.izmirgezisi.site^$stealth=referrer
 @@||engifuosi.com/f/*.html$stealth=referrer
