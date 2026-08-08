@@ -1033,9 +1033,12 @@ okteve.com#%#//scriptlet('set-constant', 'xpv.v', 'true')
 okteve.com#%#//scriptlet('adjust-setTimeout', 'verifyAndPlay', '*', '0.001')
 okteve.com#%#//scriptlet('abort-current-inline-script', 'setTimeout', '/pagead2\.googlesyndication\.com|\.clientHeight===0/')
 okteve.com#%#//scriptlet('abort-current-inline-script', 'EventTarget.prototype.addEventListener', '/pagead2\.googlesyndication\.com|\.clientHeight===0/')
+streamcash.to#%#//scriptlet('abort-current-inline-script', 'atob', 'height||')
 streamcash.to#%#//scriptlet('abort-on-stack-trace', 'document.getElementById', 'show')
 streamcash.to#%#//scriptlet('abort-on-stack-trace', 'document.createElement', '/\.style\.setProperty|\.contentWindow\.document\.createElement/')
 streamcash.to##body > div[id][style*="position: fixed; inset: 0px; z-index: 99999;"]
+streamcash.to#@#.in_content_ad_container
+streamcash.to#@#.js-slide-top-ad
 streamcash.to#?#body > div[id][style*="position: fixed; inset: 0px; z-index: 99999;"]
 xvideos.com#@#.remove-ads
 xvideos.com#@##video-right
@@ -49491,6 +49494,7 @@ popbee.com##.adblocker
 @@||rockitecn.nohup.it/*/js/*.js$domain=rockit.it
 @@||roland-gazeta.pl^$generichide
 @@||rollbar.com^*/rollbar.min.js$domain=rollingstone.com|variety.com|wwd.com
+@@||rollercoin.com/static/img/referral_160-600.png$image
 @@||rollingstone.de/resources/js/webtrekk.js
 @@||romsforever.co^$generichide
 @@||roomlala.*/assets/myspace/myprofile/sponsorship_controller-*.js
@@ -52006,6 +52010,7 @@ popbee.com##.adblocker
 @@||videacesky.cz^$generichide
 @@||vidembed.re/stream$stealth=referrer
 @@||video*.xhcdn.com/key=$stealth=referrer
+@@||video*.yxhhdl.com^$media,stealth=referrer,domain=video.5054399.com
 @@||video-download.online/js/advertisement.js
 @@||video.520call.me/ad.php
 @@||video.520cc.cc/ad.php|
@@ -57706,6 +57711,7 @@ _click*(com?
 /source/plugin/drk_ledadv/*
 .com/stat-qq.html?*&click_url_final=$all
 icu##.banner-layout-box
+||supersedeaccolade.com^$popup
 ||gamengirls.com^$all
 ||cno.jerkmate.net^$all
 ||arx8x.net^$all
