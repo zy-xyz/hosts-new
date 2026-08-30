@@ -874,6 +874,8 @@ youporn.com#%#//scriptlet('remove-node-text', 'script', '/window\.[\s\S]*?_zone_
 youporn.com$$script:contains(/window\.[\s\S]*?_zone_[\s\S]*?{"zone_id":/)
 @@||static.trafficjunky.com/ab/ads_test.js$domain=bztube.com|hotovs.com|insuredhome.org|nudegista.com|pornluck.com|vidd.se|redtube.*|youpornru.com|tube8.com|tube8.es|tube8.fr|tube8.net|pornhub.com|pornhub.org|pornhub.net
 @@://www.exoclick.com/ads.js|
+adslink.pw#%#//scriptlet('prevent-fetch', 'adsbygoogle')
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=adslink.pw
 ||intercelestial.com/_ac/
 pitube.net#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'detectAdBlock')
 pitube.net#@#.ad-unit:not(.textads)
@@ -1826,6 +1828,7 @@ owlzo.com#@##ad_unit
 @@||owlzo.com/gpt_ads-public.js$domain=owlzo.com
 owlzo.com#%#//scriptlet('prevent-setTimeout', 'getComputedStyle(')
 ||pzfans.com/static/js/adblock-detector.js
+jpopsingles.eu#%#//scriptlet('abort-current-inline-script', 'document.createElement', 'js_func_decode_base_64')
 wujek-gadzet.pl,whentostream.com,123multihub.one,jpopsingles.eu$$script:contains(eval(function(p,a,c,k,e,d))
 wujek-gadzet.pl,whentostream.com,123multihub.one,jpopsingles.eu#%#//scriptlet('remove-node-text', 'script', 'eval(function(p,a,c,k,e,d)')
 @@||whentostream.com^$generichide
@@ -47973,6 +47976,7 @@ popbee.com##.adblocker
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=ad-maven.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=ads.luarmor.net
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=adshnk.com|adshrink.it
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=adslink.pw
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=adzsafe.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=aeprofree.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=aflamicose.com|aflamicose.xyz
