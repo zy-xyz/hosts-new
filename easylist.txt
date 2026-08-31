@@ -168,6 +168,15 @@
 ||hash.trafficmanager.net^
 ||51tongji.trafficmanager.net^
 ||cnzz.trafficmanager.net^
+||spanner44.com^
+||ku8d1fla8.com^
+||refraction55.com^
+||swkqmcv.com^
+||fwlkokvvkx.icu^
+||lzwdh6iwo.com^
+||480ipil.com^
+||r27y52dd7.com^
+||crossbar13.com^
 ||lymxj.com^
 ||convergent16.top^
 ||36frocopxp.com^
@@ -7110,6 +7119,15 @@
 ||hash.trafficmanager.net^
 ||51tongji.trafficmanager.net^
 ||cnzz.trafficmanager.net^
+||spanner44.com^
+||ku8d1fla8.com^
+||refraction55.com^
+||swkqmcv.com^
+||fwlkokvvkx.icu^
+||lzwdh6iwo.com^
+||480ipil.com^
+||r27y52dd7.com^
+||crossbar13.com^
 ||lymxj.com^
 ||convergent16.top^
 ||36frocopxp.com^
@@ -31502,7 +31520,6 @@
 ||jiriki.us^
 ||maniacgeek.net^
 ||shemalestrokers.com^
-||sodopee.com^
 ||www.bmc03.com^
 @@||ad.azure.com^
 @@||ad.ext.azure.com^
@@ -126099,6 +126116,7 @@
 ||a8.zzz-land.com^
 ||zzzmjfixezere.site^
 ||zzzmxvoxooaat.site^
+||xn--czru2dx3eszw3lat53b.com^
 ||cssstyle.motorcycles^
 ||aizhantj.com^
 ||lxrjekw.com^
@@ -133562,6 +133580,7 @@
 ||zlp6s.pw^
 ||zonewedgeshaft.com^
 ||fundingchoicesmessages.google.com^
+||cdnet.nasmob.com^
 ||sunnyreception.com^
 ||grindsteeplesprung.com^
 ||seeksgironny.com^
