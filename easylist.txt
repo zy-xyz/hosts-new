@@ -169,6 +169,15 @@
 ||hash.trafficmanager.net^
 ||51tongji.trafficmanager.net^
 ||cnzz.trafficmanager.net^
+||propeller73.com^
+||55nw8b63i.com^
+||nplsxlziftfbnk.com^
+||j12eaw9xs.com^
+||43gu7zzn0.com^
+||axq9j15p0.com^
+||geav5man0.com^
+||xlx2ddw4f.com^
+||tlre4aso7.com^
 ||no99z05m4p.com^
 ||pmpantdgzvttbk.com^
 ||kowt80ufwg.com^
@@ -6183,7 +6192,6 @@
 ||ad.tencentmusic.com^
 ||ad.toutiao.com^
 ||ad.v3mh.com^
-||ad.weibo.com^
 ||ad.winrar.com.cn^
 ||ad.ximalaya.com^
 ||ad.xunkids.com^
@@ -6215,9 +6223,11 @@
 ||adjust.com^
 ||adks.hpplay.cn^
 ||adlink-api.huan.tv^
+||adlog.vivo.com.cn^
 ||adm.funshion.com^
 ||admarketing.yahoo.net^
 ||admobile.top^
+||adreq.vivo.com.cn^
 ||ads-api-o.api.leiniao.com^
 ||ads-api.tiktok.com^
 ||ads-api.twitter.com^
@@ -6326,7 +6336,9 @@
 ||adx.sogaha.cn^
 ||adx.tuia.cn^
 ||adxlog-adnet.vivo.com.cn^
+||adxlog.vivo.com.cn^
 ||adxserver.ad.cmvideo.cn^
+||adxstatic.vivo.com.cn^
 ||aegis.qq.com^
 ||aem.dentsuchina.cn^
 ||afs.googlesyndication.com^
@@ -6427,6 +6439,7 @@
 ||bj.ad.track.66mobi.com^
 ||books-analytics-events.apple.com^
 ||bootpreload.uve.weibo.com^
+||brandadsstatic.vivo.com.cn^
 ||browser.events.data.msn.cn^
 ||browser.events.data.msn.com^
 ||browsercfg-drcn.cloud.dbankcloud.cn^
@@ -6502,6 +6515,7 @@
 ||downloadxml.changhong.upgrade2.huan.tv^
 ||dsp-x.jd.com^
 ||dsp.fcbox.com^
+||dsplog-adnet.vivo.com.cn^
 ||dualstack-logs.amap.com^
 ||dxp.baidu.com^
 ||dyp2p-ali.douyucdn.cn^
@@ -6592,7 +6606,6 @@
 ||iadmoo.apple.com^
 ||iadmusicmat.music.126.net^
 ||iadsdk.apple.com^
-||iadworkbench.apple.com^
 ||ifacelog.iqiyi.com^
 ||ifs.tanx.com^
 ||ii.gdt.qq.com^
@@ -6839,7 +6852,7 @@
 ||s8t.teads.tv^
 ||saad.ms.zhangyue.net^
 ||saas.hpplay.cn^
-||safebrowsing.urlsec.gg.com^
+||safebrowsing.urlsec.qq.com^
 ||samsung-com.112.2o7.net^
 ||samsungads.com^
 ||saxysec.com^
@@ -6968,6 +6981,7 @@
 ||tracker-prd.aldi.com.cn^
 ||tracker.ai.xiaomi.com^
 ||tracker.gitee.com^
+||tracking-adnet.vivo.com.cn^
 ||tracking.miui.com^
 ||tracking.rus.miui.com^
 ||tuiguang.meitu.com^
@@ -7248,6 +7262,15 @@
 ||hash.trafficmanager.net^
 ||51tongji.trafficmanager.net^
 ||cnzz.trafficmanager.net^
+||propeller73.com^
+||55nw8b63i.com^
+||nplsxlziftfbnk.com^
+||j12eaw9xs.com^
+||43gu7zzn0.com^
+||axq9j15p0.com^
+||geav5man0.com^
+||xlx2ddw4f.com^
+||tlre4aso7.com^
 ||no99z05m4p.com^
 ||pmpantdgzvttbk.com^
 ||kowt80ufwg.com^
@@ -31720,6 +31743,18 @@
 ||hzs9.cnzz.com^
 ||hzvs1.cnzz.com^
 ||pcookie.cnzz.com^
+||195770.com^
+||accim.org^
+||asal-usul.com^
+||bmc08.com^
+||bokephdsex.com^
+||chinese-porno.com^
+||fulibl.org^
+||jiriki.us^
+||maniacgeek.net^
+||owu.se^
+||shemalestrokers.com^
+||www.bmc03.com^
 @@||ad.azure.com^
 @@||ad.ext.azure.com^
 @@||ads.taboola.com^
@@ -123640,6 +123675,7 @@
 ||a8.zzz-land.com^
 ||zzzmjfixezere.site^
 ||zzzmxvoxooaat.site^
+||wgwt5p8.com^
 ||wewubuwgz.com^
 ||xn--czru2dx3eszw3lat53b.com^
 ||cssstyle.motorcycles^
@@ -131105,6 +131141,8 @@
 ||zlp6s.pw^
 ||zonewedgeshaft.com^
 ||fundingchoicesmessages.google.com^
+||piousshiners.com^
+||cyicbayqmbz.com^
 ||ofroztlmyo.in^
 ||portiasaigon.com^
 ||194.63.143.96^
@@ -131112,6 +131150,7 @@
 ||miwxoqcbiswmx.com^
 ||badylenicesist.com^
 ||dtipvw.com^
+||tcwvvosfnvk.com^
 ||fingerprint-veri.info^
 ||campingfinishvow.com^
 ||betamountwo.com^
