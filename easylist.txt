@@ -167,6 +167,15 @@
 ||hash.trafficmanager.net^
 ||51tongji.trafficmanager.net^
 ||cnzz.trafficmanager.net^
+||gangplank39.com^
+||ug2k8bslb.com^
+||vzzvfpvwyyhfvo.com^
+||cqg8zmtt3.com^
+||zyy25t69u.com^
+||dzz8yyd41.com^
+||pxvoyuez.com^
+||wz2jy3t94.com^
+||altitude52.com^
 ||gunwale68.top^
 ||pmt0g2rugw.com^
 ||xwddvfoasvtxjo.com^
@@ -176,6 +185,7 @@
 ||fx0blb9zp4.com^
 ||99d8z9oqnu.com^
 ||0hr4wyjfv3.com^
+||4ikj2pbeqb.com^
 ||v2bo21e4k.com^
 ||gef153x1u.com^
 ||rthijnsymshxxi.com^
@@ -6498,6 +6508,8 @@
 ||pgdt.gtimg.cn^
 ||pgdt.ugdtimg.com^
 ||pglstatp-toutiao.com^
+||pica-a-display.diwodiwo.xyz^
+||pica-ad-api.diwodiwo.xyz^
 ||pig.pupuapi.com^
 ||pin.hpplay.cn^
 ||pixon.ads-pixiv.net^
@@ -6960,6 +6972,15 @@
 ||hash.trafficmanager.net^
 ||51tongji.trafficmanager.net^
 ||cnzz.trafficmanager.net^
+||gangplank39.com^
+||ug2k8bslb.com^
+||vzzvfpvwyyhfvo.com^
+||cqg8zmtt3.com^
+||zyy25t69u.com^
+||dzz8yyd41.com^
+||pxvoyuez.com^
+||wz2jy3t94.com^
+||altitude52.com^
 ||gunwale68.top^
 ||pmt0g2rugw.com^
 ||xwddvfoasvtxjo.com^
@@ -6969,6 +6990,7 @@
 ||fx0blb9zp4.com^
 ||99d8z9oqnu.com^
 ||0hr4wyjfv3.com^
+||4ikj2pbeqb.com^
 ||v2bo21e4k.com^
 ||gef153x1u.com^
 ||rthijnsymshxxi.com^
@@ -31138,7 +31160,6 @@
 ||fulibl.org^
 ||jiriki.us^
 ||maniacgeek.net^
-||owu.se^
 ||shemalestrokers.com^
 ||www.bmc03.com^
 @@||ad.azure.com^
@@ -133152,6 +133173,9 @@
 ||zlp6s.pw^
 ||zonewedgeshaft.com^
 ||fundingchoicesmessages.google.com^
+||0xclicks.com^
+||rudimentarytheoreticalrome.com^
+||hoof.absentwhack.com^
 ||yearlyartist.com^
 ||betorytrackers.com^
 ||sinceaware.com^
