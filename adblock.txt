@@ -879,6 +879,9 @@ youporn.com#%#//scriptlet('remove-node-text', 'script', '/window\.[\s\S]*?_zone_
 youporn.com$$script:contains(/window\.[\s\S]*?_zone_[\s\S]*?{"zone_id":/)
 @@||static.trafficjunky.com/ab/ads_test.js$domain=bztube.com|hotovs.com|insuredhome.org|nudegista.com|pornluck.com|vidd.se|redtube.*|youpornru.com|tube8.com|tube8.es|tube8.fr|tube8.net|pornhub.com|pornhub.org|pornhub.net
 @@://www.exoclick.com/ads.js|
+sexwebseries.com,nxxn.live#%#//scriptlet('prevent-setTimeout', '.clientHeight')
+sporteurope.tv#%#//scriptlet('google-ima3')
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=sporteurope.tv
 naijavault.com#$##adblock-modal { display: none !important; }
 naijavault.com#$##adblock-backdrop { display: none !important; }
 naijavault.com#$#body { overflow: auto !important; }
@@ -950,7 +953,7 @@ adslink.pw#%#//scriptlet('prevent-fetch', 'adsbygoogle')
 @@||intercelestial.com/*/ads/$image,domain=intercelestial.com
 /^(?!.*(\/cdn-cgi\/|\.js\?ver)).*$/$~third-party,script,domain=aii.sh|srnky.com|clksz.com|lnbz.la
 srnky.com,lnbz.la,clksz.com,aii.sh,intercelestial.com#%#//scriptlet('prevent-fetch', 'googlesyndication')
-srnky.com,lnbz.la,clksz.com,aii.sh#$#body > script + div { display: none !important; }
+srnky.com,lnbz.la,clksz.com,aii.sh#$#body > script + div:not([class]) { display: none !important; }
 srnky.com,lnbz.la,clksz.com,aii.sh#$#html { overflow: auto !important; }
 $xmlhttprequest,redirect-rule=nooptext,domain=oko.sha|aii.sh|pahe.plus|intercelestial.com|linegee.net|clksz.com|srnky.com|lnbz.la
 /^https:\/\/intercelestial\.com\/[0-9a-z]+\/[0-9a-z.]+$/$domain=intercelestial.com
@@ -22515,7 +22518,6 @@ freedidi.com##.spm-on:has(> div[class^="spm"] > .spm-body > a[target="_blank"])
 ssm.fun##.cAnnouncements
 ssm.fun##.cAnnouncementsContent
 123pan.cn##.web-wrap > div:has(> img[src^="https://statics.123pan.com/"])
-123pan.cn,123865.com#%#//scriptlet('prevent-window-open')
 123pan.cn,123865.com##.bg_svip_block_ads
 ||static.dhsz.cn^$image,domain=123865.com|123pan.cn
 ||udn.com/static/js/google-dfp-native.js
@@ -22693,7 +22695,6 @@ macromicro.me#%#//scriptlet('abort-current-inline-script', '$', 'mmPopup() {')
 *$denyallow=123dua.com,domain=123dua.com,script,xmlhttprequest
 wikisport.cc#%#//scriptlet('prevent-innerHTML', 'div', '_mtj')
 nunuju.net,bz88888.net#%#//scriptlet('abort-current-inline-script', 'document.getElementsByTagName', '_mtj')
-||bz88888.net/js/cdn.js
 helper-employer.com##div[class^="mantine-"][style^="display:"]
 /[a-z0-9]+\.[a-z0-9]+\//$denyallow=cidetxt.cc,domain=cidetxt.cc,subdocument,script
 .icu/$domain=cidetxt.cc
@@ -22779,7 +22780,7 @@ sim.xiangyanglao.cn##.media-r > a[target] > img
 ||dbt6ga5v6d15f.cloudfront.net/slf^$domain=vikacg.com
 ||imagedelivery.net^$domain=vikacg.com
 vikacg.com#%#//scriptlet('prevent-window-open', '!/external')
-huaren.live,umbooks.com#%#//scriptlet('prevent-window-open')
+123pan.cn,123865.com,huaren.live,umbooks.com#%#//scriptlet('prevent-window-open')
 cesu.ai##div[class^="money_"]
 ||cesu.ai/uploads/AdvertImages/
 codernav.com##.io-widget-ad-lunbotu
@@ -24517,6 +24518,7 @@ netfly.*,netfly.tv##.player-box > div.player-tt-rmm
 netfly.*,netfly.tv##.module-tg-box
 netfly.*,netfly.tv##div[class*="tt-"] > a[target="_blank"] > img
 netfly.*,netfly.tv##div[class*="tt-"] > a[target="_blank"] + span.tt-icon-close
+huavod.cc,huavod.top,huavod.net,huavod.com,huaren.live##a[href="/advertiser"]
 huavod.cc,huavod.top,huavod.net,huavod.com,huaren.live##.weixin
 huavod.cc,huavod.top,huavod.net,huavod.com,huaren.live##.slide-nav-list a[target="_blank"]:not(a[href^="/"])
 huavod.cc,huavod.top,huavod.net,huavod.com,huaren.live##.swiper-wrapper > div.swiper-slide:has(a[target="_blank"]:not(a[href^="/"]))
@@ -41002,6 +41004,7 @@ popbee.com##.adblocker
 @@||buy-*.piano.io^$script,stylesheet,stealth=useragent,domain=piano.io
 @@||buydekhke.com^$generichide
 @@||buysellads.net/pub/freegen.js$xmlhttprequest,domain=freegen.app
+@@||bvr.ast.snva.jp/beaver.js$domain=kojima.net
 @@||by-promokod.by^$stealth=useragent
 @@||byfly.dualstack.speedtestcustom.com^$stealth=referrer
 @@||bysejikuar.com^$subdocument,stealth=referrer,domain=sezonlukdizi8.com
@@ -41545,6 +41548,7 @@ popbee.com##.adblocker
 @@||cdn.permutive.app/*-web.js$domain=theglobeandmail.com
 @@||cdn.permutive.com/*-web.js$domain=independent.co.uk
 @@||cdn.petametrics.com/*-nbc.js$script,domain=bringmethenews.com
+@@||cdn.petametrics.com/*-nbc.js?ts=$domain=bringmethenews.com|athlonsports.com|paulickreport.com|mmaweekly.com
 @@||cdn.petametrics.com/*.js$domain=thestreet.com
 @@||cdn.petametrics.com^$script,domain=mechacomic.jp
 @@||cdn.petametrics.com^$script,domain=meidasnews.com
@@ -45745,6 +45749,7 @@ popbee.com##.adblocker
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=sonyliv.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=soonersports.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=southpark.*|southparkstudios.*
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=sporteurope.tv
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=sportitalialive.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=spox.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=stack.com
@@ -47422,6 +47427,8 @@ popbee.com##.adblocker
 @@||musictrack.jp/a/ad/banner_member.jpg
 @@||musicvideogenome.com/javascripts/stats.js
 @@||muumuu-domain.com/common/js/ga_social_tracking.js
+@@||mux.com/*.m3u8$stealth=referrer
+@@||mux.com/*.ts?$stealth=referrer
 @@||mux.com^$xmlhttprequest,stealth=referrer,domain=patreon.com
 @@||muzlan.top/ads/banner.png
 @@||muzlan.top^$generichide
@@ -50547,7 +50554,6 @@ popbee.com##.adblocker
 @@||snowfl.com/ads/*.js$~third-party
 @@||snowplow.swm.digital/com.snowplowanalytics.snowplow/$domain=7plus.com.au
 @@||snowplow.swm.digital^$domain=7plus.com.au
-@@||snva.jp/javascripts/reco/$script,domain=abc-mart.net|store.charle.co.jp
 @@||so-magazyn.pl^$generichide
 @@||so-net.ne.jp/access/hikari/minico/ad/images/$~third-party
 @@||sobootlogo.blogspot.com^$generichide
@@ -58615,6 +58621,7 @@ $popup,third-party,domain=fembed-hd.com,badfilter
 $popup,third-party,domain=sbplay2.com,badfilter
 $popup,third-party,domain=dood.ws,badfilter
 @@||download.ros.org/*.xsd$document
+bet365.com.au#@#.rh-ad
 @@||embed.sendtonews.com/player3/$domain=bluebirdbanter.com
 @@||mp.mmvideocdn.com/mini-player/$domain=bluebirdbanter.com
 @@||vms-videos.minutemediaservices.com^$xmlhttprequest,media,domain=bluebirdbanter.com
@@ -61136,6 +61143,8 @@ implbits.com#@#.banner_container
 @@||beinconnect.com.tr^$stealth
 @@||account.adobe.com^$document,domain=services.adobe.com,stealth=useragent
 @@||adguard.com^$stealth
+@@||mux.com/*.m3u8$stealth=referrer
+@@||mux.com/*.ts?$stealth=referrer
 @@/playlist/*.m3u8|$third-party,xmlhttprequest,stealth=referrer,domain=xpass.top
 @@.html|$third-party,xmlhttprequest,stealth=referrer,domain=xpass.top
 @@||streetviewpixels-pa.clients6.google.com^$stealth=referrer
