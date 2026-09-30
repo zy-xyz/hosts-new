@@ -929,6 +929,10 @@ elisworld.tv#$##adblock-popup { display: none !important; }
 elisworld.tv#$?##adblock-popup { display: none !important; }
 atleticalive.it###zdn-adblock-overlay
 .js^$redirect=nooptext,xmlhttprequest,domain=files.darkarmy.eu.org
+darkarmy.eu.org#%#//scriptlet('prevent-fetch', '.js method:HEAD')
+darkarmy.eu.org#%#//scriptlet('prevent-window-open', '?key=', '15')
+darkarmy.eu.org#%#(()=>{const e=['.text-center > .space-y-3 >button[class*="hover:bg-zinc-200"]','.text-center > .space-y-3 > button[class*="rounded-xl transition-all"]'],t=()=>!0;let n,c=null,i=!1;const d=()=>{c=null,i=!1,Object.getOwnPropertyDescriptor(document,"hidden")?.get===t&&(n?Object.defineProperty(document,"hidden",n):Reflect.deleteProperty(document,"hidden"),document.hidden||(document.dispatchEvent(new Event("visibilitychange")),window.dispatchEvent(new Event("focus"))))};document.addEventListener("click",o=>{if(!o.isTrusted)return;const r=o.target?.closest?o.target:o.target?.parentElement;e.some(e=>r?.closest(e))&&(()=>{null!==c&&clearTimeout(c);let e=!1;if(!i){if(n=Object.getOwnPropertyDescriptor(document,"hidden"),!Reflect.defineProperty(document,"hidden",{configurable:!0,get:t}))return;i=!0,e=!0}c=setTimeout(d,16e3),e&&queueMicrotask(()=>{Object.getOwnPropertyDescriptor(document,"hidden")?.get===t&&document.dispatchEvent(new Event("visibilitychange"))})})()},!0)})();
+darkarmy.eu.org#%#//scriptlet('trusted-create-element', 'head', 'script', '', '(()=>{const e=[\'.text-center > .space-y-3 >button[class*="hover:bg-zinc-200"]\',\'.text-center > .space-y-3 > button[class*="rounded-xl transition-all"]\'],t=()=>!0;let n,c=null,i=!1;const d=()=>{c=null,i=!1,Object.getOwnPropertyDescriptor(document,"hidden")?.get===t&&(n?Object.defineProperty(document,"hidden",n):Reflect.deleteProperty(document,"hidden"),document.hidden||(document.dispatchEvent(new Event("visibilitychange")),window.dispatchEvent(new Event("focus"))))};document.addEventListener("click",o=>{if(!o.isTrusted)return;const r=o.target?.closest?o.target:o.target?.parentElement;e.some(e=>r?.closest(e))&&(()=>{null!==c&&clearTimeout(c);let e=!1;if(!i){if(n=Object.getOwnPropertyDescriptor(document,"hidden"),!Reflect.defineProperty(document,"hidden",{configurable:!0,get:t}))return;i=!0,e=!0}c=setTimeout(d,16e3),e&&queueMicrotask(()=>{Object.getOwnPropertyDescriptor(document,"hidden")?.get===t&&document.dispatchEvent(new Event("visibilitychange"))})})()},!0)})();')
 plataformamedia.com#%#//scriptlet('set-constant', 'advanced_ads_check_adblocker', 'noopFunc')
 plataformamedia.com#@#.ad-unit:not(.textads)
 plataformamedia.com#@#.ad_unit
@@ -8333,7 +8337,6 @@ lanzn.com,lanpv.com,lanpw.com,lanzov.com,lanzoub.com,lanzouc.com,lanzoue.com,lan
 /dy_66jjss/*
 /dygg_
 /dzwww/ad_dzw_inner.js
-/e/ecmsshop/zhuanpan/js/*
 /eis/diy/ad/*
 /ettoday/gemini/*
 /ezprice_ad.js
@@ -8396,8 +8399,6 @@ lanzn.com,lanpv.com,lanpw.com,lanzov.com,lanzoub.com,lanzouc.com,lanzoue.com,lan
 /gwunggou/*
 /h/k.php?u=*&l=*&v=$third-party
 /hao123_api/api/cpc/*
-/haojio/images/KF-ZL.jpg
-/haojio/js/scoll_bg.js
 /heituad/*
 /heji/mei00*.js
 /hjstore/system/banner/*.txt
@@ -8814,7 +8815,6 @@ newduba.cn###jq_youxi
 ~sinaimg.cn##a > img[width="980"][src*=".sinaimg."]
 ~allthingsopen.org##a[href*=".com?aff="]
 ~umeng.com##a[href*=".umeng.com"]:not([href="http://www.umeng.com/"]) > img
-~mgtv.com##a[target="_blank"] > img[src*="hitv.com"]
 ~ix8.la##div[class^="ADTOPLB_"]
 ||107.167.16.*.gif
 ||107.167.22.*.gif
@@ -9734,15 +9734,12 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||alicdn.com/g/mm/afp-cdn/JS/
 ||alicdn.com/img/ibank/*_!!2200581616124-
 ||alicdn.com/img/ibank/*_!!2212029770429-
-||alicdn.com/img/ibank/*_!!4231779133-0-cib.
 ||alicdn.com/img/ibank/*_1082732848.
 ||alicdn.com/img/ibank/*_1085845541.
-||alicdn.com/img/ibank/*_1095372465.
 ||alicdn.com/img/ibank/*_1165462224.
 ||alicdn.com/img/ibank/*_1281922417.
 ||alicdn.com/img/ibank/*_1409595492.
 ||alicdn.com/img/ibank/*_1533190909.
-||alicdn.com/img/ibank/*_1545027917.
 ||alicdn.com/img/ibank/*_1591187313.
 ||alicdn.com/img/ibank/*_1746120392.$domain=~rmdown.com
 ||alicdn.com/img/ibank/*_1776866723.
@@ -9751,7 +9748,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||alicdn.com/img/ibank/*_1995781528.
 ||alicdn.com/img/ibank/*_2021817714.
 ||alicdn.com/img/ibank/*_2114606112.
-||alicdn.com/img/ibank/*_256401016.
 ||alicdn.com/img/ibank/*_330044705.
 ||alicdn.com/img/ibank/*_368737028.
 ||alicdn.com/img/ibank/*_392352300.
@@ -13100,6 +13096,7 @@ meijutt.*/js/pcjs/
 ||comicbox.xyz/static/js/ad-manager.
 ||huangguo.me/static/js/linePromo.
 xc6b.com##.cHeadImg
+sohu.com##a[data-url*=".mediav.com"]
 hao123.com###float-ad-left
 ping0.cc##.xeeles
 ping0.cc###adjright
@@ -16143,7 +16140,6 @@ py.cn##.index-advert
 speedtest.cn##.index-advertising
 jianshen8.com##.index-banner
 1avlang.com,avavl4.com,avlang.com##.index-info > .tac
-kpd122.com,ssp28.pw##.index-owl-carousel
 bilibili.com##.index-promote
 pinggu.org##.index-somelinks
 nanfengyl.com##.index-top-ad1
@@ -25042,7 +25038,6 @@ bmvc2020-conference.com#@#div[id][style="width: 100%;"] > iframe[scrolling="no"]
 /dy_66jjss/*
 /dygg_
 /dzwww/ad_dzw_inner.js
-/e/ecmsshop/zhuanpan/js/*
 /eis/diy/ad/*
 /ettoday/gemini/*
 /ezprice_ad.js
@@ -25105,8 +25100,6 @@ bmvc2020-conference.com#@#div[id][style="width: 100%;"] > iframe[scrolling="no"]
 /gwunggou/*
 /h/k.php?u=*&l=*&v=$third-party
 /hao123_api/api/cpc/*
-/haojio/images/KF-ZL.jpg
-/haojio/js/scoll_bg.js
 /heituad/*
 /heji/mei00*.js
 /hjstore/system/banner/*.txt
@@ -25523,7 +25516,6 @@ newduba.cn###jq_youxi
 ~sinaimg.cn##a > img[width="980"][src*=".sinaimg."]
 ~allthingsopen.org##a[href*=".com?aff="]
 ~umeng.com##a[href*=".umeng.com"]:not([href="http://www.umeng.com/"]) > img
-~mgtv.com##a[target="_blank"] > img[src*="hitv.com"]
 ~ix8.la##div[class^="ADTOPLB_"]
 ||107.167.16.*.gif
 ||107.167.22.*.gif
@@ -26443,15 +26435,12 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||alicdn.com/g/mm/afp-cdn/JS/
 ||alicdn.com/img/ibank/*_!!2200581616124-
 ||alicdn.com/img/ibank/*_!!2212029770429-
-||alicdn.com/img/ibank/*_!!4231779133-0-cib.
 ||alicdn.com/img/ibank/*_1082732848.
 ||alicdn.com/img/ibank/*_1085845541.
-||alicdn.com/img/ibank/*_1095372465.
 ||alicdn.com/img/ibank/*_1165462224.
 ||alicdn.com/img/ibank/*_1281922417.
 ||alicdn.com/img/ibank/*_1409595492.
 ||alicdn.com/img/ibank/*_1533190909.
-||alicdn.com/img/ibank/*_1545027917.
 ||alicdn.com/img/ibank/*_1591187313.
 ||alicdn.com/img/ibank/*_1746120392.$domain=~rmdown.com
 ||alicdn.com/img/ibank/*_1776866723.
@@ -26460,7 +26449,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||alicdn.com/img/ibank/*_1995781528.
 ||alicdn.com/img/ibank/*_2021817714.
 ||alicdn.com/img/ibank/*_2114606112.
-||alicdn.com/img/ibank/*_256401016.
 ||alicdn.com/img/ibank/*_330044705.
 ||alicdn.com/img/ibank/*_368737028.
 ||alicdn.com/img/ibank/*_392352300.
@@ -29809,6 +29797,7 @@ meijutt.*/js/pcjs/
 ||comicbox.xyz/static/js/ad-manager.
 ||huangguo.me/static/js/linePromo.
 xc6b.com##.cHeadImg
+sohu.com##a[data-url*=".mediav.com"]
 hao123.com###float-ad-left
 ping0.cc##.xeeles
 ping0.cc###adjright
@@ -32852,7 +32841,6 @@ py.cn##.index-advert
 speedtest.cn##.index-advertising
 jianshen8.com##.index-banner
 1avlang.com,avavl4.com,avlang.com##.index-info > .tac
-kpd122.com,ssp28.pw##.index-owl-carousel
 bilibili.com##.index-promote
 pinggu.org##.index-somelinks
 nanfengyl.com##.index-top-ad1
@@ -38735,6 +38723,7 @@ popbee.com##.adblocker
 @@/scripts/adv.js$domain=securenetsystems.net
 @@/sd0embed/*$subdocument,stealth=referrer
 @@/seg-$xmlhttprequest,stealth=referrer,domain=flixcloud.cc
+@@/seg-*.$third-party,xmlhttprequest,stealth=referrer,domain=player.videasy.*|vidking.net|vidfast.vc
 @@/seg/*.m4s|$xmlhttprequest,stealth=referrer,domain=cinezo.live
 @@/sensorsdata-$domain=aixiaoyuan.cn|zkh.com
 @@/sensorsdata.$domain=36kr.com|53zaixian.com|binance.com|by56.com|canon.com.cn|chuanglan.com|fenbi.com|guancha.cn|imooc.com|kuque.com|modian.com|saicskoda.com.cn|shanbay.com|tianyancha.com|ttcdw.cn|xinrenxinshi.com|zzjiasuqi.com
@@ -38784,7 +38773,6 @@ popbee.com##.adblocker
 @@/v/*.gif$stealth=referrer,xmlhttprequest,domain=player.bunny-frame.online
 @@/v/*.html$stealth=referrer,xmlhttprequest,domain=player.bunny-frame.online
 @@/vast.php?idzone=$domain=jptt.tv
-@@/vd/*/seg-*.jpg|$third-party,xmlhttprequest,stealth=referrer,domain=player.videasy.*|vidking.net|vidfast.vc
 @@/video.m3u8$stealth=referrer,domain=missav.live|missav.ws|missav123.com|missav888.com|missav.*|missav01.com
 @@/video/*$media,stealth=referrer,domain=douyin.com
 @@/video/*$xmlhttprequest,third-party,stealth=referrer,domain=cinejoy.pk|cinejoy.*
@@ -46647,6 +46635,9 @@ popbee.com##.adblocker
 @@||linkvertise.com/assets/ads.js
 @@||linkvertise.com^$generichide
 @@||linkvertise.download^$generichide
+@@||linkx.in/process$stealth=referrer
+@@||linkx.in/redirect$stealth=referrer
+@@||linkx.in/secret$stealth=referrer
 @@||linovelib.com^$generichide
 @@||linuxize.com/detroitchicago/dayton.js
 @@||linuxize.com/porpoiseant/banger.js
@@ -51998,6 +51989,7 @@ popbee.com##.adblocker
 @@||ups.xplosion.de/ctx$domain=ingame.de
 @@||ups.xplosion.de/ctx?event_id=$domain=tz.de
 @@||ups2up.fun^$generichide
+@@||upshrink.com^$stealth=referrer
 @@||upstream.to/ads/pop.js
 @@||upstream.to/advertisement/ads.js
 @@||upstream.to/embed-*.html$domain=javtiful.com
@@ -61137,6 +61129,10 @@ implbits.com#@#.banner_container
 @@||beinconnect.com.tr^$stealth
 @@||account.adobe.com^$document,domain=services.adobe.com,stealth=useragent
 @@||adguard.com^$stealth
+@@||upshrink.com^$stealth=referrer
+@@||linkx.in/secret$stealth=referrer
+@@||linkx.in/process$stealth=referrer
+@@||linkx.in/redirect$stealth=referrer
 @@||files.an1.net^$stealth=referrer,domain=an1.com
 @@||mux.com/*.m3u8$stealth=referrer
 @@||mux.com/*.ts?$stealth=referrer
@@ -61368,7 +61364,7 @@ implbits.com#@#.banner_container
 @@||shutterstock.com^$stealth=useragent
 @@/mp4/*$media,stealth=referrer,domain=player.videasy.*|vidking.net
 @@/r2/cdn2/*$xmlhttprequest,third-party,stealth=referrer,domain=vidfast.vc|vidup.to
-@@/vd/*/seg-*.jpg|$third-party,xmlhttprequest,stealth=referrer,domain=player.videasy.*|vidking.net|vidfast.vc
+@@/seg-*.$third-party,xmlhttprequest,stealth=referrer,domain=player.videasy.*|vidking.net|vidfast.vc
 @@||api.*/seed?mediaId=$third-party,xmlhttprequest,stealth=referrer
 @@/\/[a-z0-9]{8}\/[a-zA-Z0-9_-]{200,900}/$xmlhttprequest,third-party,match-case,stealth=referrer,domain=player.videasy.*|vidup.to|vidfast.vc|vidking.net|111movies.net|vidcore.io|vidcore.*
 @@/sources-with-title?title=*&mediaType=$third-party,xmlhttprequest,stealth=referrer
