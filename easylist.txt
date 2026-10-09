@@ -154,10 +154,6 @@
 ||static-mozai.4gtv.tv^
 ||mimg.0c1q0l.cn^
 ||cnzz.com^
-||asd8900.oss-*.aliyuncs.com^
-||ky891.oss-*.aliyuncs.com^
-||tupian888.*.bcebos.com^
-||vns86.oss-*.aliyuncs.com^
 ||zhizhizhizhi.oss-*.aliyuncs.com^
 ||154.7.80.158^
 ||194.59.220.161^
@@ -166,6 +162,14 @@
 ||hash.trafficmanager.net^
 ||51tongji.trafficmanager.net^
 ||cnzz.trafficmanager.net^
+||gb742ld0c.com^
+||juggler36.com^
+||bdxwfvlszerxbi.com^
+||iemshbwfg.com^
+||6cq8d7xyk.com^
+||w19lu17a2.com^
+||zwg5j61a8.com^
+||6k1alauto.com^
 ||w8n97pkzn6.com^
 ||leotard54.com^
 ||dabetlewtbdppi.com^
@@ -4842,7 +4846,6 @@
 ||7791.com.cn^
 ||apis301.com^
 ||cxsh.cn.com^
-||dgaxrjj0jwpwp.cloudfront.net^
 ||dv4ku.icu^
 ||iyuedu.cn.com^
 ||jollyspring.com^
@@ -4921,7 +4924,6 @@
 ||222aa333bb.com^
 ||999aa666bb.com^
 ||888bb666cc.com^
-||xn--w9q675dm1p7em.net^
 ||06789.xyz^
 ||3p8801.co^
 ||6651tp.com^
@@ -4935,8 +4937,6 @@
 ||9831tb.com^
 ||a.youdao.com^
 ||adrs.sdo.com^
-||ads-6686.top^
-||aixuntupian.oss-cn-hongkong.aliyuncs.com^
 ||alimama.alicdn.com^
 ||alime-pic.oss-cn-hangzhou.aliyuncs.com^
 ||atanx.alicdn.com^
@@ -4948,14 +4948,9 @@
 ||cpro.baidu.com^
 ||cpro.baidustatic.com^
 ||d15cjcet1djbmv.cloudfront.net^
-||d1zoi2q7y0e4d.cloudfront.net^
-||d3d7a0q05k6bvz.cloudfront.net^
-||darren01.oss-cn-beijing.aliyuncs.com^
 ||dingbu.bj.bcebos.com^
-||dmg-dd.oss-accelerate.aliyuncs.com^
 ||eduad.baidu.com^
 ||eiv.baidu.com^
-||facai383.oss-cn-guangzhou.aliyuncs.com^
 ||fijipic.xyz^
 ||first-hufu.oss-cn-shanghai.aliyuncs.com^
 ||foreveryoung.gz01.bdysite.com^
@@ -4990,9 +4985,7 @@
 ||pos.baidu.com^
 ||re.taotaosou.com^
 ||show.kc.taotaosou.com^
-||star-seo.oss-ap-northeast-1.aliyuncs.com^
 ||tad.suning.com^
-||tttppp.oss-cn-guangzhou.aliyuncs.com^
 ||tx99y.net^
 ||u0056.com^
 ||u0062.com^
@@ -5019,7 +5012,6 @@
 ||video231.oss-cn-beijing.aliyuncs.com^
 ||xh33g.net^
 ||xiaoshuoyun.cn^
-||xpj08.oss-cn-beijing.aliyuncs.com^
 ||xwdsp.com^
 ||yellowjm.com^
 ||yhtpsy8888.cc^
@@ -5130,7 +5122,6 @@
 ||emdcadvertise.eastmoney.com^
 ||erebor.douban.com^
 ||ff.meikanguo.com^
-||fkesfg.com^
 ||free-cdn.oss-cn-shanghai.aliyuncs.com^
 ||g.hsw.cn^
 ||g.lznews.cn^
@@ -5174,7 +5165,6 @@
 ||js.bju888.com^
 ||js.duotegame.com^
 ||jsyefc.com^
-||kmmgoogle.oss-ap-southeast-1.aliyuncs.com^
 ||lxting.com^
 ||m.aty.sohu.com^
 ||m2.lelemh.com^
@@ -5871,7 +5861,6 @@
 ||zsjxwj.com^
 ||zuowen.hydcd.com^
 ||zx.docin.com^
-||d2un76zvb5mgzx.cloudfront.net^
 ||d3iih5w7xp5hdg.cloudfront.net^
 ||jpg1.oss-cn-beijing.aliyuncs.com^
 ||jun01.oss-cn-beijing.aliyuncs.com^
@@ -5879,9 +5868,6 @@
 ||wzjs1.oss-accelerate.aliyuncs.com^
 ||vqbmxyzda.icu^
 ||mihoutao1868.github.io^
-||hdapp1003-a.akamaihd.net^
-||hdapp1008-a.akamaihd.net^
-||hdsrc-a.akamaihd.net^
 ||smartclip.com^
 ||smartclip.net^
 ||myhomescreen.tv^
@@ -7146,10 +7132,6 @@
 ||adblock.sina.cn^
 ||https-filtering-check.adtidy.org^
 @@||mlbstatic.com/mlb.com/video/config/mlb-vpp-aws^
-||asd8900.oss-*.aliyuncs.com^
-||ky891.oss-*.aliyuncs.com^
-||tupian888.*.bcebos.com^
-||vns86.oss-*.aliyuncs.com^
 ||zhizhizhizhi.oss-*.aliyuncs.com^
 ||154.7.80.158^
 ||194.59.220.161^
@@ -7158,6 +7140,14 @@
 ||hash.trafficmanager.net^
 ||51tongji.trafficmanager.net^
 ||cnzz.trafficmanager.net^
+||gb742ld0c.com^
+||juggler36.com^
+||bdxwfvlszerxbi.com^
+||iemshbwfg.com^
+||6cq8d7xyk.com^
+||w19lu17a2.com^
+||zwg5j61a8.com^
+||6k1alauto.com^
 ||w8n97pkzn6.com^
 ||leotard54.com^
 ||dabetlewtbdppi.com^
@@ -11834,7 +11824,6 @@
 ||7791.com.cn^
 ||apis301.com^
 ||cxsh.cn.com^
-||dgaxrjj0jwpwp.cloudfront.net^
 ||dv4ku.icu^
 ||iyuedu.cn.com^
 ||jollyspring.com^
@@ -11913,7 +11902,6 @@
 ||222aa333bb.com^
 ||999aa666bb.com^
 ||888bb666cc.com^
-||xn--w9q675dm1p7em.net^
 ||06789.xyz^
 ||3p8801.co^
 ||6651tp.com^
@@ -11927,8 +11915,6 @@
 ||9831tb.com^
 ||a.youdao.com^
 ||adrs.sdo.com^
-||ads-6686.top^
-||aixuntupian.oss-cn-hongkong.aliyuncs.com^
 ||alimama.alicdn.com^
 ||alime-pic.oss-cn-hangzhou.aliyuncs.com^
 ||atanx.alicdn.com^
@@ -11940,14 +11926,9 @@
 ||cpro.baidu.com^
 ||cpro.baidustatic.com^
 ||d15cjcet1djbmv.cloudfront.net^
-||d1zoi2q7y0e4d.cloudfront.net^
-||d3d7a0q05k6bvz.cloudfront.net^
-||darren01.oss-cn-beijing.aliyuncs.com^
 ||dingbu.bj.bcebos.com^
-||dmg-dd.oss-accelerate.aliyuncs.com^
 ||eduad.baidu.com^
 ||eiv.baidu.com^
-||facai383.oss-cn-guangzhou.aliyuncs.com^
 ||fijipic.xyz^
 ||first-hufu.oss-cn-shanghai.aliyuncs.com^
 ||foreveryoung.gz01.bdysite.com^
@@ -11982,9 +11963,7 @@
 ||pos.baidu.com^
 ||re.taotaosou.com^
 ||show.kc.taotaosou.com^
-||star-seo.oss-ap-northeast-1.aliyuncs.com^
 ||tad.suning.com^
-||tttppp.oss-cn-guangzhou.aliyuncs.com^
 ||tx99y.net^
 ||u0056.com^
 ||u0062.com^
@@ -12011,7 +11990,6 @@
 ||video231.oss-cn-beijing.aliyuncs.com^
 ||xh33g.net^
 ||xiaoshuoyun.cn^
-||xpj08.oss-cn-beijing.aliyuncs.com^
 ||xwdsp.com^
 ||yellowjm.com^
 ||yhtpsy8888.cc^
@@ -12122,7 +12100,6 @@
 ||emdcadvertise.eastmoney.com^
 ||erebor.douban.com^
 ||ff.meikanguo.com^
-||fkesfg.com^
 ||free-cdn.oss-cn-shanghai.aliyuncs.com^
 ||g.hsw.cn^
 ||g.lznews.cn^
@@ -12166,7 +12143,6 @@
 ||js.bju888.com^
 ||js.duotegame.com^
 ||jsyefc.com^
-||kmmgoogle.oss-ap-southeast-1.aliyuncs.com^
 ||lxting.com^
 ||m.aty.sohu.com^
 ||m2.lelemh.com^
@@ -12863,7 +12839,6 @@
 ||zsjxwj.com^
 ||zuowen.hydcd.com^
 ||zx.docin.com^
-||d2un76zvb5mgzx.cloudfront.net^
 ||d3iih5w7xp5hdg.cloudfront.net^
 ||jpg1.oss-cn-beijing.aliyuncs.com^
 ||jun01.oss-cn-beijing.aliyuncs.com^
@@ -12871,9 +12846,6 @@
 ||wzjs1.oss-accelerate.aliyuncs.com^
 ||vqbmxyzda.icu^
 ||mihoutao1868.github.io^
-||hdapp1003-a.akamaihd.net^
-||hdapp1008-a.akamaihd.net^
-||hdsrc-a.akamaihd.net^
 ||localhost^
 ||0.r.msn.com^
 ||0127.adsame.com^
@@ -133535,6 +133507,11 @@
 ||zlp6s.pw^
 ||zonewedgeshaft.com^
 ||fundingchoicesmessages.google.com^
+||debitm.org^
+||clanpages.org^
+||step.whoeverhow.com^
+||adsterratech.com^
+||edge.meadowwhat.com^
 ||srt94.click^
 ||cod.buzzingnippy.com^
 ||fat.hypehuddle.com^
