@@ -1,0 +1,15 @@
+# 输出产物 —— 走 GitHub Release，不进 main
+/accelerate.txt
+/easylist.txt
+/adblock.txt
+/accelerate_full.txt
+/easylist_full.txt
+/adblock_full.txt
+# 编译产物
+/hosts-new
+/hosts-new.exe
+# 抓取缓存
+/cache/
+/__pycache__/
+*.tar.gz
+/docs/public/
