@@ -13,3 +13,4 @@
 /__pycache__/
 *.tar.gz
 /docs/public/
+/docs/.hugo_build.lock
